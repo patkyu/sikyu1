@@ -1,0 +1,129 @@
+/* Container styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f4f4f4;
+    width: 70%; /* Adjust the width as needed */
+    position: absolute;
+    left: 0;
+    margin-left: 25%; /* Adjust the margin as needed */
+  }
+  
+  
+  /* Message header */
+  .msg-header {
+    background-color: #ffffff;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .msgimg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .active p {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  /* Chat inbox */
+  .chat-page {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .msg-inbox {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  
+  /* Message containers */
+  .received-chats,
+  .outgoing-chats {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  .received-chats-img,
+  .outgoing-chats-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .received-chats-img img,
+  .outgoing-chats-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .received-msg{
+    background: linear-gradient(to bottom, navy, lightblue);
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    max-width: 60%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .received-msg-inbox {
+    margin-left:10px;
+  }
+
+  .outgoing-msg {
+    background: linear-gradient(to bottom, navy, lightblue);
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    max-width: 60%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-self: flex-end; /* Align to the right side */
+  }
+  
+  /* Time stamp */
+  .time {
+    display: block;
+    font-size: 12px;
+    color: #888888;
+    margin-top: 5px;
+  }
+  
+  /* Message input */
+  .msg-bottom {
+    background-color: #ffffff;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-control {
+    flex: 1;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .send-icon {
+    font-size: 20px;
+    color: navy;
+    cursor: pointer;
+  }
+  
+  .send-icon:hover {
+    color: lightblue;
+  }
+  

@@ -1,0 +1,927 @@
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>SIKYUrity | Agency Dashboard</title>
+      
+      <!-- Favicon -->
+      <link rel="shortcut icon" href="../assets/images/favicon.ico" />
+      
+      <link rel="stylesheet" href="../assets/css/backend-plugin.min.css">
+      <link rel="stylesheet" href="../assets/css/backend.css?v=1.0.0">
+      <link rel="stylesheet" href="../assets/css/backend2.css">
+      <link rel="stylesheet" href="../assets/line-awesome/dist/line-awesome/css/line-awesome.min.css">
+      <link rel="stylesheet" href="../assets/remixicon/fonts/remixicon.css">
+      
+      <link rel="stylesheet" href="../assets/tui-calendar/tui-calendar/dist/tui-calendar.css">
+      <link rel="stylesheet" href="../assets/tui-calendar/tui-date-picker/dist/tui-date-picker.css">
+      <link rel="stylesheet" href="../assets/tui-calendar/tui-time-picker/dist/tui-time-picker.css">   
+    </head>
+  <body class=" color-light ">
+    <!-- loader Start -->
+    <div id="loading">
+          <div id="loading-center">
+          </div>
+    </div>
+    <!-- loader END -->
+    <!-- Wrapper Start -->
+    <div class="wrapper">
+        <div class="iq-sidebar  sidebar-default  ">
+            <div class="iq-sidebar-logo d-flex align-items-end justify-content-between">
+                 <a href="backend/index.html" class="header-logo">
+                    <img src="D:\yours\Downloads\--sikyurity\sofbox-dashboard-lite\html\images1\logo.png" class="img-fluid rounded-normal light-logo" alt="logo">
+                    <img src="assets/images/logo-dark.png" class="img-fluid rounded-normal d-none sidebar-light-img" alt="logo">
+                    <span>SIKYUrity</span>            
+                </a>
+                <div class="side-menu-bt-sidebar-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="text-light wrapper-menu" width="30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </div>
+            </div>
+            <div class="data-scrollbar" data-scroll="1">
+                <nav class="iq-sidebar-menu">
+                    <ul id="iq-sidebar-toggle" class="side-menu">
+                        <li class="active sidebar-layout">
+                            <a href="D:\yours\Downloads\--sikyurity\sofbox-dashboard-lite\html\index.html" class="svg-icon">
+                                <i class="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                                    </svg>
+                                </i>
+                                <span class="ml-2">Dashboard</span>
+                                <p class="mb-0 w-10 badge badge-pill badge-primary">6</p>
+                            </a>
+                        </li>
+                        <li class="px-3 pt-3 pb-2">
+                            <span class="text-uppercase small font-weight-bold">Pages</span>
+                        </li>
+                        <li class=" sidebar-layout">
+                          <a href="D:\yours\Downloads\--sikyurity\html\backend\pages-blank-page2.html" class="svg-icon">
+                              <i class="">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                                  </svg>
+                              </i><span class="ml-2">Guards List</span>
+                          </a>
+                      </li>
+                      <li class=" sidebar-layout">
+                        <a href="D:\yours\Downloads\--sikyurity\sofbox-dashboard-lite\html\addguard.html" class="svg-icon">
+                            <i class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2" />
+                                </svg>
+                            </i><span class="ml-2">Add Guard</span>
+                        </a>
+                    </li>
+                        <li class=" sidebar-layout">
+                            <a href="D:\yours\Downloads\--sikyurity\html\backend\pages-blank-page2.html" class="svg-icon">
+                                <i class="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                                    </svg>
+                                </i><span class="ml-2">Assigned Guards</span>
+                            </a>
+                        </li>
+                        <li class=" sidebar-layout">
+                            <a href="D:\yours\Downloads\--sikyurity\sofbox-dashboard-lite\html\chat.html" class="svg-icon">
+                                <i class="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2" />
+                                    </svg>
+                                </i><span class="ml-2">Messenger</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="pt-5 pb-5"></div>
+            </div>
+        </div>
+    <div class="iq-top-navbar">
+        <div class="iq-navbar-custom">
+            <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <div class="side-menu-bt-sidebar">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="text-secondary wrapper-menu" width="30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </div>
+                <div class="d-flex align-items-center">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"  aria-label="Toggle navigation">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="text-secondary" width="30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                        </svg>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto navbar-list align-items-center">
+                            <li class="nav-item nav-icon dropdown"> 
+                                <a href="#" class="search-toggle dropdown-toggle" id="notification-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" class="h-6 w-6 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                                    </svg>
+                                    <span class="bg-primary"></span>
+                                </a>
+                                <div class="iq-sub-dropdown dropdown-menu" aria-labelledby="notification-dropdown">
+                                    <div class="card shadow-none m-0 border-0">
+                                        <div class="p-3 card-header-border">
+                                            <h6 class="text-center">
+                                                Notifications
+                                            </h6>
+                                        </div>
+                                        <div class="card-body overflow-auto card-header-border p-0 card-body-list" style="max-height: 500px;">                                        
+                                            <ul class="dropdown-menu-1 overflow-auto list-style-1 mb-0">
+                                                                                         
+                                                </li>
+                                                 <li class="dropdown-item-1 float-none p-3">
+                                                     <div class="list-item d-flex justify-content-start align-items-start">
+                                                         <div class="avatar">
+                                                            <div class="avatar-img avatar-success avatar-20">
+                                                                <span><img class="avatar is-squared rounded-circle" src="../assets/images/user/5.jpg" alt="5.jpg"></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list-style-detail ml-2 mr-2">
+                                                            <h6 class="font-weight-bold">Carl Reyes</h6>
+                                                            <p class="m-0">
+                                                                <small class="text-secondary">3 Unread messages</small>
+                                                            </p>
+                                                            <p class="m-0">
+                                                                <small class="text-secondary">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" class="text-secondary mr-1" width="15" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                                                    </svg>
+                                                                    3 hours ago</small>
+                                                            </p>
+                                                        </div>
+                                                     </div>         
+                                                     </li>
+                                                 <li class="dropdown-item-1 float-none p-3">
+                                                     <div class="list-item d-flex justify-content-start align-items-start">
+                                                         <div class="avatar">
+                                                            <div class="avatar-img avatar-success avatar-20">
+                                                                <span><img class="avatar is-squared rounded-circle" src="../assets/images/user/4.jpg" alt="2.jpg"></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list-style-detail ml-2 mr-2">
+                                                            <h6 class="font-weight-bold">Vivien booked a guard</h6>
+                                                            <p class="m-0">
+                                                                <small class="text-secondary">Waiting for your response</small>
+                                                            </p>
+                                                            <p class="m-0">
+                                                                <small class="text-secondary">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" class="text-secondary mr-1" width="15" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                                                    </svg>
+                                                                    5 hours ago</small>
+                                                            </p>
+                                                        </div>
+                                                     </div>              
+                                                     </li>
+                                                 <li class="dropdown-item-1 float-none p-3">
+                                                     <div class="list-item d-flex justify-content-start align-items-start">
+                                                         <div class="avatar">
+                                                            <div class="avatar-img avatar-success avatar-20">
+                                                                <span><img class="avatar is-squared rounded-circle" src="../assets/images/user/3.jpg" alt="3.jpg"></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list-style-detail ml-2 mr-2">
+                                                            <h6 class="font-weight-bold">Ronald Gutierez</h6>
+                                                            <p class="m-0">
+                                                                <small class="text-secondary">Already finish his assignment</small>
+                                                            </p>
+                                                            <p class="m-0">
+                                                                <small class="text-secondary">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" class="text-secondary mr-1" width="15" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                                                    </svg>
+                                                                    16 hours ago</small>
+                                                            </p>
+                                                        </div>
+                                                     </div>                                                     
+                                                </li>
+                                                
+                                        <div class="card-footer text-muted p-3">
+                                            <p class="mb-0 text-primary text-center font-weight-bold">Show all notifications</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>                        
+                           
+                            <li class="nav-item nav-icon dropdown">
+                                <a href="#" class="nav-item nav-icon dropdown-toggle pr-0 search-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                    <img src="../assets/images/user/1.jpg" class="img-fluid avatar-rounded" alt="user">
+                                    <span class="mb-0 ml-2 user-name">Elite Force</span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                    <li class="dropdown-item d-flex svg-icon">
+                                        <svg class="svg-icon mr-0 text-secondary" id="h-01-p" width="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                        </svg>
+                                        <a href="../app/user-profile.html">My Profile</a>
+                                    </li>
+                                    <li class="dropdown-item d-flex svg-icon">
+                                        <svg class="svg-icon mr-0 text-secondary" id="h-02-p" width="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                                        </svg>
+                                        <a href="../app/user-profile-edit.html">Edit Profile</a>
+                                    </li>
+                                    <li class="dropdown-item d-flex svg-icon">
+                                        <svg class="svg-icon mr-0 text-secondary" id="h-03-p" width="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        </svg>
+                                        <a href="../app/user-account-setting.html">Account Settings</a>
+                                    </li>
+                                    <li class="dropdown-item d-flex svg-icon">
+                                        <svg class="svg-icon mr-0 text-secondary" id="h-04-p" width="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                                        </svg>
+                                        <a href="../app/user-privacy-setting.html">Privacy Settings</a>
+                                    </li>
+                                    <li class="dropdown-item  d-flex svg-icon border-top">
+                                        <svg class="svg-icon mr-0 text-secondary" id="h-05-p" width="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+                                        </svg>
+                                        <a href="../backend/auth-sign-in.html">Logout</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>                     
+                    </div> 
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="content-page">
+        <div class="container-fluid">
+           <div class="row">
+               <div class="col-lg-12">
+                   <div class="card">
+                       <div class="card-body">
+                           <div class="d-flex flex-wrap align-items-center justify-content-between breadcrumb-content">
+                               <h5>Guards List</h5>
+                               <div class="input-box">
+                                    <input type="text" placeholder="Search...">
+                                    <span class="icon">
+                                 <i class="uil uil-search search-icon"></i>
+                                </span>
+                                <!-- CSS -->
+        <link rel="stylesheet" href="css/style.css">
+                
+        <!-- Unicons CSS -->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+                                    <i class="uil uil-times close-icon"></i>
+                                        </div>
+
+                               <div class="d-flex align-items-center">                                
+                                   <div class="list-grid-toggle d-flex align-items-center mr-3">
+                                       <div data-toggle-extra="tab" data-target-extra="#grid" class="active">
+                                           <div class="grid-icon mr-3">
+                                               <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                   <rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect>
+                                               </svg>
+                                           </div>
+                                       </div>
+                                       <div data-toggle-extra="tab" data-target-extra="#list">
+                                           <div class="grid-icon">
+                                               <svg  width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                   <line x1="21" y1="10" x2="3" y2="10"></line><line x1="21" y1="6" x2="3" y2="6"></line><line x1="21" y1="14" x2="3" y2="14"></line><line x1="21" y1="18" x2="3" y2="18"></line>
+                                               </svg>
+                                           </div>
+                                       </div>
+                                   </div>
+                                   <div class="pl-3 border-left btn-new">
+                                       <a href="D:\yours\Downloads\--sikyurity\sofbox-dashboard-lite\html\addguard.html" class="btn btn-primary" data-target="#new-user-modal" data-toggle="modal">Add Guard</a>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <div id="grid" class="item-content animate__animated animate__fadeIn active" data-toggle-extra="tab-content">
+               <div class="row">
+                   <div class="col-lg-4 col-md-6">
+                       <div class="card-transparent card-block card-stretch card-height">
+                           <div class="card-body text-center p-0">                            
+                               <div class="item">
+                                   <div class="odr-img">
+                                       <img src="../assets/images/user/01.jpg" class="img-fluid rounded-circle avatar-90 m-auto" alt="image">
+                                   </div>                        
+                                   <div class="odr-content rounded">                                          
+                                       <h4 class="mb-2">Ruben Francisco</h4>
+                                       <p class="mb-3">rubenfranci@gmail.com</p>
+                                       <ul class="list-unstyled mb-3">
+                                       <p style="color: black;">AGE: 29</p>                                        
+                                       <p style="color: black;">LOCATION: Caloocan</p>
+                                       <p style="color: black;">EXPEREIENCE: 5 years</p>
+                                       <p style="color: black;">SKILLS: Boxing, Taekwondo, Wushu</p>                                      
+                                       </ul>                                    
+                                       <div class="pt-3 border-top">
+                                           <a href="#" class="btn btn-primary">More Details</a>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-lg-4 col-md-6">
+                       <div class="card-transparent card-block card-stretch card-height">
+                           <div class="card-body text-center p-0">                            
+                               <div class="item">
+                                   <div class="odr-img">
+                                       <img src="../assets/images/user/02.jpg" class="img-fluid rounded-circle avatar-90 m-auto" alt="image">
+                                   </div>                        
+                                   <div class="odr-content rounded">                                          
+                                       <h4 class="mb-2">Kaylynn Alcantara</h4>
+                                       <p class="mb-3">kaylynnalc@gmail.com</p>
+                                       <ul class="list-unstyled mb-3">
+                                        <p style="color: black;">AGE: 26</p>                                      
+                                       <p style="color: black;">LOCATION: Manila</p>
+                                       <p style="color: black;">EXPEREIENCE: 3 years</p>  
+                                       <p style="color: black;">SKILLS: Sharpshooter, Karate</p>    
+                                       </ul>                                    
+                                       <div class="pt-3 border-top">
+                                           <a href="#" class="btn btn-primary">More Details</a>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-lg-4 col-md-6">
+                       <div class="card-transparent card-block card-stretch card-height">
+                           <div class="card-body text-center p-0">                            
+                               <div class="item">
+                                   <div class="odr-img">
+                                       <img src="../assets/images/user/03.jpg" class="img-fluid rounded-circle avatar-90 m-auto" alt="image">
+                                   </div>                        
+                                   <div class="odr-content rounded">                                          
+                                       <h4 class="mb-2">Conie Diaz</h4>
+                                       <p class="mb-3">coniediaz@gmail.com</p>
+                                       <ul class="list-unstyled mb-3">
+                                           <p style="color: black;">AGE: 31</p>  
+                                       <p style="color: black;">LOCATION: Tondo</p>
+                                       <p style="color: black;">EXPEREIENCE: 7 years</p> 
+                                       <p style="color: black;">SKILLS: Martial arts, Fast move</p>  
+                                       </ul>                                    
+                                       <div class="pt-3 border-top">
+                                           <a href="#" class="btn btn-primary">More Details</a>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-lg-4 col-md-6">
+                       <div class="card-transparent card-block card-stretch card-height">
+                           <div class="card-body text-center p-0">                            
+                               <div class="item">
+                                   <div class="odr-img">
+                                       <img src="../assets/images/user/04.jpg" class="img-fluid rounded-circle avatar-90 m-auto" alt="image">
+                                   </div>                        
+                                   <div class="odr-content rounded">                                          
+                                       <h4 class="mb-2">Gian Cordero</h4>
+                                       <p class="mb-3">iancorder@gmail.com</p>
+                                       <ul class="list-unstyled mb-3">
+                                           <p style="color: black;">AGE: 28</p>  
+                                       <p style="color: black;">LOCATION: Laguna</p>
+                                       <p style="color: black;">EXPEREIENCE: 3 years</p> 
+                                       <p style="color: black;">SKILLS: Driving, Tough man</p>  
+                                       </ul>                                    
+                                       <div class="pt-3 border-top">
+                                           <a href="#" class="btn btn-primary">More Details</a>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-lg-4 col-md-6">
+                       <div class="card-transparent card-block card-stretch card-height">
+                           <div class="card-body text-center p-0">                            
+                               <div class="item">
+                                   <div class="odr-img">
+                                       <img src="../assets/images/user/05.jpg" class="img-fluid rounded-circle avatar-90 m-auto" alt="image">
+                                   </div>                        
+                                   <div class="odr-content rounded">                                          
+                                       <h4 class="mb-2">Irene Abad</h4>
+                                       <p class="mb-3">erinabad@gmail.com</p>
+                                       <ul class="list-unstyled mb-3">
+                                           <p style="color: black;">AGE: 25</p>  
+                                       <p style="color: black;">LOCATION: Valenzuela</p>
+                                       <p style="color: black;">EXPEREIENCE: 2 years</p> 
+                                       <p style="color: black;">SKILLS: Managing</p>  
+                                       </ul>                                    
+                                       <div class="pt-3 border-top">
+                                           <a href="#" class="btn btn-primary">More Details</a>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-lg-4 col-md-6">
+                       <div class="card-transparent card-block card-stretch card-height">
+                           <div class="card-body text-center p-0">                            
+                               <div class="item">
+                                   <div class="odr-img">
+                                       <img src="../assets/images/user/06.jpg" class="img-fluid rounded-circle avatar-90 m-auto" alt="image">
+                                   </div>                        
+                                   <div class="odr-content rounded">                                          
+                                       <h4 class="mb-2">Mira Hernando</h4>
+                                       <p class="mb-3">miraherwitz@gmail.com</p>
+                                       <ul class="list-unstyled mb-3">
+                                           <p style="color: black;">AGE: 26</p>  
+                                       <p style="color: black;">LOCATION: Antipolo</p>
+                                       <p style="color: black;">EXPEREIENCE: 1/2 year</p> 
+                                       <p style="color: black;">SKILLS: Strict watcher</p>  
+                                       </ul> 
+                                       <div class="pt-3 border-top">                                    
+                                           <a href="#" class="btn btn-primary">More Details</a>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-lg-4 col-md-6">
+                       <div class="card-transparent card-block card-stretch card-height">
+                           <div class="card-body text-center p-0">                            
+                               <div class="item">
+                                   <div class="odr-img">
+                                       <img src="../assets/images/user/07.jpg" class="img-fluid rounded-circle avatar-90 m-auto" alt="image">
+                                   </div>                        
+                                   <div class="odr-content rounded">                                          
+                                       <h4 class="mb-2">Kyle Gregorio</h4>
+                                       <p class="mb-3">kailgreg@gmail.com</p>
+                                       <ul class="list-unstyled mb-3">
+                                           <p style="color: black;">AGE: 30</p>  
+                                       <p style="color: black;">LOCATION: Caloocan</p>
+                                       <p style="color: black;">EXPEREIENCE: 3 years</p> 
+                                       <p style="color: black;">SKILLS: Runner, Self defense</p>  
+                                       </ul>                                    
+                                       <div class="pt-3 border-top">
+                                           <a href="#" class="btn btn-primary">More Details</a>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-lg-4 col-md-6">
+                       <div class="card-transparent card-block card-stretch card-height">
+                           <div class="card-body text-center p-0">                            
+                               <div class="item">
+                                   <div class="odr-img">
+                                       <img src="../assets/images/user/08.jpg" class="img-fluid rounded-circle avatar-90 m-auto" alt="image">
+                                   </div>                        
+                                   <div class="odr-content rounded">                                          
+                                       <h4 class="mb-2">Lucas Manalo</h4>
+                                       <p class="mb-3">lucasman@gmail.com</p>
+                                       <ul class="list-unstyled mb-3">
+                                           <p style="color: black;">AGE: 27</p>  
+                                       <p style="color: black;">LOCATION: Caloocan</p>
+                                       <p style="color: black;">EXPEREIENCE: 2 years</p> 
+                                       <p style="color: black;">SKILLS: Karate   </p>  
+
+                                       </ul>                                    
+                                       <div class="pt-3 border-top">
+                                           <a href="#" class="btn btn-primary">More Details</a>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-lg-4 col-md-6">
+                       <div class="card-transparent card-block card-stretch card-height">
+                           <div class="card-body text-center p-0">                            
+                               <div class="item">
+                                   <div class="odr-img">
+                                       <img src="../assets/images/user/09.jpg" class="img-fluid rounded-circle avatar-90 m-auto" alt="image">
+                                   </div>                        
+                                   <div class="odr-content rounded">                                          
+                                       <h4 class="mb-2">Patring Salazar</h4>
+                                       <p class="mb-3">patsiphron@gmail.com</p>
+                                       <ul class="list-unstyled mb-3">
+                                           <p style="color: black;">AGE: 26</p>  
+                                       <p style="color: black;">LOCATION: Caloocan</p>
+                                       <p style="color: black;">EXPEREIENCE: 3 years</p>
+                                       <p style="color: black;">SKILLS: Managing, noxing</p>  
+ 
+                                       </ul>                                    
+                                       <div class="pt-3 border-top">
+                                           <a href="#" class="btn btn-primary">More Details</a>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <div id="grid" class="item-content animate__animated animate__fadeIn active" data-toggle-extra="tab-content">
+               <div class="row">
+                   <div class="col-lg-4 col-md-6">
+                       <div class="card-transparent card-block card-stretch card-height">
+                           <div class="card-body text-center p-0">                            
+                               <div class="item">
+                                   <div class="odr-img">
+                                       <img src="../assets/images/user/101.jpg" class="img-fluid rounded-circle avatar-90 m-auto" alt="image">
+                                   </div>                        
+                                   <div class="odr-content rounded">                                          
+                                       <h4 class="mb-2">Joshua Garcia</h4>
+                                       <p class="mb-3">garciajosh@gmail.com</p>
+                                       <ul class="list-unstyled mb-3">
+                                       <p style="color: black;">AGE: 35</p>                                        
+                                       <p style="color: black;">LOCATION: Marikina</p>
+                                       <p style="color: black;">EXPEREIENCE: 8 years</p>
+                                       <p style="color: black;">SKILLS: Karate, Sharpshooter</p>                                      
+                                       </ul>                                    
+                                       <div class="pt-3 border-top">
+                                           <a href="#" class="btn btn-primary">More Details</a>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+            <div class="col-lg-4 col-md-6">
+                       <div class="card-transparent card-block card-stretch card-height">
+                           <div class="card-body text-center p-0">                            
+                               <div class="item">
+                                   <div class="odr-img">
+                                       <img src="../assets/images/user/21.jpg" class="img-fluid rounded-circle avatar-90 m-auto" alt="image">
+                                   </div>                        
+                                   <div class="odr-content rounded">                                          
+                                       <h4 class="mb-2">Maricar Aquino</h4>
+                                       <p class="mb-3">maricaraquino@gmail.com</p>
+                                       <ul class="list-unstyled mb-3">
+                                           <p style="color: black;">AGE: 27</p>  
+                                       <p style="color: black;">LOCATION: Navotas</p>
+                                       <p style="color: black;">EXPEREIENCE: 2 years</p>
+                                       <p style="color: black;">SKILLS: Basic martial arts</p>  
+ 
+                                       </ul>                                    
+                                       <div class="pt-3 border-top">
+                                           <a href="#" class="btn btn-primary">More Details</a>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <div id="list" class="item-content animate__animated animate__fadeIn" data-toggle-extra="tab-content">
+               <div class="table-responsive rounded bg-white mb-4">
+                   <table class="table mb-0 table-borderless tbl-server-info">
+                       <tbody>
+                           <tr>
+                               <td>
+                                   <div class="media align-items-center">
+                                       <img src="../assets/images/user/01.jpg" class="img-fluid rounded-circle avatar-40" alt="image">
+                                       <h5 class="ml-3">Patring Salazar</h5>
+                                   </div>
+                               </td>
+                               <td>patsiphron@gmail.com</td>
+                               <td>
+                                   <div class="media align-items-center">
+                                       <div class="bg-secondary-light rounded-circle iq-card-icon-small mr-3"><i class="ri-mail-open-line m-0"></i></div>
+                                       <div class="bg-primary-light rounded-circle iq-card-icon-small mr-3"><i class="ri-chat-3-line m-0"></i></div>
+                                       <div class="bg-success-light rounded-circle iq-card-icon-small"><i class="ri-phone-line m-0"></i></div>
+                                   </div>
+                               </td>
+                               <td>
+                                   <a href="#" class="btn btn-primary">More Details</a>
+                               </td>
+                               <td>
+                                   <div class="d-flex align-items-center">
+                                       <a href="#" class="text-body"><i class="las la-pen mr-3"></i></a>
+                                       <a href="#" class="text-body"><i class="las la-trash-alt mr-0"></i></a>
+                                   </div>
+                               </td>
+                           </tr>
+                           <tr>
+                               <td>
+                                   <div class="media align-items-center">
+                                       <img src="../assets/images/user/02.jpg" class="img-fluid rounded-circle avatar-40" alt="image">
+                                       <h5 class="ml-3">Kaylynn Alcantara</h5>
+                                   </div>
+                               </td>
+                               <td>kaylynnalcant@gmail.com</td>
+                               <td>
+                                   <div class="media align-items-center">
+                                       <div class="bg-secondary-light rounded-circle iq-card-icon-small mr-3"><i class="ri-mail-open-line m-0"></i></div>
+                                       <div class="bg-primary-light rounded-circle iq-card-icon-small mr-3"><i class="ri-chat-3-line m-0"></i></div>
+                                       <div class="bg-success-light rounded-circle iq-card-icon-small"><i class="ri-phone-line m-0"></i></div>
+                                   </div>
+                               </td>
+                               <td>
+                                   <a href="#" class="btn btn-primary">More Details</a>
+                               </td>
+                               <td>
+                                   <div class="d-flex align-items-center">
+                                       <a href="#" class="text-body"><i class="las la-pen mr-3"></i></a>
+                                       <a href="#" class="text-body"><i class="las la-trash-alt mr-0"></i></a>
+                                   </div>
+                               </td>
+                           </tr>
+                           <tr>
+                               <td>
+                                   <div class="media align-items-center">
+                                       <img src="../assets/images/user/03.jpg" class="img-fluid rounded-circle avatar-40" alt="image">
+                                       <h5 class="ml-3">Conie Diaz</h5>
+                                   </div>
+                               </td>
+                               <td>coniediaz@gmail.com</td>
+                               <td>
+                                   <div class="media align-items-center">
+                                       <div class="bg-secondary-light rounded-circle iq-card-icon-small mr-3"><i class="ri-mail-open-line m-0"></i></div>
+                                       <div class="bg-primary-light rounded-circle iq-card-icon-small mr-3"><i class="ri-chat-3-line m-0"></i></div>
+                                       <div class="bg-success-light rounded-circle iq-card-icon-small"><i class="ri-phone-line m-0"></i></div>
+                                   </div>
+                               </td>
+                               <td>
+                                   <a href="#" class="btn btn-primary">More Details</a>
+                               </td>
+                               <td>
+                                   <div class="d-flex align-items-center">
+                                       <a href="#" class="text-body"><i class="las la-pen mr-3"></i></a>
+                                       <a href="#" class="text-body"><i class="las la-trash-alt mr-0"></i></a>
+                                   </div>
+                               </td>
+                           </tr>
+                           <tr>
+                               <td>
+                                   <div class="media align-items-center">
+                                       <img src="../assets/images/user/04.jpg" class="img-fluid rounded-circle avatar-40" alt="image">
+                                       <h5 class="ml-3">Gian Cordero</h5>
+                                   </div>
+                               </td>
+                               <td>iancorder@gmail.com</td>
+                               <td>
+                                   <div class="media align-items-center">
+                                       <div class="bg-secondary-light rounded-circle iq-card-icon-small mr-3"><i class="ri-mail-open-line m-0"></i></div>
+                                       <div class="bg-primary-light rounded-circle iq-card-icon-small mr-3"><i class="ri-chat-3-line m-0"></i></div>
+                                       <div class="bg-success-light rounded-circle iq-card-icon-small"><i class="ri-phone-line m-0"></i></div>
+                                   </div>
+                               </td>
+                               <td>
+                                   <a href="#" class="btn btn-primary">More Details</a>
+                               </td>
+                               <td>
+                                   <div class="d-flex align-items-center">
+                                       <a href="#" class="text-body"><i class="las la-pen mr-3"></i></a>
+                                       <a href="#" class="text-body"><i class="las la-trash-alt mr-0"></i></a>
+                                   </div>
+                               </td>
+                           </tr>
+                           <tr>
+                               <td>
+                                   <div class="media align-items-center">
+                                       <img src="../assets/images/user/05.jpg" class="img-fluid rounded-circle avatar-40" alt="image">
+                                       <h5 class="ml-3">More Details</h5>
+                                   </div>
+                               </td>
+                               <td>erinabadn@gmail.com</td>
+                               <td>
+                                   <div class="media align-items-center">
+                                       <div class="bg-secondary-light rounded-circle iq-card-icon-small mr-3"><i class="ri-mail-open-line m-0"></i></div>
+                                       <div class="bg-primary-light rounded-circle iq-card-icon-small mr-3"><i class="ri-chat-3-line m-0"></i></div>
+                                       <div class="bg-success-light rounded-circle iq-card-icon-small"><i class="ri-phone-line m-0"></i></div>
+                                   </div>
+                               </td>
+                               <td>
+                                   <a href="#" class="btn btn-primary">More Details</a>
+                               </td>
+                               <td>
+                                   <div class="d-flex align-items-center">
+                                       <a href="#" class="text-body"><i class="las la-pen mr-3"></i></a>
+                                       <a href="#" class="text-body"><i class="las la-trash-alt mr-0"></i></a>
+                                   </div>
+                               </td>
+                           </tr>
+                           <tr>
+                               <td>
+                                   <div class="media align-items-center">
+                                       <img src="../assets/images/user/06.jpg" class="img-fluid rounded-circle avatar-40" alt="image">
+                                       <h5 class="ml-3">Mira Hernando</h5>
+                                   </div>
+                               </td>
+                               <td>miraherwitz@gmail.com</td>
+                               <td>
+                                   <div class="media align-items-center">
+                                       <div class="bg-secondary-light rounded-circle iq-card-icon-small mr-3"><i class="ri-mail-open-line m-0"></i></div>
+                                       <div class="bg-primary-light rounded-circle iq-card-icon-small mr-3"><i class="ri-chat-3-line m-0"></i></div>
+                                       <div class="bg-success-light rounded-circle iq-card-icon-small"><i class="ri-phone-line m-0"></i></div>
+                                   </div>
+                               </td>
+                               <td>
+                                   <a href="#" class="btn btn-primary">More Details</a>
+                               </td>
+                               <td>
+                                   <div class="d-flex align-items-center">
+                                       <a href="#" class="text-body"><i class="las la-pen mr-3"></i></a>
+                                       <a href="#" class="text-body"><i class="las la-trash-alt mr-0"></i></a>
+                                   </div>
+                               </td>
+                           </tr>
+                           <tr>
+                               <td>
+                                   <div class="media align-items-center">
+                                       <img src="../assets/images/user/07.jpg" class="img-fluid rounded-circle avatar-40" alt="image">
+                                       <h5 class="ml-3">More Details</h5>
+                                   </div>
+                               </td>
+                               <td>kailgreg@gmail.com</td>
+                               <td>
+                                   <div class="media align-items-center">
+                                       <div class="bg-secondary-light rounded-circle iq-card-icon-small mr-3"><i class="ri-mail-open-line m-0"></i></div>
+                                       <div class="bg-primary-light rounded-circle iq-card-icon-small mr-3"><i class="ri-chat-3-line m-0"></i></div>
+                                       <div class="bg-success-light rounded-circle iq-card-icon-small"><i class="ri-phone-line m-0"></i></div>
+                                   </div>
+                               </td>
+                               <td>
+                                   <a href="#" class="btn btn-primary">More Details</a>
+                               </td>
+                               <td>
+                                   <div class="d-flex align-items-center">
+                                       <a href="#" class="text-body"><i class="las la-pen mr-3"></i></a>
+                                       <a href="#" class="text-body"><i class="las la-trash-alt mr-0"></i></a>
+                                   </div>
+                               </td>
+                           </tr>
+                           <tr>
+                               <td>
+                                   <div class="media align-items-center">
+                                       <img src="../assets/images/user/08.jpg" class="img-fluid rounded-circle avatar-40" alt="image">
+                                       <h5 class="ml-3">More Details</h5>
+                                   </div>
+                               </td>
+                               <td>lucasman@gmail.com</td>
+                               <td>
+                                   <div class="media align-items-center">
+                                       <div class="bg-secondary-light rounded-circle iq-card-icon-small mr-3"><i class="ri-mail-open-line m-0"></i></div>
+                                       <div class="bg-primary-light rounded-circle iq-card-icon-small mr-3"><i class="ri-chat-3-line m-0"></i></div>
+                                       <div class="bg-success-light rounded-circle iq-card-icon-small"><i class="ri-phone-line m-0"></i></div>
+                                   </div>
+                               </td>
+                               <td>
+                                   <a href="#" class="btn btn-primary">More Details</a>
+                               </td>
+                               <td>
+                                   <div class="d-flex align-items-center">
+                                       <a href="#" class="text-body"><i class="las la-pen mr-3"></i></a>
+                                       <a href="#" class="text-body"><i class="las la-trash-alt mr-0"></i></a>
+                                   </div>
+                               </td>
+                           </tr>
+                           <tr>
+                               <td>
+                                   <div class="media align-items-center">
+                                       <img src="../assets/images/user/09.jpg" class="img-fluid rounded-circle avatar-40" alt="image">
+                                       <h5 class="ml-3">Paityn Salazar</h5>
+                                   </div>
+                               </td>
+                               <td>paitynsiphron@gmail.com</td>
+                               <td>
+                                   <div class="media align-items-center">
+                                       <div class="bg-secondary-light rounded-circle iq-card-icon-small mr-3"><i class="ri-mail-open-line m-0"></i></div>
+                                       <div class="bg-primary-light rounded-circle iq-card-icon-small mr-3"><i class="ri-chat-3-line m-0"></i></div>
+                                       <div class="bg-success-light rounded-circle iq-card-icon-small"><i class="ri-phone-line m-0"></i></div>
+                                   </div>
+                               </td>
+                               <td>
+                                   <a href="#" class="btn btn-primary">More Details</a>
+                               </td>
+                               <td>
+                                   <div class="d-flex align-items-center">
+                                       <a href="#" class="text-body"><i class="las la-pen mr-3"></i></a>
+                                       <a href="#" class="text-body"><i class="las la-trash-alt mr-0"></i></a>
+                                   </div>
+                               </td>
+                           </tr>
+                       </tbody>
+                   </table>
+               </div>
+           </div>
+        <!-- Page end  -->
+    </div>
+      </div>
+    </div>
+    <!-- Wrapper End-->
+    <footer class="iq-footer" style="background-color: #0c2556; color: #fff;">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-lg-6 text-left">
+                  <span class="mr-1">
+                      &copy; <script>document.write(new Date().getFullYear())</script> <a href="index.html" class="text-white">SIKYUrity</a> All Rights Reserved.
+                  </span>
+              </div>
+          </div>
+      </div>
+    </footer>
+    </footer>    <!-- Backend Bundle JavaScript -->
+    <script src="../assets/js/backend-bundle.min.js"></script>
+    <!-- Chart Custom JavaScript -->
+    <script src="../assets/js/customizer.js"></script>
+    
+    <script src="../assets/js/sidebar.js"></script>
+    
+    <!-- Flextree Javascript-->
+    <script src="../assets/js/flex-tree.min.js"></script>
+    <script src="../assets/js/tree.js"></script>
+    
+    <!-- Table Treeview JavaScript -->
+    <script src="../assets/js/table-treeview.js"></script>
+    
+    <!-- SweetAlert JavaScript -->
+    <script src="../assets/js/sweetalert.js"></script>
+    
+    <!-- Vectoe Map JavaScript -->
+    <script src="../assets/js/vector-map-custom.js"></script>
+    
+    <!-- Chart Custom JavaScript -->
+    <script src="../assets/js/chart-custom.js"></script>
+    <script src="../assets/js/charts/01.js"></script>
+    <script src="../assets/js/charts/02.js"></script>
+    
+    <!-- slider JavaScript -->
+    <script src="../assets/js/slider.js"></script>
+    
+    <!-- Emoji picker -->
+    <script src="../assets/vendor/emoji-picker-element/index.js" type="module"></script>
+    
+    
+    <!-- app JavaScript -->
+    <script src="../assets/js/app.js"></script>  </body>
+</html>
+
+<style>
+        /* Style for the container */
+        .container {
+            width: 300px;
+            height: 50px;
+            background-color: #003366;
+            border: 1px solid #ccc;
+            padding: 10px;
+            float: left; /* Set container to float left */
+        }
+
+        /* Style for the text inside the container */
+        .text {
+            font-size: 20px;
+            color: #ffffff;
+        }
+    </style>
+
+    <script>
+            let inputBox = document.querySelector(".input-box"),
+                searchIcon = document.querySelector(".icon"),
+                closeIcon = document.querySelector(".close-icon");
+            searchIcon.addEventListener("click", () => inputBox.classList.add("open"));
+            closeIcon.addEventListener("click", () => inputBox.classList.remove("open"));
+        </script>
+         <style>
+        /* Style for the input-box container */
+        .input-box {
+            display: flex;
+            align-items: center;
+            width: 800px; /* Set the width as needed */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 5px;
+            float: left;
+            background-color: #fff;
+        }
+
+        /* Style for the input field */
+        .input-box input[type="text"] {
+            flex: 1; /* Take up remaining space */
+            border: none;
+            outline: none;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        /* Style for the search icon */
+        .search-icon {
+            color: #0066ff;
+            font-size: 24px; /* Set the size as needed */
+        }
+
+        /* Style for the close icon */
+        .close-icon {
+            color: #333;
+            font-size: 24px; /* Set the size as needed */
+            cursor: pointer;
+        }
+
+        /* Add hover effect to close icon */
+        .close-icon:hover {
+            color: red; /* Change the color on hover */
+        }
+    </style>

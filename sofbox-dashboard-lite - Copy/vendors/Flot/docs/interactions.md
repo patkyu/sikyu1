@@ -1,7 +1,7 @@
 # Interaction
 
-Flot offers support for both mouse and touch interactions by using [navigate](navigate.md), [touch](../jquery.flot.touch.js)
-and [touchNavigate](../jquery.flot.touchNavigate.js) plugins.
+Flot offers support for both mouse and touch interactions by using [navigate](navigate.md), [touch](ery.flot.touch.js)
+and [touchNavigate](ery.flot.touchNavigate.js) plugins.
 
 
 ## navigate plugin

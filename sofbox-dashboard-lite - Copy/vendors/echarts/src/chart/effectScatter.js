@@ -1,15 +1,15 @@
 define(function (require) {
 
     var zrUtil = require('zrender/core/util');
-    var echarts = require('../echarts');
+    var echarts = require('arts');
 
     require('./effectScatter/EffectScatterSeries');
     require('./effectScatter/EffectScatterView');
 
     echarts.registerVisualCoding('chart', zrUtil.curry(
-        require('../visual/symbol'), 'effectScatter', 'circle', null
+        require('ual/symbol'), 'effectScatter', 'circle', null
     ));
     echarts.registerLayout(zrUtil.curry(
-        require('../layout/points'), 'effectScatter'
+        require('out/points'), 'effectScatter'
     ));
 });

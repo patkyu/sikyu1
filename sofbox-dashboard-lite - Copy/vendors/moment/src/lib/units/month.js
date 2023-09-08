@@ -1,16 +1,16 @@
-import { get } from '../moment/get-set';
-import hasOwnProp from '../utils/has-own-prop';
-import { addFormatToken } from '../format/format';
+import { get } from 'ent/get-set';
+import hasOwnProp from 'ls/has-own-prop';
+import { addFormatToken } from 'mat/format';
 import { addUnitAlias } from './aliases';
-import { addRegexToken, match1to2, match2, matchWord, regexEscape } from '../parse/regex';
-import { addParseToken } from '../parse/token';
-import { hooks } from '../utils/hooks';
+import { addRegexToken, match1to2, match2, matchWord, regexEscape } from 'se/regex';
+import { addParseToken } from 'se/token';
+import { hooks } from 'ls/hooks';
 import { MONTH } from './constants';
-import toInt from '../utils/to-int';
-import isArray from '../utils/is-array';
-import indexOf from '../utils/index-of';
-import { createUTC } from '../create/utc';
-import getParsingFlags from '../create/parsing-flags';
+import toInt from 'ls/to-int';
+import isArray from 'ls/is-array';
+import indexOf from 'ls/index-of';
+import { createUTC } from 'ate/utc';
+import getParsingFlags from 'ate/parsing-flags';
 
 export function daysInMonth(year, month) {
     return new Date(Date.UTC(year, month + 1, 0)).getUTCDate();

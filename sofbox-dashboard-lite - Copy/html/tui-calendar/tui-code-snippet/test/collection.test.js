@@ -1,7 +1,7 @@
 'use strict';
 
-var collection = require('../src/js/collection');
-var array = require('../src/js/array');
+var collection = require('/js/collection');
+var array = require('/js/array');
 
 describe('module:collection', function() {
     var objDummy,

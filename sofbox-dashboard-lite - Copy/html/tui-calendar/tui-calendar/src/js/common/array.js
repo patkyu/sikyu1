@@ -5,7 +5,7 @@
 'use strict';
 
 var util = require('tui-code-snippet');
-var datetime = require('../common/datetime');
+var datetime = require('mon/datetime');
 
 /**
  * A module for sorting array.

@@ -1,6 +1,6 @@
 'use strict';
 
-var defineModule = require('../src/js/defineModule');
+var defineModule = require('/js/defineModule');
 
 describe('"defineModule" function', function() {
     it('should call initialize', function() {

@@ -5,8 +5,8 @@
 'use strict';
 
 var util = require('tui-code-snippet');
-var config = require('../../config');
-var domutil = require('../../common/domutil');
+var config = require('');
+var domutil = require('/domutil');
 var DayGridMove = require('./move');
 
 /**

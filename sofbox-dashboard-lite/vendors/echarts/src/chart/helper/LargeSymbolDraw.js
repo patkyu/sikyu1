@@ -1,7 +1,7 @@
 define(function (require) {
 
-    var graphic = require('../../util/graphic');
-    var symbolUtil = require('../../util/symbol');
+    var graphic = require('util/graphic');
+    var symbolUtil = require('util/symbol');
     var zrUtil = require('zrender/core/util');
 
     var LargeSymbolPath = graphic.extendShape({

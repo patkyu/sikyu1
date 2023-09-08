@@ -5,16 +5,16 @@
  */
 'use strict';
 
-var View = require('../../view/view');
-var FloatingLayer = require('../../common/floatingLayer');
+var View = require('iew');
+var FloatingLayer = require('/floatingLayer');
 var util = require('tui-code-snippet');
-var config = require('../../config'),
-    domevent = require('../../common/domevent'),
-    domutil = require('../../common/domutil');
-var tmpl = require('../template/popup/scheduleDetailPopup.hbs');
-var tz = require('../../common/timezone');
+var config = require(''),
+    domevent = require('/domevent'),
+    domutil = require('/domutil');
+var tmpl = require('plate/popup/scheduleDetailPopup.hbs');
+var tz = require('/timezone');
 var TZDate = tz.Date;
-var datetime = require('../../common/datetime');
+var datetime = require('/datetime');
 
 /**
  * @constructor

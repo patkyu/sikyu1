@@ -1,6 +1,6 @@
 define( [
 	"./core",
-	"../external/sizzle/dist/sizzle"
+	"ernal/sizzle/dist/sizzle"
 ], function( jQuery, Sizzle ) {
 
 jQuery.find = Sizzle;

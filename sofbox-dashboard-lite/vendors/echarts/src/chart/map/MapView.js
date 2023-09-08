@@ -1,11 +1,11 @@
 define(function (require) {
 
     // var zrUtil = require('zrender/core/util');
-    var graphic = require('../../util/graphic');
+    var graphic = require('util/graphic');
 
-    var MapDraw = require('../../component/helper/MapDraw');
+    var MapDraw = require('component/helper/MapDraw');
 
-    require('../../echarts').extendChartView({
+    require('echarts').extendChartView({
 
         type: 'map',
 

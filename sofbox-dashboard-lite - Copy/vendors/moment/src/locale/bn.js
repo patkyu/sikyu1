@@ -2,7 +2,7 @@
 //! locale : Bengali (bn)
 //! author : Kaushik Gandhi : https://github.com/kaushikgandhi
 
-import moment from '../moment';
+import moment from 'ent';
 
 var symbolMap = {
     '1': '১',

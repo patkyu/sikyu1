@@ -1,6 +1,6 @@
-import { createLocal } from '../create/local';
-import { createUTC } from '../create/utc';
-import { createInvalid } from '../create/valid';
+import { createLocal } from 'ate/local';
+import { createUTC } from 'ate/utc';
+import { createInvalid } from 'ate/valid';
 import { isMoment } from './constructor';
 import { min, max } from './min-max';
 import { now } from './now';

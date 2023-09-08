@@ -1,21 +1,21 @@
 require.config({
-    baseUrl: '../',
+    baseUrl: '
     paths: {
-        'geoJson': '../geoData/geoJson',
-        'theme': '../theme',
+        'geoJson': 'Data/geoJson',
+        'theme': 'me',
         'data': './data',
-        'map': '../map',
-        'extension': '../extension'
+        'map': '',
+        'extension': 'ension'
     },
     packages: [
         {
             main: 'echarts',
-            location: '../src',
+            location: '',
             name: 'echarts'
         },
         {
             main: 'zrender',
-            location: '../../zrender/src',
+            location: 'r/src',
             name: 'zrender'
         }
     ]

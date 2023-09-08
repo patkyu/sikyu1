@@ -4,16 +4,16 @@
 define(function (require) {
 
     var zrUtil = require('zrender/core/util');
-    var graphic = require('../../util/graphic');
-    var layout = require('../../util/layout');
+    var graphic = require('raphic');
+    var layout = require('ayout');
     var TimelineView = require('./TimelineView');
     var TimelineAxis = require('./TimelineAxis');
-    var symbolUtil = require('../../util/symbol');
-    var axisHelper = require('../../coord/axisHelper');
+    var symbolUtil = require('ymbol');
+    var axisHelper = require('axisHelper');
     var BoundingRect = require('zrender/core/BoundingRect');
     var matrix = require('zrender/core/matrix');
-    var numberUtil = require('../../util/number');
-    var formatUtil = require('../../util/format');
+    var numberUtil = require('umber');
+    var formatUtil = require('ormat');
     var encodeHTML = formatUtil.encodeHTML;
 
     var bind = zrUtil.bind;

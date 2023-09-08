@@ -3,7 +3,7 @@ define(function (require) {
     var featureManager = require('./featureManager');
     var zrUtil = require('zrender/core/util');
 
-    var ToolboxModel = require('../../echarts').extendComponentModel({
+    var ToolboxModel = require('echarts').extendComponentModel({
 
         type: 'toolbox',
 

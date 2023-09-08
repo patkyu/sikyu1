@@ -5,9 +5,9 @@
 'use strict';
 
 var util = require('tui-code-snippet');
-var config = require('../config'),
-    domutil = require('../common/domutil'),
-    View = require('../view/view');
+var config = require('fig'),
+    domutil = require('mon/domutil'),
+    View = require('w/view');
 
 /**
  * @constructor

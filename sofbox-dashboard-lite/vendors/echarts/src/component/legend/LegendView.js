@@ -1,9 +1,9 @@
 define(function (require) {
 
     var zrUtil = require('zrender/core/util');
-    var symbolCreator = require('../../util/symbol');
-    var graphic = require('../../util/graphic');
-    var listComponentHelper = require('../helper/listComponent');
+    var symbolCreator = require('util/symbol');
+    var graphic = require('util/graphic');
+    var listComponentHelper = require('helper/listComponent');
 
     var curry = zrUtil.curry;
 
@@ -32,7 +32,7 @@ define(function (require) {
         });
     }
 
-    return require('../../echarts').extendComponentView({
+    return require('echarts').extendComponentView({
 
         type: 'legend',
 

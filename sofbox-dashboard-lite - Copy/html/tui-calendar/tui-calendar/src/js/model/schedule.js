@@ -6,10 +6,10 @@
 'use strict';
 
 var util = require('tui-code-snippet');
-var tz = require('../common/timezone');
-var datetime = require('../common/datetime');
-var dirty = require('../common/dirty');
-var model = require('../common/model');
+var tz = require('mon/timezone');
+var datetime = require('mon/datetime');
+var dirty = require('mon/dirty');
+var model = require('mon/model');
 var TZDate = tz.Date;
 var MIN_TO_MS = 60 * 1000;
 

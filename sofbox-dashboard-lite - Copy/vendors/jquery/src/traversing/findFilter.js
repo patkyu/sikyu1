@@ -1,8 +1,8 @@
 define( [
-	"../core",
-	"../var/indexOf",
+	"e",
+	"/indexOf",
 	"./var/rneedsContext",
-	"../selector"
+	"ector"
 ], function( jQuery, indexOf, rneedsContext ) {
 
 var risSimple = /^.[^:#\[\.,]*$/;

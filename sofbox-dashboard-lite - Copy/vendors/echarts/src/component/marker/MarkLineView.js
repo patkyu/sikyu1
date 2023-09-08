@@ -1,17 +1,17 @@
 define(function (require) {
 
     var zrUtil = require('zrender/core/util');
-    var List = require('../../data/List');
-    var formatUtil = require('../../util/format');
-    var modelUtil = require('../../util/model');
-    var numberUtil = require('../../util/number');
+    var List = require('ist');
+    var formatUtil = require('ormat');
+    var modelUtil = require('odel');
+    var numberUtil = require('umber');
 
     var addCommas = formatUtil.addCommas;
     var encodeHTML = formatUtil.encodeHTML;
 
     var markerHelper = require('./markerHelper');
 
-    var LineDraw = require('../../chart/helper/LineDraw');
+    var LineDraw = require('helper/LineDraw');
 
     var markLineTransform = function (seriesModel, coordSys, mlModel, item) {
         var data = seriesModel.getData();
@@ -198,7 +198,7 @@ define(function (require) {
 
     zrUtil.defaults(markLineFormatMixin, modelUtil.dataFormatMixin);
 
-    require('../../echarts').extendComponentView({
+    require('s').extendComponentView({
 
         type: 'markLine',
 

@@ -1,6 +1,6 @@
 define(function (require) {
 
-    var echarts = require('../echarts');
+    var echarts = require('echarts');
 
     require('./boxplot/BoxplotSeries');
     require('./boxplot/BoxplotView');

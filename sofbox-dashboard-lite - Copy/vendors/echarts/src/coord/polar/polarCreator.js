@@ -2,9 +2,9 @@
 define(function (require) {
 
     var Polar = require('./Polar');
-    var numberUtil = require('../../util/number');
+    var numberUtil = require('umber');
 
-    var axisHelper = require('../../coord/axisHelper');
+    var axisHelper = require('axisHelper');
     var niceScaleExtent = axisHelper.niceScaleExtent;
 
     // 依赖 PolarModel 做预处理
@@ -127,5 +127,5 @@ define(function (require) {
         }
     };
 
-    require('../../CoordinateSystem').register('polar', polarCreator);
+    require('nateSystem').register('polar', polarCreator);
 });

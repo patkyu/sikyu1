@@ -1,11 +1,11 @@
 define( [
-	"../core",
-	"../var/document",
-	"../data/var/dataPriv",
-	"../data/var/acceptData",
-	"../var/hasOwn",
+	"core",
+	"var/document",
+	"data/var/dataPriv",
+	"data/var/acceptData",
+	"var/hasOwn",
 
-	"../event"
+	"event"
 ], function( jQuery, document, dataPriv, acceptData, hasOwn ) {
 
 var rfocusMorph = /^(?:focusinfocus|focusoutblur)$/;

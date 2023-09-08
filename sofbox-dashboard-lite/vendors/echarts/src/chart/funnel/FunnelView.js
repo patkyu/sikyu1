@@ -1,6 +1,6 @@
 define(function (require) {
 
-    var graphic = require('../../util/graphic');
+    var graphic = require('util/graphic');
     var zrUtil = require('zrender/core/util');
 
     /**
@@ -168,7 +168,7 @@ define(function (require) {
     zrUtil.inherits(FunnelPiece, graphic.Group);
 
 
-    var Funnel = require('../../view/Chart').extend({
+    var Funnel = require('view/Chart').extend({
 
         type: 'funnel',
 

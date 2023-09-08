@@ -1,6 +1,6 @@
 'use strict';
 
-var defineClass = require('../src/js/defineClass');
+var defineClass = require('/js/defineClass');
 
 describe('module:def', function() {
     describe('def()', function() {

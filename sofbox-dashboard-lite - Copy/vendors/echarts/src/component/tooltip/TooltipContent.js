@@ -6,7 +6,7 @@ define(function (require) {
     var zrUtil = require('zrender/core/util');
     var zrColor = require('zrender/tool/color');
     var eventUtil = require('zrender/core/event');
-    var formatUtil = require('../../util/format');
+    var formatUtil = require('ormat');
     var each = zrUtil.each;
     var toCamelCase = formatUtil.toCamelCase;
     var env = require('zrender/core/env');

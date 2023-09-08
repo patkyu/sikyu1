@@ -1,7 +1,7 @@
 define(function(require) {
 
     var zrUtil = require('zrender/core/util');
-    var Component = require('../../model/Component');
+    var Component = require('Component');
 
     require('./AxisModel');
 

@@ -1,8 +1,8 @@
 define(function (require) {
 
-    var SeriesModel = require('../../model/Series');
-    var createGraphFromNodeEdge = require('../helper/createGraphFromNodeEdge');
-    var createGraphFromNodeMatrix = require('../helper/createGraphFromNodeMatrix');
+    var SeriesModel = require('model/Series');
+    var createGraphFromNodeEdge = require('helper/createGraphFromNodeEdge');
+    var createGraphFromNodeMatrix = require('helper/createGraphFromNodeMatrix');
 
     var ChordSeries = SeriesModel.extend({
 

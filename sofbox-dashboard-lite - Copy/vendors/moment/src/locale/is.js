@@ -2,7 +2,7 @@
 //! locale : icelandic (is)
 //! author : Hinrik Örn Sigurðsson : https://github.com/hinrik
 
-import moment from '../moment';
+import moment from 'ent';
 
 function plural(n) {
     if (n % 100 === 11) {

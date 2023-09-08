@@ -1,10 +1,10 @@
-import { makeGetSet } from '../moment/get-set';
-import { addFormatToken } from '../format/format';
+import { makeGetSet } from 'ent/get-set';
+import { addFormatToken } from 'mat/format';
 import { addUnitAlias } from './aliases';
-import { addRegexToken, match1, match2, match3, match1to3, matchUnsigned } from '../parse/regex';
-import { addParseToken } from '../parse/token';
+import { addRegexToken, match1, match2, match3, match1to3, matchUnsigned } from 'se/regex';
+import { addParseToken } from 'se/token';
 import { MILLISECOND } from './constants';
-import toInt from '../utils/to-int';
+import toInt from 'ls/to-int';
 
 // FORMATTING
 

@@ -1,7 +1,7 @@
 //! moment.js locale configuration
 //! locale : New Zealand english (en-nz)
 
-import moment from '../moment';
+import moment from 'ent';
 
 export default moment.defineLocale('en-nz', {
     months : 'January_February_March_April_May_June_July_August_September_October_November_December'.split('_'),

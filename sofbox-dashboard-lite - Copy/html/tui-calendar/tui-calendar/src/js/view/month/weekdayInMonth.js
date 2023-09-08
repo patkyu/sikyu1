@@ -5,13 +5,13 @@
 'use strict';
 
 var util = require('tui-code-snippet');
-var config = require('../../config'),
-    common = require('../../common/common.js'),
-    domutil = require('../../common/domutil'),
-    View = require('../../view/view'),
-    Weekday = require('../weekday'),
-    baseTmpl = require('../template/month/weekdayInMonth.hbs'),
-    scheduleTmpl = require('../template/month/weekdayInMonthSchedule.hbs');
+var config = require(''),
+    common = require('/common.js'),
+    domutil = require('/domutil'),
+    View = require('iew'),
+    Weekday = require('kday'),
+    baseTmpl = require('plate/month/weekdayInMonth.hbs'),
+    scheduleTmpl = require('plate/month/weekdayInMonthSchedule.hbs');
 var mfloor = Math.floor,
     mmin = Math.min;
 

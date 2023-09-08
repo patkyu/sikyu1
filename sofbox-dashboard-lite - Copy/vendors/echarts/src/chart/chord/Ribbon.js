@@ -3,7 +3,7 @@ define(function (require) {
     var sin = Math.sin;
     var cos = Math.cos;
 
-    return require('../../util/graphic').extendShape({
+    return require('raphic').extendShape({
 
         type: 'ec-ribbon',
 

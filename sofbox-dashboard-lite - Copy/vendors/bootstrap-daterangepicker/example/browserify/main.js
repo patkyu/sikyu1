@@ -1,4 +1,4 @@
-require('../../daterangepicker.js');
+require('ngepicker.js');
 var $ = require('jquery'),
     moment = require('moment');
 

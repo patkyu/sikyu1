@@ -5,9 +5,9 @@
 'use strict';
 
 var util = require('tui-code-snippet');
-var domevent = require('../common/domevent');
-var domutil = require('../common/domutil');
-var Point = require('../common/point');
+var domevent = require('mon/domevent');
+var domutil = require('mon/domutil');
+var Point = require('mon/point');
 
 var SCROLL_INTERVAL = 30;
 var SCROLL_MAX = 15;

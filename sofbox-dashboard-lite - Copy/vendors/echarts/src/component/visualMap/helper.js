@@ -1,8 +1,8 @@
 define(function(require) {
 
-    var layout = require('../../util/layout');
+    var layout = require('ayout');
     var zrUtil = require('zrender/core/util');
-    var DataDiffer = require('../../data/DataDiffer');
+    var DataDiffer = require('ataDiffer');
 
     var helper = {
 

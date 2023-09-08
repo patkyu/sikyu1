@@ -2,7 +2,7 @@ define(function (require) {
 
     var Geo = require('./Geo');
 
-    var layout = require('../../util/layout');
+    var layout = require('ayout');
     var zrUtil = require('zrender/core/util');
 
     var mapDataStores = {};
@@ -202,7 +202,7 @@ define(function (require) {
     };
 
     // Inject methods into echarts
-    var echarts = require('../../echarts');
+    var echarts = require('s');
 
     echarts.registerMap = geoCreator.registerMap;
 

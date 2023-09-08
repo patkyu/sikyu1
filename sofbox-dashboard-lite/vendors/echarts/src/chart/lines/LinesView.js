@@ -1,10 +1,10 @@
 define(function (require) {
 
-    var LineDraw = require('../helper/LineDraw');
-    var EffectLine = require('../helper/EffectLine');
-    var Line = require('../helper/Line');
+    var LineDraw = require('helper/LineDraw');
+    var EffectLine = require('helper/EffectLine');
+    var Line = require('helper/Line');
 
-    require('../../echarts').extendChartView({
+    require('echarts').extendChartView({
 
         type: 'lines',
 

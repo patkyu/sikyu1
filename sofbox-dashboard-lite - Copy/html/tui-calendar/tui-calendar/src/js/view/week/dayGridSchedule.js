@@ -5,8 +5,8 @@
 'use strict';
 
 var util = require('tui-code-snippet');
-var Weekday = require('../weekday'),
-    tmpl = require('../template/week/dayGridSchedule.hbs');
+var Weekday = require('kday'),
+    tmpl = require('plate/week/dayGridSchedule.hbs');
 var mmax = Math.max;
 
 /**

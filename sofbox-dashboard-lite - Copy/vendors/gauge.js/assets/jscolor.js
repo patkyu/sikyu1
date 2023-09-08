@@ -293,11 +293,11 @@ var jscolor = {
 		function removeDotSegments(path) {
 			var out = '';
 			while(path) {
-				if(path.substr(0,3)==='../' || path.substr(0,2)==='./') {
+				if(path.substr(0,3)==='| path.substr(0,2)==='./') {
 					path = path.replace(/^\.+/,'').substr(1);
 				} else if(path.substr(0,3)==='/./' || path==='/.') {
 					path = '/'+path.substr(3);
-				} else if(path.substr(0,4)==='/../' || path==='/..') {
+				} else if(path.substr(0,4)==='/| path==='/..') {
 					path = '/'+path.substr(4);
 					out = out.replace(/\/?[^\/]*$/, '');
 				} else if(path==='.' || path==='..') {

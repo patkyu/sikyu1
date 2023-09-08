@@ -2,9 +2,9 @@ define(function(require) {
 
     var VisualMapView = require('./VisualMapView');
     var zrUtil = require('zrender/core/util');
-    var graphic = require('../../util/graphic');
-    var symbolCreators = require('../../util/symbol');
-    var layout = require('../../util/layout');
+    var graphic = require('util/graphic');
+    var symbolCreators = require('util/symbol');
+    var layout = require('util/layout');
     var helper = require('./helper');
 
     var PiecewiseVisualMapView = VisualMapView.extend({

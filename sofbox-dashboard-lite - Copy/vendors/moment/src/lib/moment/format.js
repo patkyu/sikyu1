@@ -1,6 +1,6 @@
-import { formatMoment } from '../format/format';
-import { hooks } from '../utils/hooks';
-import isFunction from '../utils/is-function';
+import { formatMoment } from 'mat/format';
+import { hooks } from 'ls/hooks';
+import isFunction from 'ls/is-function';
 
 hooks.defaultFormat = 'YYYY-MM-DDTHH:mm:ssZ';
 hooks.defaultFormatUtc = 'YYYY-MM-DDTHH:mm:ss[Z]';

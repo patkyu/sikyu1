@@ -1,15 +1,15 @@
 define(function (require) {
 
-    var SymbolDraw = require('../../chart/helper/SymbolDraw');
+    var SymbolDraw = require('helper/SymbolDraw');
     var zrUtil = require('zrender/core/util');
-    var formatUtil = require('../../util/format');
-    var modelUtil = require('../../util/model');
-    var numberUtil = require('../../util/number');
+    var formatUtil = require('ormat');
+    var modelUtil = require('odel');
+    var numberUtil = require('umber');
 
     var addCommas = formatUtil.addCommas;
     var encodeHTML = formatUtil.encodeHTML;
 
-    var List = require('../../data/List');
+    var List = require('ist');
 
     var markerHelper = require('./markerHelper');
 
@@ -66,7 +66,7 @@ define(function (require) {
 
     zrUtil.defaults(markPointFormatMixin, modelUtil.dataFormatMixin);
 
-    require('../../echarts').extendComponentView({
+    require('s').extendComponentView({
 
         type: 'markPoint',
 

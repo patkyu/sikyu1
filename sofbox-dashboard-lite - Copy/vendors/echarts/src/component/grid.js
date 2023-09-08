@@ -1,15 +1,15 @@
 define(function(require) {
     'use strict';
 
-    var graphic = require('../util/graphic');
+    var graphic = require('l/graphic');
     var zrUtil = require('zrender/core/util');
 
-    require('../coord/cartesian/Grid');
+    require('rd/cartesian/Grid');
 
     require('./axis');
 
     // Grid view
-    require('../echarts').extendComponentView({
+    require('arts').extendComponentView({
 
         type: 'grid',
 

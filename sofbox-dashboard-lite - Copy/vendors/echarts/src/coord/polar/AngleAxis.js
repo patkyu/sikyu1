@@ -2,7 +2,7 @@ define(function(require) {
     'use strict';
 
     var zrUtil = require('zrender/core/util');
-    var Axis = require('../Axis');
+    var Axis = require('s');
 
     function AngleAxis(scale, angleExtent) {
 

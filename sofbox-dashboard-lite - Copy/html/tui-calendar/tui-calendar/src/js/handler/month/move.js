@@ -6,12 +6,12 @@
 
 var util = require('tui-code-snippet');
 
-var config = require('../../config'),
-    domutil = require('../../common/domutil'),
-    datetime = require('../../common/datetime'),
+var config = require(''),
+    domutil = require('/domutil'),
+    datetime = require('/datetime'),
     getMousePosData = require('./core'),
     MonthMoveGuide = require('./moveGuide'),
-    TZDate = require('../../common/timezone').Date;
+    TZDate = require('/timezone').Date;
 
 /**
  * @constructor

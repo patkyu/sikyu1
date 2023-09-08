@@ -1,9 +1,9 @@
 define(function (require) {
 
     var zrUtil = require('zrender/core/util');
-    var graphic = require('../../util/graphic');
-    var Model = require('../../model/Model');
-    var numberUtil = require('../../util/number');
+    var graphic = require('util/graphic');
+    var Model = require('model/Model');
+    var numberUtil = require('util/number');
     var remRadian = numberUtil.remRadian;
     var isRadianAroundZero = numberUtil.isRadianAroundZero;
 

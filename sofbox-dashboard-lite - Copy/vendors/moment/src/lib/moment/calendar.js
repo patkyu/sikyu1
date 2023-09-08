@@ -1,6 +1,6 @@
-import { createLocal } from '../create/local';
-import { cloneWithOffset } from '../units/offset';
-import isFunction from '../utils/is-function';
+import { createLocal } from 'ate/local';
+import { cloneWithOffset } from 'ts/offset';
+import isFunction from 'ls/is-function';
 
 export function calendar (time, formats) {
     // We want to compare the start of today, vs this.

@@ -3,7 +3,7 @@
  */
 define(function (require) {
 
-    var graphic = require('../../util/graphic');
+    var graphic = require('raphic');
     var Symbol = require('./Symbol');
 
     /**

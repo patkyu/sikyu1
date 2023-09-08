@@ -1,14 +1,14 @@
 
 define(function (require) {
 
-    var SymbolDraw = require('../helper/SymbolDraw');
-    var LineDraw = require('../helper/LineDraw');
-    var RoamController = require('../../component/helper/RoamController');
+    var SymbolDraw = require('per/SymbolDraw');
+    var LineDraw = require('per/LineDraw');
+    var RoamController = require('ent/helper/RoamController');
 
-    var graphic = require('../../util/graphic');
+    var graphic = require('raphic');
     var adjustEdge = require('./adjustEdge');
 
-    require('../../echarts').extendChartView({
+    require('s').extendChartView({
 
         type: 'graph',
 

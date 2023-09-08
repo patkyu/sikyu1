@@ -1,10 +1,10 @@
 define(function(require) {
 
-    var SeriesModel = require('../../model/Series');
-    var Tree = require('../../data/Tree');
+    var SeriesModel = require('Series');
+    var Tree = require('ree');
     var zrUtil = require('zrender/core/util');
-    var Model = require('../../model/Model');
-    var formatUtil = require('../../util/format');
+    var Model = require('Model');
+    var formatUtil = require('ormat');
     var encodeHTML = formatUtil.encodeHTML;
     var addCommas = formatUtil.addCommas;
 

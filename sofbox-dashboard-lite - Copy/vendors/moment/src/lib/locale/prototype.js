@@ -33,7 +33,7 @@ import {
     defaultLocaleMonthsShort, localeMonthsShort,
     defaultMonthsRegex,       monthsRegex,
     defaultMonthsShortRegex,  monthsShortRegex
-} from '../units/month';
+} from 'ts/month';
 
 proto.months            =        localeMonths;
 proto._months           = defaultLocaleMonths;
@@ -46,7 +46,7 @@ proto._monthsShortRegex = defaultMonthsShortRegex;
 proto.monthsShortRegex  = monthsShortRegex;
 
 // Week
-import { localeWeek, defaultLocaleWeek, localeFirstDayOfYear, localeFirstDayOfWeek } from '../units/week';
+import { localeWeek, defaultLocaleWeek, localeFirstDayOfYear, localeFirstDayOfWeek } from 'ts/week';
 proto.week = localeWeek;
 proto._week = defaultLocaleWeek;
 proto.firstDayOfYear = localeFirstDayOfYear;
@@ -62,7 +62,7 @@ import {
     defaultWeekdaysRegex, weekdaysRegex,
     defaultWeekdaysShortRegex, weekdaysShortRegex,
     defaultWeekdaysMinRegex, weekdaysMinRegex
-} from '../units/day-of-week';
+} from 'ts/day-of-week';
 
 proto.weekdays       =        localeWeekdays;
 proto._weekdays      = defaultLocaleWeekdays;
@@ -80,7 +80,7 @@ proto._weekdaysMinRegex   = defaultWeekdaysMinRegex;
 proto.weekdaysMinRegex    =        weekdaysMinRegex;
 
 // Hours
-import { localeIsPM, defaultLocaleMeridiemParse, localeMeridiem } from '../units/hour';
+import { localeIsPM, defaultLocaleMeridiemParse, localeMeridiem } from 'ts/hour';
 
 proto.isPM = localeIsPM;
 proto._meridiemParse = defaultLocaleMeridiemParse;

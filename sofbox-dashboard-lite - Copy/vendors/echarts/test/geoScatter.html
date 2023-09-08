@@ -24,7 +24,7 @@
                 'echarts/component/geo'
             ], function (echarts) {
 
-                $.get('../map/json/china.json', function (chinaJson) {
+                $.get('/json/china.json', function (chinaJson) {
                     if (typeof chinaJson === 'string') {
                         chinaJson = eval('(' + chinaJson + ')');
                     }

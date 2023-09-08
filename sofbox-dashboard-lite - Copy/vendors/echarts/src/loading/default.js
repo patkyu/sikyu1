@@ -1,6 +1,6 @@
 define(function (require) {
 
-    var graphic = require('../util/graphic');
+    var graphic = require('l/graphic');
     var zrUtil = require('zrender/core/util');
     var PI = Math.PI;
     /**

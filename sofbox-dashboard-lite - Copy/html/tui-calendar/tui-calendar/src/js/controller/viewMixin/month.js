@@ -5,9 +5,9 @@
 'use strict';
 
 var util = require('tui-code-snippet');
-var array = require('../../common/array'),
-    datetime = require('../../common/datetime'),
-    Collection = require('../../common/collection');
+var array = require('/array'),
+    datetime = require('/datetime'),
+    Collection = require('/collection');
 var mmax = Math.max;
 
 var Month = {

@@ -1,7 +1,7 @@
 define(function (require) {
 
-    var layout = require('../../util/layout');
-    var nest = require('../../util/array/nest');
+    var layout = require('ayout');
+    var nest = require('rray/nest');
     var zrUtil = require('zrender/core/util');
 
     return function (ecModel, api) {

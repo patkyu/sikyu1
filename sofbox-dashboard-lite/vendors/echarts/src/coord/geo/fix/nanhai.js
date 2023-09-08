@@ -1,7 +1,7 @@
 // Fix for 南海诸岛
 define(function (require) {
 
-    var Region = require('../Region');
+    var Region = require('Region');
 
     var geoCoord = [126, 25];
 

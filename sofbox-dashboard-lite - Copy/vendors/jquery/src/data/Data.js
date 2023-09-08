@@ -1,6 +1,6 @@
 define( [
-	"../core",
-	"../var/rnotwhite",
+	"e",
+	"/rnotwhite",
 	"./var/acceptData"
 ], function( jQuery, rnotwhite, acceptData ) {
 

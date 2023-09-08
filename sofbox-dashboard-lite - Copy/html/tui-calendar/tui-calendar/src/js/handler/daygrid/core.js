@@ -6,10 +6,10 @@
 'use strict';
 
 var util = require('tui-code-snippet');
-var domutil = require('../../common/domutil');
-var domevent = require('../../common/domevent');
-var common = require('../../common/common');
-var datetime = require('../../common/datetime');
+var domutil = require('/domutil');
+var domevent = require('/domevent');
+var common = require('/common');
+var datetime = require('/datetime');
 
 var mmax = Math.max,
     mmin = Math.min;

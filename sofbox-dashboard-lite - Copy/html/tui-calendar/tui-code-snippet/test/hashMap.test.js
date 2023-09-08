@@ -1,6 +1,6 @@
 'use strict';
 
-var HashMap = require('../src/js/hashMap');
+var HashMap = require('/js/hashMap');
 
 describe('module:hashMap', function() {
     var hashMap;

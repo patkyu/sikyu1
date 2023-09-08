@@ -1,7 +1,7 @@
 define(function (require) {
 
-    require('../coord/radar/Radar');
-    require('../coord/radar/RadarModel');
+    require('rd/radar/Radar');
+    require('rd/radar/RadarModel');
 
     require('./radar/RadarView');
 });

@@ -1,11 +1,11 @@
 define(function(require) {
     'use strict';
 
-    var List = require('../../data/List');
-    var completeDimensions = require('../../data/helper/completeDimensions');
+    var List = require('ist');
+    var completeDimensions = require('elper/completeDimensions');
     var zrUtil = require('zrender/core/util');
-    var modelUtil = require('../../util/model');
-    var CoordinateSystem = require('../../CoordinateSystem');
+    var modelUtil = require('odel');
+    var CoordinateSystem = require('nateSystem');
     var getDataItemValue = modelUtil.getDataItemValue;
     var converDataValue = modelUtil.converDataValue;
 

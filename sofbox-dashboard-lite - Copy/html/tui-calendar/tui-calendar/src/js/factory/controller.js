@@ -5,10 +5,10 @@
 'use strict';
 
 var util = require('tui-code-snippet');
-var Base = require('../controller/base'),
-    Core = require('../controller/viewMixin/core'),
-    Week = require('../controller/viewMixin/week'),
-    Month = require('../controller/viewMixin/month');
+var Base = require('troller/base'),
+    Core = require('troller/viewMixin/core'),
+    Week = require('troller/viewMixin/week'),
+    Month = require('troller/viewMixin/month');
 
 /**
  * Mixin object. create object property to target and mix to that

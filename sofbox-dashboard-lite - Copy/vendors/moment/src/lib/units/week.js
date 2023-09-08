@@ -1,9 +1,9 @@
-import { addFormatToken } from '../format/format';
+import { addFormatToken } from 'mat/format';
 import { addUnitAlias } from './aliases';
-import { addRegexToken, match1to2, match2 } from '../parse/regex';
-import { addWeekParseToken } from '../parse/token';
-import toInt from '../utils/to-int';
-import { createLocal } from '../create/local';
+import { addRegexToken, match1to2, match2 } from 'se/regex';
+import { addWeekParseToken } from 'se/token';
+import toInt from 'ls/to-int';
+import { createLocal } from 'ate/local';
 import { weekOfYear } from './week-calendar-utils';
 
 // FORMATTING

@@ -4,17 +4,17 @@
  */
 'use strict';
 
-var View = require('../../view/view');
-var FloatingLayer = require('../../common/floatingLayer');
+var View = require('iew');
+var FloatingLayer = require('/floatingLayer');
 var util = require('tui-code-snippet');
 var DatePicker = require('tui-date-picker');
-var timezone = require('../../common/timezone');
-var config = require('../../config');
-var domevent = require('../../common/domevent');
-var domutil = require('../../common/domutil');
-var common = require('../../common/common');
-var datetime = require('../../common/datetime');
-var tmpl = require('../template/popup/scheduleCreationPopup.hbs');
+var timezone = require('/timezone');
+var config = require('');
+var domevent = require('/domevent');
+var domutil = require('/domutil');
+var common = require('/common');
+var datetime = require('/datetime');
+var tmpl = require('plate/popup/scheduleCreationPopup.hbs');
 var TZDate = timezone.Date;
 var MAX_WEEK_OF_MONTH = 6;
 

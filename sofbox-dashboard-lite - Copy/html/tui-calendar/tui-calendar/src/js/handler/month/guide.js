@@ -5,10 +5,10 @@
 'use strict';
 
 var util = require('tui-code-snippet');
-var config = require('../../config'),
-    domutil = require('../../common/domutil'),
-    datetime = require('../../common/datetime'),
-    TZDate = require('../../common/timezone').Date,
+var config = require(''),
+    domutil = require('/domutil'),
+    datetime = require('/datetime'),
+    TZDate = require('/timezone').Date,
     tmpl = require('./guide.hbs');
 var mmax = Math.max,
     mmin = Math.min,

@@ -2,10 +2,10 @@ define(function (require) {
 
     'use strict';
 
-    var SeriesModel = require('../../model/Series');
-    var List = require('../../data/List');
+    var SeriesModel = require('Series');
+    var List = require('ist');
     var zrUtil = require('zrender/core/util');
-    var CoordinateSystem = require('../../CoordinateSystem');
+    var CoordinateSystem = require('nateSystem');
 
     return SeriesModel.extend({
 

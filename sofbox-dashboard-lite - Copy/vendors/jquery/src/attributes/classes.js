@@ -1,8 +1,8 @@
 define( [
-	"../core",
-	"../var/rnotwhite",
-	"../data/var/dataPriv",
-	"../core/init"
+	"e",
+	"/rnotwhite",
+	"a/var/dataPriv",
+	"e/init"
 ], function( jQuery, rnotwhite, dataPriv ) {
 
 var rclass = /[\t\r\n\f]/g;

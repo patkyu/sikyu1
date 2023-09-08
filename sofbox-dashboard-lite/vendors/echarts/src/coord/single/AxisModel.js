@@ -1,7 +1,7 @@
 define(function (require) {
 
-    var ComponentModel = require('../../model/Component');
-    var axisModelCreator = require('../axisModelCreator');
+    var ComponentModel = require('model/Component');
+    var axisModelCreator = require('axisModelCreator');
     var zrUtil =  require('zrender/core/util');
 
     var AxisModel = ComponentModel.extend({
@@ -70,7 +70,7 @@ define(function (require) {
         return option.type || (option.data ? 'category' : 'value');
     }
 
-    zrUtil.merge(AxisModel.prototype, require('../axisModelCommonMixin'));
+    zrUtil.merge(AxisModel.prototype, require('axisModelCommonMixin'));
 
     axisModelCreator('single', AxisModel, getAxisType, defaultOption);
 

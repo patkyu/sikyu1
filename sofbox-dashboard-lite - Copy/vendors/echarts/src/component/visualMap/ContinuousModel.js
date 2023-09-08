@@ -5,7 +5,7 @@ define(function(require) {
 
     var VisualMapModel = require('./VisualMapModel');
     var zrUtil = require('zrender/core/util');
-    var numberUtil = require('../../util/number');
+    var numberUtil = require('umber');
 
     // Constant
     var DEFAULT_BAR_BOUND = [20, 140];

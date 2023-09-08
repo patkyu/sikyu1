@@ -1,14 +1,14 @@
 define(function (require) {
 
-    var echarts = require('../echarts');
+    var echarts = require('arts');
 
     require('./map/MapSeries');
 
     require('./map/MapView');
 
-    require('../action/geoRoam');
+    require('ion/geoRoam');
 
-    require('../coord/geo/geoCreator');
+    require('rd/geo/geoCreator');
 
     echarts.registerLayout(require('./map/mapSymbolLayout'));
 
@@ -18,7 +18,7 @@ define(function (require) {
 
     echarts.registerPreprocessor(require('./map/backwardCompat'));
 
-    require('../action/createDataSelectAction')('map', [{
+    require('ion/createDataSelectAction')('map', [{
         type: 'mapToggleSelect',
         event: 'mapselectchanged',
         method: 'toggleSelected'

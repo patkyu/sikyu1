@@ -2,8 +2,8 @@ define(function (require) {
 
     var PointerPath = require('./PointerPath');
 
-    var graphic = require('../../util/graphic');
-    var numberUtil = require('../../util/number');
+    var graphic = require('raphic');
+    var numberUtil = require('umber');
     var parsePercent = numberUtil.parsePercent;
 
     function parsePosition(seriesModel, api) {
@@ -37,7 +37,7 @@ define(function (require) {
 
     var PI2 = Math.PI * 2;
 
-    var GaugeView = require('../../view/Chart').extend({
+    var GaugeView = require('hart').extend({
 
         type: 'gauge',
 

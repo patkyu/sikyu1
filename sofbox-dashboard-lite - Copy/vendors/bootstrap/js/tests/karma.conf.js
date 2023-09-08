@@ -52,7 +52,7 @@ let files = [
 ]
 
 const conf = {
-  basePath: '../..',
+  basePath: ',
   port: 9876,
   colors: true,
   autoWatch: false,
@@ -115,7 +115,7 @@ if (bundle) {
   conf.customLaunchers = customLaunchers
   conf.detectBrowsers = detectBrowsers
   conf.coverageIstanbulReporter = {
-    dir: path.resolve(__dirname, '../coverage/'),
+    dir: path.resolve(__dirname, 'erage/'),
     reports: ['lcov', 'text-summary'],
     thresholds: {
       emitWarning: false,

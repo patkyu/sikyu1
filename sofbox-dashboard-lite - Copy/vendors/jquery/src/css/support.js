@@ -1,8 +1,8 @@
 define( [
-	"../core",
-	"../var/document",
-	"../var/documentElement",
-	"../var/support"
+	"e",
+	"/document",
+	"/documentElement",
+	"/support"
 ], function( jQuery, document, documentElement, support ) {
 
 ( function() {

@@ -5,10 +5,10 @@
 'use strict';
 
 var util = require('tui-code-snippet');
-var config = require('../config'),
-    domutil = require('../common/domutil'),
-    datetime = require('../common/datetime'),
-    TZDate = require('../common/timezone').Date,
+var config = require('fig'),
+    domutil = require('mon/domutil'),
+    datetime = require('mon/datetime'),
+    TZDate = require('mon/timezone').Date,
     View = require('./view');
 
 /**

@@ -2,7 +2,7 @@ define(function (require) {
 
     var AxisBuilder = require('./AxisBuilder');
     var zrUtil =  require('zrender/core/util');
-    var graphic = require('../../util/graphic');
+    var graphic = require('raphic');
     var getInterval = AxisBuilder.getInterval;
     var ifIgnoreOnTick = AxisBuilder.ifIgnoreOnTick;
 
@@ -12,7 +12,7 @@ define(function (require) {
 
     var selfBuilderAttr = 'splitLine'; 
 
-    var AxisView = require('../../echarts').extendComponentView({
+    var AxisView = require('s').extendComponentView({
 
         type: 'singleAxis',
 

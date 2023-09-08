@@ -1,12 +1,12 @@
-import { makeGetSet } from '../moment/get-set';
-import { addFormatToken } from '../format/format';
+import { makeGetSet } from 'ent/get-set';
+import { addFormatToken } from 'mat/format';
 import { addUnitAlias } from './aliases';
-import { addRegexToken, match1to2, match2, match3to4, match5to6 } from '../parse/regex';
-import { addParseToken } from '../parse/token';
+import { addRegexToken, match1to2, match2, match3to4, match5to6 } from 'se/regex';
+import { addParseToken } from 'se/token';
 import { HOUR, MINUTE, SECOND } from './constants';
-import toInt from '../utils/to-int';
-import zeroFill from '../utils/zero-fill';
-import getParsingFlags from '../create/parsing-flags';
+import toInt from 'ls/to-int';
+import zeroFill from 'ls/zero-fill';
+import getParsingFlags from 'ate/parsing-flags';
 
 // FORMATTING
 

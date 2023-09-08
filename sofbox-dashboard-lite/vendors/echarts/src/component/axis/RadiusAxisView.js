@@ -3,7 +3,7 @@ define(function (require) {
     'use strict';
 
     var zrUtil = require('zrender/core/util');
-    var graphic = require('../../util/graphic');
+    var graphic = require('util/graphic');
     var AxisBuilder = require('./AxisBuilder');
 
     var axisBuilderAttrs = [
@@ -13,7 +13,7 @@ define(function (require) {
         'splitLine', 'splitArea'
     ];
 
-    require('../../echarts').extendComponentView({
+    require('echarts').extendComponentView({
 
         type: 'radiusAxis',
 

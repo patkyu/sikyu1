@@ -5,11 +5,11 @@
 'use strict';
 
 var util = require('tui-code-snippet');
-var config = require('../../config');
-var domutil = require('../../common/domutil');
-var datetime = require('../../common/datetime');
-var TZDate = require('../../common/timezone').Date;
-var View = require('../view');
+var config = require('');
+var domutil = require('/domutil');
+var datetime = require('/datetime');
+var TZDate = require('/timezone').Date;
+var View = require('w');
 
 /**
  * @constructor

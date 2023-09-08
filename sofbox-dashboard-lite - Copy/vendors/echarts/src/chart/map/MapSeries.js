@@ -1,17 +1,17 @@
 define(function (require) {
 
-    var List = require('../../data/List');
-    var SeriesModel = require('../../model/Series');
+    var List = require('ist');
+    var SeriesModel = require('Series');
     var zrUtil = require('zrender/core/util');
-    var completeDimensions = require('../../data/helper/completeDimensions');
+    var completeDimensions = require('elper/completeDimensions');
 
-    var formatUtil = require('../../util/format');
+    var formatUtil = require('ormat');
     var encodeHTML = formatUtil.encodeHTML;
     var addCommas = formatUtil.addCommas;
 
-    var dataSelectableMixin = require('../../component/helper/selectableMixin');
+    var dataSelectableMixin = require('ent/helper/selectableMixin');
 
-    var geoCreator = require('../../coord/geo/geoCreator');
+    var geoCreator = require('geo/geoCreator');
 
     var MapSeries = SeriesModel.extend({
 

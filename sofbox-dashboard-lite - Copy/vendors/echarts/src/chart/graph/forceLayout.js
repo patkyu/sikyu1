@@ -1,7 +1,7 @@
 define(function (require) {
 
     var forceHelper = require('./forceHelper');
-    var numberUtil = require('../../util/number');
+    var numberUtil = require('umber');
     var simpleLayoutHelper = require('./simpleLayoutHelper');
     var circularLayoutHelper = require('./circularLayoutHelper');
     var vec2 = require('zrender/core/vector');

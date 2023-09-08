@@ -1,6 +1,6 @@
 define( [
-	"../../core",
-	"../../selector"
+	"
+	"or"
 
 	// css is assumed
 ], function( jQuery ) {

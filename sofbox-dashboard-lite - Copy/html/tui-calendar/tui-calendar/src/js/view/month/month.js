@@ -5,13 +5,13 @@
 'use strict';
 
 var util = require('tui-code-snippet');
-var config = require('../../config'),
-    datetime = require('../../common/datetime'),
-    domutil = require('../../common/domutil'),
-    TZDate = require('../../common/timezone').Date,
-    tmpl = require('../template/month/month.hbs'),
-    View = require('../view'),
-    VLayout = require('../..//common/vlayout'),
+var config = require(''),
+    datetime = require('/datetime'),
+    domutil = require('/domutil'),
+    TZDate = require('/timezone').Date,
+    tmpl = require('plate/month/month.hbs'),
+    View = require('w'),
+    VLayout = require('n/vlayout'),
     WeekdayInMonth = require('./weekdayInMonth');
 var mmin = Math.min;
 

@@ -5,11 +5,11 @@
 'use strict';
 
 var util = require('tui-code-snippet');
-var common = require('../../common/common');
-var datetime = require('../../common/datetime');
-var domevent = require('../../common/domevent');
-var Point = require('../../common/point');
-var TZDate = require('../../common/timezone').Date;
+var common = require('/common');
+var datetime = require('/datetime');
+var domevent = require('/domevent');
+var Point = require('/point');
+var TZDate = require('/timezone').Date;
 
 /**
  * @mixin Time.Core

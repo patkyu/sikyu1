@@ -1,3 +1,3 @@
 
-export * from '../esm/polyfills/index.js';
-export * from '../esm/loader.mjs';
+export * from '/polyfills/index.js';
+export * from '/loader.mjs';

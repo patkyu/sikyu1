@@ -4,7 +4,7 @@
 define(function (require) {
 
     var zrUtil = require('zrender/core/util');
-    var graphic = require('../../util/graphic');
+    var graphic = require('util/graphic');
     var Path = require('zrender/graphic/Path');
 
     var WhiskerPath = Path.extend({

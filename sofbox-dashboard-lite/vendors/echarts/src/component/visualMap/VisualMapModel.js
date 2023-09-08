@@ -5,13 +5,13 @@ define(function(require) {
 
     var zrUtil = require('zrender/core/util');
     var env = require('zrender/core/env');
-    var echarts = require('../../echarts');
-    var modelUtil = require('../../util/model');
-    var visualDefault = require('../../visual/visualDefault');
-    var VisualMapping = require('../../visual/VisualMapping');
+    var echarts = require('echarts');
+    var modelUtil = require('util/model');
+    var visualDefault = require('visual/visualDefault');
+    var VisualMapping = require('visual/VisualMapping');
     var mapVisual = VisualMapping.mapVisual;
     var eachVisual = VisualMapping.eachVisual;
-    var numberUtil = require('../../util/number');
+    var numberUtil = require('util/number');
     var isArray = zrUtil.isArray;
     var each = zrUtil.each;
     var asc = numberUtil.asc;

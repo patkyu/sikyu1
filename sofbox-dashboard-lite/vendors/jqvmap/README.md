@@ -16,11 +16,11 @@ To get started, all you need to do is include the JavaScript and CSS files for t
 <html>
   <head>
     <title>JQVMap - World Map</title>
-    <link href="../dist/jqvmap.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="dist/jqvmap.css" media="screen" rel="stylesheet" type="text/css">
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="../dist/jquery.vmap.js"></script>
-    <script type="text/javascript" src="../dist/maps/jquery.vmap.world.js" charset="utf-8"></script>
+    <script type="text/javascript" src="dist/jquery.vmap.js"></script>
+    <script type="text/javascript" src="dist/maps/jquery.vmap.world.js" charset="utf-8"></script>
 
     <script type="text/javascript">
     jQuery(document).ready(function() {

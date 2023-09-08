@@ -1,9 +1,9 @@
 define(function (require) {
 
     var RibbonPath = require('./Ribbon');
-    var graphic = require('../../util/graphic');
+    var graphic = require('util/graphic');
 
-    return require('../../echarts').extendChartView({
+    return require('echarts').extendChartView({
 
         type: 'chord',
 

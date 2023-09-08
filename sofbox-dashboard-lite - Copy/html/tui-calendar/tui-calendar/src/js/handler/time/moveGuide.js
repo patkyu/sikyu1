@@ -5,16 +5,16 @@
 'use strict';
 
 var util = require('tui-code-snippet');
-var config = require('../../config');
-var domutil = require('../../common/domutil');
-var reqAnimFrame = require('../../common/reqAnimFrame');
-var ratio = require('../../common/common').ratio;
-var FloatingLayer = require('../../common/floatingLayer');
-var tmpl = require('../../view/template/week/timeMoveGuide.hbs');
-var TZDate = require('../../common/timezone').Date;
-var Schedule = require('../../model/schedule');
-var datetime = require('../../common/datetime');
-var common = require('../../common/common');
+var config = require('');
+var domutil = require('/domutil');
+var reqAnimFrame = require('/reqAnimFrame');
+var ratio = require('/common').ratio;
+var FloatingLayer = require('/floatingLayer');
+var tmpl = require('emplate/week/timeMoveGuide.hbs');
+var TZDate = require('/timezone').Date;
+var Schedule = require('schedule');
+var datetime = require('/datetime');
+var common = require('/common');
 
 var SCHEDULE_MIN_DURATION = datetime.MILLISECONDS_SCHEDULE_MIN_DURATION;
 

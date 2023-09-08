@@ -44,7 +44,7 @@
 // +------------------+---------------+------------------------------+--------+
 
 // Exmaples
-// .../prettify.js?lang=css&skin=sunburst
+// .ttify.js?lang=css&skin=sunburst
 //   1. Loads the CSS language handler which can be used to prettify CSS
 //      stylesheets, HTML <style> element bodies and style="..." attributes
 //      values.
@@ -465,7 +465,7 @@ var IN_GLOBAL_SCOPE = false;
        * Given a group of {@link RegExp}s, returns a {@code RegExp} that globally
        * matches the union of the sets of strings matched by the input RegExp.
        * Since it matches globally, if the input strings have a start-of-input
-       * anchor (/^.../), it is ignored for the purposes of unioning.
+       * anchor (/^.it is ignored for the purposes of unioning.
        * @param {Array.<RegExp>} regexs non multiline, non-global regexs.
        * @return {RegExp} a global regex.
        */

@@ -10,7 +10,7 @@ etpl.config({
 
 var mode = argv.m || 'all';
 var configPath = mode === 'all' ? 'config/echarts.js' : 'config/echarts.' + mode + '.js';
-var outPath = mode === 'all' ? '../dist/echarts.js' : '../dist/echarts.' + mode + '.js';
+var outPath = mode === 'all' ? 't/echarts.js' : 'discharts.' + mode + '.js';
 
 var config = eval('(' + fs.readFileSync(configPath, 'utf-8') + ')');
 var mainCode = fs.readFileSync(outPath, 'utf-8');

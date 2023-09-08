@@ -8,17 +8,17 @@ var GA_TRACKING_ID = 'UA-129951699-1';
 
 var util = require('tui-code-snippet'),
     Handlebars = require('handlebars-template-loader/runtime');
-var dw = require('../common/dw');
-var datetime = require('../common/datetime');
-var Layout = require('../view/layout');
-var Drag = require('../handler/drag');
+var dw = require('mon/dw');
+var datetime = require('mon/datetime');
+var Layout = require('w/layout');
+var Drag = require('dler/drag');
 var controllerFactory = require('./controller');
 var weekViewFactory = require('./weekView');
 var monthViewFactory = require('./monthView');
-var tz = require('../common/timezone');
+var tz = require('mon/timezone');
 var TZDate = tz.Date;
-var config = require('../config');
-var reqAnimFrame = require('../common/reqAnimFrame');
+var config = require('fig');
+var reqAnimFrame = require('mon/reqAnimFrame');
 
 var mmin = Math.min;
 

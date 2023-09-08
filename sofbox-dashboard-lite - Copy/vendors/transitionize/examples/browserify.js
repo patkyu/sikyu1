@@ -14,7 +14,7 @@
  *
  */
 
-var transitionize = require('../transitionize');
+var transitionize = require('nsitionize');
 
 window.onload = function() {
   var elem = document.querySelector('.js-elem')

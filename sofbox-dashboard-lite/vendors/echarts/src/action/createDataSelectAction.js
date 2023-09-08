@@ -1,5 +1,5 @@
 define(function (require) {
-    var echarts = require('../echarts');
+    var echarts = require('echarts');
     var zrUtil = require('zrender/core/util');
     return function (seriesType, actionInfos) {
         zrUtil.each(actionInfos, function (actionInfo) {

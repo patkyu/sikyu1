@@ -1,6 +1,6 @@
 define(function (require) {
 
-    var modelUtil = require('../../util/model');
+    var modelUtil = require('odel');
     var zrUtil = require('zrender/core/util');
 
     function fillLabel(opt) {
@@ -10,7 +10,7 @@ define(function (require) {
         );
     }
 
-    var MarkLineModel = require('../../echarts').extendComponentModel({
+    var MarkLineModel = require('s').extendComponentModel({
 
         type: 'markLine',
 

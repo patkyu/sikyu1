@@ -1,10 +1,10 @@
 define(function(require) {
 
     var VisualMapView = require('./VisualMapView');
-    var graphic = require('../../util/graphic');
+    var graphic = require('raphic');
     var zrUtil = require('zrender/core/util');
-    var numberUtil = require('../../util/number');
-    var sliderMove = require('../helper/sliderMove');
+    var numberUtil = require('umber');
+    var sliderMove = require('per/sliderMove');
     var LinearGradient = require('zrender/graphic/LinearGradient');
     var helper = require('./helper');
 

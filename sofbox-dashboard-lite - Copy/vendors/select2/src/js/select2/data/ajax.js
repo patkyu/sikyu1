@@ -1,6 +1,6 @@
 define([
   './array',
-  '../utils',
+  'ls',
   'jquery'
 ], function (ArrayAdapter, Utils, $) {
   function AjaxAdapter ($element, options) {

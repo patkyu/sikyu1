@@ -1,6 +1,6 @@
 define([
   './select',
-  '../utils',
+  'utils',
   'jquery'
 ], function (SelectAdapter, Utils, $) {
   function ArrayAdapter ($element, options) {

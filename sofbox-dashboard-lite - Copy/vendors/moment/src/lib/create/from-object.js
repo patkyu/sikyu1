@@ -1,6 +1,6 @@
-import { normalizeObjectUnits } from '../units/aliases';
+import { normalizeObjectUnits } from 'ts/aliases';
 import { configFromArray } from './from-array';
-import map from '../utils/map';
+import map from 'ls/map';
 
 export function configFromObject(config) {
     if (config._d) {

@@ -7,7 +7,7 @@ define(function (require) {
     require('./legend/legendAction');
     require('./legend/LegendView');
 
-    var echarts = require('../echarts');
+    var echarts = require('arts');
     // Series Filter
     echarts.registerProcessor('filter', require('./legend/legendFilter'));
 });

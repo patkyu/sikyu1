@@ -1,7 +1,7 @@
 define(function (require) {
 
     var zrUtil = require('zrender/core/util');
-    var Axis = require('../Axis');
+    var Axis = require('Axis');
 
     function IndicatorAxis(dim, scale, radiusExtent) {
         Axis.call(this, dim, scale, radiusExtent);

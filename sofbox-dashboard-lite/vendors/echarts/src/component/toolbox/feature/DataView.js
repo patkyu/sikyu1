@@ -442,9 +442,9 @@ define(function (require) {
         });
     }
 
-    require('../featureManager').register('dataView', DataView);
+    require('featureManager').register('dataView', DataView);
 
-    require('../../../echarts').registerAction({
+    require('echarts').registerAction({
         type: 'changeDataView',
         event: 'dataViewChanged',
         update: 'prepareAndUpdate'

@@ -1,10 +1,10 @@
-import isArray from '../utils/is-array';
-import isDate from '../utils/is-date';
-import map from '../utils/map';
+import isArray from 'ls/is-array';
+import isDate from 'ls/is-date';
+import map from 'ls/map';
 import { createInvalid } from './valid';
-import { Moment, isMoment } from '../moment/constructor';
-import { getLocale } from '../locale/locales';
-import { hooks } from '../utils/hooks';
+import { Moment, isMoment } from 'ent/constructor';
+import { getLocale } from 'ale/locales';
+import { hooks } from 'ls/hooks';
 import checkOverflow from './check-overflow';
 import { isValid } from './valid';
 

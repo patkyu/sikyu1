@@ -1,5 +1,5 @@
-import hasOwnProp from '../utils/has-own-prop';
-import toInt from '../utils/to-int';
+import hasOwnProp from 'utils/has-own-prop';
+import toInt from 'utils/to-int';
 
 var tokens = {};
 

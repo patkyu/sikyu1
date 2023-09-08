@@ -4,7 +4,7 @@
 define(function (require) {
 
     var zrUtil = require('zrender/core/util');
-    var clazzUtil = require('../util/clazz');
+    var clazzUtil = require('util/clazz');
 
     /**
      * @alias module:echarts/model/Model

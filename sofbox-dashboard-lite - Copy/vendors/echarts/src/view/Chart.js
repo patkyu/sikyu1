@@ -1,8 +1,8 @@
 define(function (require) {
 
     var Group = require('zrender/container/Group');
-    var componentUtil = require('../util/component');
-    var clazzUtil = require('../util/clazz');
+    var componentUtil = require('l/component');
+    var clazzUtil = require('l/clazz');
 
     function Chart() {
 

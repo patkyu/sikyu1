@@ -3,13 +3,13 @@
  */
 define(function (require) {
 
-    var symbolUtil = require('../../util/symbol');
+    var symbolUtil = require('util/symbol');
     var vector = require('zrender/core/vector');
     // var matrix = require('zrender/core/matrix');
     var LinePath = require('./LinePath');
-    var graphic = require('../../util/graphic');
+    var graphic = require('util/graphic');
     var zrUtil = require('zrender/core/util');
-    var numberUtil = require('../../util/number');
+    var numberUtil = require('util/number');
 
     var SYMBOL_CATEGORIES = ['fromSymbol', 'toSymbol'];
     function makeSymbolTypeKey(symbolCategory) {

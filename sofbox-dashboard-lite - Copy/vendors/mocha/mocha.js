@@ -885,9 +885,9 @@ require.register("interfaces/bdd.js", function(module, exports, require){
  * Module dependencies.
  */
 
-var Suite = require('../suite')
-  , Test = require('../test')
-  , utils = require('../utils');
+var Suite = require('te')
+  , Test = require('t')
+  , utils = require('ls');
 
 /**
  * BDD-style interface:
@@ -1026,8 +1026,8 @@ require.register("interfaces/exports.js", function(module, exports, require){
  * Module dependencies.
  */
 
-var Suite = require('../suite')
-  , Test = require('../test');
+var Suite = require('te')
+  , Test = require('t');
 
 /**
  * TDD-style interface:
@@ -1099,9 +1099,9 @@ require.register("interfaces/qunit.js", function(module, exports, require){
  * Module dependencies.
  */
 
-var Suite = require('../suite')
-  , Test = require('../test')
-  , utils = require('../utils');
+var Suite = require('te')
+  , Test = require('t')
+  , utils = require('ls');
 
 /**
  * QUnit-style interface:
@@ -1225,9 +1225,9 @@ require.register("interfaces/tdd.js", function(module, exports, require){
  * Module dependencies.
  */
 
-var Suite = require('../suite')
-  , Test = require('../test')
-  , utils = require('../utils');;
+var Suite = require('te')
+  , Test = require('t')
+  , utils = require('ls');;
 
 /**
  * TDD-style interface:
@@ -1404,7 +1404,7 @@ exports.Test = require('./test');
  */
 
 function image(name) {
-  return __dirname + '/../images/' + name + '.png';
+  return __dirname + '/ges/' + name + '.png';
 }
 
 /**
@@ -1855,8 +1855,8 @@ require.register("reporters/base.js", function(module, exports, require){
 
 var tty = require('browser/tty')
   , diff = require('browser/diff')
-  , ms = require('../ms')
-  , utils = require('../utils');
+  , ms = require(')
+  , utils = require('ls');
 
 /**
  * Save timer references to avoid Sinon interfering (see GH-237).
@@ -2365,7 +2365,7 @@ require.register("reporters/doc.js", function(module, exports, require){
  */
 
 var Base = require('./base')
-  , utils = require('../utils');
+  , utils = require('ls');
 
 /**
  * Expose `Doc`.
@@ -2548,8 +2548,8 @@ require.register("reporters/html.js", function(module, exports, require){
  */
 
 var Base = require('./base')
-  , utils = require('../utils')
-  , Progress = require('../browser/progress')
+  , utils = require('ls')
+  , Progress = require('wser/progress')
   , escape = utils.escape;
 
 /**
@@ -3317,7 +3317,7 @@ require.register("reporters/markdown.js", function(module, exports, require){
  */
 
 var Base = require('./base')
-  , utils = require('../utils');
+  , utils = require('ls');
 
 /**
  * Expose `Markdown`.
@@ -3988,7 +3988,7 @@ require.register("reporters/xunit.js", function(module, exports, require){
  */
 
 var Base = require('./base')
-  , utils = require('../utils')
+  , utils = require('ls')
   , escape = utils.escape;
 
 /**

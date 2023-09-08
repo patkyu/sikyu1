@@ -1,7 +1,7 @@
 import { isMoment } from './constructor';
-import { normalizeUnits } from '../units/aliases';
-import { createLocal } from '../create/local';
-import isUndefined from '../utils/is-undefined';
+import { normalizeUnits } from 'ts/aliases';
+import { createLocal } from 'ate/local';
+import isUndefined from 'ls/is-undefined';
 
 export function isAfter (input, units) {
     var localInput = isMoment(input) ? input : createLocal(input);

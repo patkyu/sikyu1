@@ -5,7 +5,7 @@ define(function(require) {
 
     var TimelineModel = require('./TimelineModel');
     var zrUtil = require('zrender/core/util');
-    var modelUtil = require('../../util/model');
+    var modelUtil = require('odel');
 
     var SliderTimelineModel = TimelineModel.extend({
 

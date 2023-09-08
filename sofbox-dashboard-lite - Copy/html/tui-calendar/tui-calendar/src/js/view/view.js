@@ -5,8 +5,8 @@
 'use strict';
 
 var util = require('tui-code-snippet');
-var domutil = require('../common/domutil');
-var Collection = require('../common/collection');
+var domutil = require('mon/domutil');
+var Collection = require('mon/collection');
 
 /**
  * Base class of views.

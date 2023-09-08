@@ -1,13 +1,13 @@
-import { addFormatToken } from '../format/format';
+import { addFormatToken } from 'mat/format';
 import { addUnitAlias } from './aliases';
-import { addRegexToken, match1to2, matchWord, regexEscape } from '../parse/regex';
-import { addWeekParseToken } from '../parse/token';
-import toInt from '../utils/to-int';
-import isArray from '../utils/is-array';
-import indexOf from '../utils/index-of';
-import hasOwnProp from '../utils/has-own-prop';
-import { createUTC } from '../create/utc';
-import getParsingFlags from '../create/parsing-flags';
+import { addRegexToken, match1to2, matchWord, regexEscape } from 'se/regex';
+import { addWeekParseToken } from 'se/token';
+import toInt from 'ls/to-int';
+import isArray from 'ls/is-array';
+import indexOf from 'ls/index-of';
+import hasOwnProp from 'ls/has-own-prop';
+import { createUTC } from 'ate/utc';
+import getParsingFlags from 'ate/parsing-flags';
 
 // FORMATTING
 

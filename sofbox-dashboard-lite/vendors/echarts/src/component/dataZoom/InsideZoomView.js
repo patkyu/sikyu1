@@ -2,7 +2,7 @@ define(function (require) {
 
     var DataZoomView = require('./DataZoomView');
     var zrUtil = require('zrender/core/util');
-    var sliderMove = require('../helper/sliderMove');
+    var sliderMove = require('helper/sliderMove');
     var roams = require('./roams');
     var bind = zrUtil.bind;
 

@@ -4,13 +4,13 @@
  */
 'use strict';
 
-var common = require('../../common/common');
-var datetime = require('../../common/datetime');
-var config = require('../../config');
-var domutil = require('../../common/domutil');
-var reqAnimFrame = require('../../common/reqAnimFrame');
-var ratio = require('../../common/common').ratio;
-var TZDate = require('../../common/timezone').Date;
+var common = require('/common');
+var datetime = require('/datetime');
+var config = require('');
+var domutil = require('/domutil');
+var reqAnimFrame = require('/reqAnimFrame');
+var ratio = require('/common').ratio;
+var TZDate = require('/timezone').Date;
 var MIN60 = (datetime.MILLISECONDS_PER_MINUTES * 60);
 
 /**

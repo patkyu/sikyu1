@@ -3,10 +3,10 @@
  */
 define(function (require) {
 
-    var graphic = require('../../util/graphic');
+    var graphic = require('raphic');
     var Line = require('./Line');
     var zrUtil = require('zrender/core/util');
-    var symbolUtil = require('../../util/symbol');
+    var symbolUtil = require('ymbol');
 
     var curveUtil = require('zrender/core/curve');
 

@@ -8,9 +8,9 @@ define(function(require) {
     var Model = require('./Model');
     var zrUtil = require('zrender/core/util');
     var arrayPush = Array.prototype.push;
-    var componentUtil = require('../util/component');
-    var clazzUtil = require('../util/clazz');
-    var layout = require('../util/layout');
+    var componentUtil = require('l/component');
+    var clazzUtil = require('l/clazz');
+    var layout = require('l/layout');
 
     /**
      * @alias module:echarts/model/Component

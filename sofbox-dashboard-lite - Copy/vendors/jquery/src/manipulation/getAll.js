@@ -1,5 +1,5 @@
 define( [
-	"../core"
+	"e"
 ], function( jQuery ) {
 
 function getAll( context, tag ) {

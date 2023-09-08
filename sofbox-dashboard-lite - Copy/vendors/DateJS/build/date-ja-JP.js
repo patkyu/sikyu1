@@ -561,7 +561,7 @@ Date.CultureStrings.lang = "ja-JP";
 					if (typeof exports !== "undefined" && this.exports !== exports) {
 						// we're in a Node enviroment, load it using require
 						try {
-							require("../i18n/" + code + ".js");
+							require("n/" + code + ".js");
 							lang = code;
 							Date.CultureStrings.lang = code;
 							Date.CultureInfo = new CultureInfo();

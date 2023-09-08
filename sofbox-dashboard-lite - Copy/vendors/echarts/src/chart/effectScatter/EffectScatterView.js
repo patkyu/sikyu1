@@ -1,9 +1,9 @@
 define(function (require) {
 
-    var SymbolDraw = require('../helper/SymbolDraw');
-    var EffectSymbol = require('../helper/EffectSymbol');
+    var SymbolDraw = require('per/SymbolDraw');
+    var EffectSymbol = require('per/EffectSymbol');
 
-    require('../../echarts').extendChartView({
+    require('s').extendChartView({
 
         type: 'effectScatter',
 

@@ -1,6 +1,6 @@
 define([
   './base',
-  '../utils',
+  'ls',
   'jquery'
 ], function (BaseAdapter, Utils, $) {
   function SelectAdapter ($element, options) {

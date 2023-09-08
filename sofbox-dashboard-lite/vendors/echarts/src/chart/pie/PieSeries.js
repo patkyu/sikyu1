@@ -2,14 +2,14 @@ define(function(require) {
 
     'use strict';
 
-    var List = require('../../data/List');
+    var List = require('data/List');
     var zrUtil = require('zrender/core/util');
-    var modelUtil = require('../../util/model');
-    var completeDimensions = require('../../data/helper/completeDimensions');
+    var modelUtil = require('util/model');
+    var completeDimensions = require('data/helper/completeDimensions');
 
-    var dataSelectableMixin = require('../../component/helper/selectableMixin');
+    var dataSelectableMixin = require('component/helper/selectableMixin');
 
-    var PieSeries = require('../../echarts').extendSeriesModel({
+    var PieSeries = require('echarts').extendSeriesModel({
 
         type: 'series.pie',
 

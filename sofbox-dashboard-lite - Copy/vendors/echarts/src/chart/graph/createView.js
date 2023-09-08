@@ -1,7 +1,7 @@
 define(function (require) {
     // FIXME Where to create the simple view coordinate system
-    var View = require('../../coord/View');
-    var layout = require('../../util/layout');
+    var View = require('View');
+    var layout = require('ayout');
     var bbox = require('zrender/core/bbox');
 
     function getViewRect(seriesModel, api, aspect) {

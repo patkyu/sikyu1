@@ -1,7 +1,7 @@
-import { hooks } from '../utils/hooks';
-import hasOwnProp from '../utils/has-own-prop';
-import isUndefined from '../utils/is-undefined';
-import getParsingFlags from '../create/parsing-flags';
+import { hooks } from 'ls/hooks';
+import hasOwnProp from 'ls/has-own-prop';
+import isUndefined from 'ls/is-undefined';
+import getParsingFlags from 'ate/parsing-flags';
 
 // Plugins that add properties should also add the key here (null value),
 // so we can properly clone ourselves.

@@ -1,14 +1,14 @@
 define(function (require) {
 
-    require('../coord/geo/GeoModel');
+    require('coord/geo/GeoModel');
 
-    require('../coord/geo/geoCreator');
+    require('coord/geo/geoCreator');
 
     require('./geo/GeoView');
 
-    require('../action/geoRoam');
+    require('action/geoRoam');
 
-    var echarts = require('../echarts');
+    var echarts = require('echarts');
     var zrUtil = require('zrender/core/util');
 
     function makeAction(method, actionInfo) {

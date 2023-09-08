@@ -1,6 +1,6 @@
 define(function (require) {
 
-    var echarts = require('../echarts');
+    var echarts = require('arts');
     var zrUtil = require('zrender/core/util');
 
     require('./graph/GraphSeries');
@@ -11,7 +11,7 @@ define(function (require) {
     echarts.registerProcessor('filter', require('./graph/categoryFilter'));
 
     echarts.registerVisualCoding('chart', zrUtil.curry(
-        require('../visual/symbol'), 'graph', 'circle', null
+        require('ual/symbol'), 'graph', 'circle', null
     ));
     echarts.registerVisualCoding('chart', require('./graph/categoryVisual'));
     echarts.registerVisualCoding('chart', require('./graph/edgeVisual'));

@@ -4,7 +4,7 @@ define(function (require) {
 
     require('./AxisModel');
 
-    require('../../echarts').extendComponentModel({
+    require('echarts').extendComponentModel({
 
         type: 'polar',
 

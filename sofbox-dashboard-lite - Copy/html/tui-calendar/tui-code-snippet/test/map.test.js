@@ -2,7 +2,7 @@
 
 'use strict';
 
-var Map = require('../src/js/map');
+var Map = require('/js/map');
 
 describe('module:Map', function() {
     var map;

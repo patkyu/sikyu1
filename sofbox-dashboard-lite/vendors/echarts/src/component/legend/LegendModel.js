@@ -3,9 +3,9 @@ define(function(require) {
     'use strict';
 
     var zrUtil = require('zrender/core/util');
-    var Model = require('../../model/Model');
+    var Model = require('model/Model');
 
-    var LegendModel = require('../../echarts').extendComponentModel({
+    var LegendModel = require('echarts').extendComponentModel({
 
         type: 'legend',
 

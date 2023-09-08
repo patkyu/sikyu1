@@ -7,13 +7,13 @@
 var OUT_PADDING = 5;
 var VIEW_MIN_WIDTH = 280;
 var util = require('tui-code-snippet');
-var config = require('../../config'),
-    domevent = require('../../common/domevent'),
-    domutil = require('../../common/domutil'),
-    View = require('../../view/view'),
-    FloatingLayer = require('../../common/floatingLayer'),
-    common = require('../../common/common'),
-    tmpl = require('../template/month/more.hbs');
+var config = require(''),
+    domevent = require('/domevent'),
+    domutil = require('/domutil'),
+    View = require('iew'),
+    FloatingLayer = require('/floatingLayer'),
+    common = require('/common'),
+    tmpl = require('plate/month/more.hbs');
 
 /**
  * @constructor

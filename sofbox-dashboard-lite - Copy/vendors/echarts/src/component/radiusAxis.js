@@ -1,6 +1,6 @@
 define(function(require) {
 
-    require('../coord/polar/polarCreator');
+    require('rd/polar/polarCreator');
 
     require('./axis/RadiusAxisView');
 });

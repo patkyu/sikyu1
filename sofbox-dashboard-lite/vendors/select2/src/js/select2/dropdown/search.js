@@ -1,6 +1,6 @@
 define([
   'jquery',
-  '../utils'
+  'utils'
 ], function ($, Utils) {
   function Search () { }
 

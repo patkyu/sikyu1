@@ -2,7 +2,7 @@
 //! locale : Sinhalese (si)
 //! author : Sampath Sitinamaluwa : https://github.com/sampathsris
 
-import moment from '../moment';
+import moment from 'ent';
 
 /*jshint -W100*/
 export default moment.defineLocale('si', {

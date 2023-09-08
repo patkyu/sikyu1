@@ -5,20 +5,20 @@
 'use strict';
 
 var util = require('tui-code-snippet');
-var config = require('../config'),
-    array = require('../common/array'),
-    datetime = require('../common/datetime'),
-    domutil = require('../common/domutil'),
-    common = require('../common/common'),
-    Month = require('../view/month/month'),
-    MonthClick = require('../handler/month/click'),
-    MonthCreation = require('../handler/month/creation'),
-    MonthResize = require('../handler/month/resize'),
-    MonthMove = require('../handler/month/move'),
-    More = require('../view/month/more'),
-    ScheduleCreationPopup = require('../view/popup/scheduleCreationPopup'),
-    ScheduleDetailPopup = require('../view/popup/scheduleDetailPopup'),
-    Schedule = require('../model/schedule');
+var config = require('fig'),
+    array = require('mon/array'),
+    datetime = require('mon/datetime'),
+    domutil = require('mon/domutil'),
+    common = require('mon/common'),
+    Month = require('w/month/month'),
+    MonthClick = require('dler/month/click'),
+    MonthCreation = require('dler/month/creation'),
+    MonthResize = require('dler/month/resize'),
+    MonthMove = require('dler/month/move'),
+    More = require('w/month/more'),
+    ScheduleCreationPopup = require('w/popup/scheduleCreationPopup'),
+    ScheduleDetailPopup = require('w/popup/scheduleDetailPopup'),
+    Schedule = require('el/schedule');
 
 /**
  * Get the view model for more layer

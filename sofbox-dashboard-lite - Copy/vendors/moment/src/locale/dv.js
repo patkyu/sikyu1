@@ -2,7 +2,7 @@
 //! locale : dhivehi (dv)
 //! author : Jawish Hameed : https://github.com/jawish
 
-import moment from '../moment';
+import moment from 'ent';
 
 var months = [
     'ޖެނުއަރީ',

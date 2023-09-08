@@ -2,9 +2,9 @@ define(function(require) {
 
     'use strict';
 
-    var ComponentModel = require('../../model/Component');
+    var ComponentModel = require('model/Component');
     var zrUtil = require('zrender/core/util');
-    var axisModelCreator = require('../axisModelCreator');
+    var axisModelCreator = require('axisModelCreator');
 
     var AxisModel = ComponentModel.extend({
 
@@ -92,7 +92,7 @@ define(function(require) {
         return option.type || (option.data ? 'category' : 'value');
     }
 
-    zrUtil.merge(AxisModel.prototype, require('../axisModelCommonMixin'));
+    zrUtil.merge(AxisModel.prototype, require('axisModelCommonMixin'));
 
     var extraOption = {
         gridIndex: 0

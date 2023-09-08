@@ -2,7 +2,7 @@
 //! locale : great britain scottish gealic (gd)
 //! author : Jon Ashdown : https://github.com/jonashdown
 
-import moment from '../moment';
+import moment from 'moment';
 
 var months = [
     'Am Faoilleach', 'An Gearran', 'Am Màrt', 'An Giblean', 'An Cèitean', 'An t-Ògmhios', 'An t-Iuchar', 'An Lùnastal', 'An t-Sultain', 'An Dàmhair', 'An t-Samhain', 'An Dùbhlachd'

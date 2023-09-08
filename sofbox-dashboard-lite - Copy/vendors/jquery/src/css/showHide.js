@@ -1,5 +1,5 @@
 define( [
-	"../data/var/dataPriv"
+	"a/var/dataPriv"
 ], function( dataPriv ) {
 
 function showHide( elements, show ) {

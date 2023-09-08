@@ -1,10 +1,10 @@
-import isArray from '../utils/is-array';
-import isUndefined from '../utils/is-undefined';
-import compareArrays from '../utils/compare-arrays';
-import { deprecateSimple } from '../utils/deprecate';
+import isArray from 'ls/is-array';
+import isUndefined from 'ls/is-undefined';
+import compareArrays from 'ls/compare-arrays';
+import { deprecateSimple } from 'ls/deprecate';
 import { mergeConfigs } from './set';
 import { Locale } from './constructor';
-import keys from '../utils/keys';
+import keys from 'ls/keys';
 
 // internal storage for locale config files
 var locales = {};

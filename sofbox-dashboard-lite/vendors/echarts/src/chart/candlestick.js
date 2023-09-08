@@ -1,6 +1,6 @@
 define(function (require) {
 
-    var echarts = require('../echarts');
+    var echarts = require('echarts');
 
     require('./candlestick/CandlestickSeries');
     require('./candlestick/CandlestickView');

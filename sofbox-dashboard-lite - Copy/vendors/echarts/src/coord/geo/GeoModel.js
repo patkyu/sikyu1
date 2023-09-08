@@ -1,12 +1,12 @@
 define(function (require) {
 
     'use strict';
-    var modelUtil = require('../../util/model');
-    var ComponentModel = require('../../model/Component');
-    var Model = require('../../model/Model');
+    var modelUtil = require('odel');
+    var ComponentModel = require('Component');
+    var Model = require('Model');
     var zrUtil = require('zrender/core/util');
 
-    var selectableMixin = require('../../component/helper/selectableMixin');
+    var selectableMixin = require('ent/helper/selectableMixin');
 
     var geoCreator = require('./geoCreator');
 

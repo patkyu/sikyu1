@@ -1,7 +1,7 @@
-import extend from '../utils/extend';
+import extend from 'ls/extend';
 import { createUTC } from './utc';
-import getParsingFlags from '../create/parsing-flags';
-import some from '../utils/some';
+import getParsingFlags from 'ate/parsing-flags';
+import some from 'ls/some';
 
 export function isValid(m) {
     if (m._isValid == null) {

@@ -4,14 +4,14 @@ var esprima = require('esprima');
 
 function run(cb) {
     glob('**/*.js', {
-        cwd: __dirname + '/../src/'
+        cwd: __dirname + '//'
     }, function (err, files) {
         files.forEach(function (filePath) {
             var code = parse(fsExtra.readFileSync(
-                __dirname + '/../src/' + filePath, 'utf-8'));
+                __dirname + '//' + filePath, 'utf-8'));
             code = code.replace(/require\(([\'"])zrender\//g, 'require($1zrender/lib/');
             fsExtra.outputFileSync(
-                __dirname + '/../lib/' + filePath,
+                __dirname + '//' + filePath,
                 code, 'utf-8');
         });
 

@@ -1,7 +1,7 @@
 define(function (require) {
 
     var zrUtil = require('zrender/core/util');
-    var numberUtil = require('../../util/number');
+    var numberUtil = require('util/number');
     var indexOf = zrUtil.indexOf;
 
     function getPrecision(data, valueAxisDim, dataIndex) {

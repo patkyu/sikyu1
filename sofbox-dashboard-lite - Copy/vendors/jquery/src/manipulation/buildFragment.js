@@ -1,5 +1,5 @@
 define( [
-	"../core",
+	"e",
 	"./var/rtagName",
 	"./var/rscriptType",
 	"./wrapMap",

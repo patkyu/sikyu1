@@ -1,10 +1,10 @@
 define(function(require) {
 
-    var ComponentModel = require('../../model/Component');
+    var ComponentModel = require('model/Component');
     var zrUtil = require('zrender/core/util');
-    var makeStyleMapper = require('../../model/mixin/makeStyleMapper');
-    var axisModelCreator = require('../axisModelCreator');
-    var numberUtil = require('../../util/number');
+    var makeStyleMapper = require('model/mixin/makeStyleMapper');
+    var axisModelCreator = require('axisModelCreator');
+    var numberUtil = require('util/number');
 
     var AxisModel = ComponentModel.extend({
 
@@ -108,7 +108,7 @@ define(function(require) {
         z: 10
     };
 
-    zrUtil.merge(AxisModel.prototype, require('../axisModelCommonMixin'));
+    zrUtil.merge(AxisModel.prototype, require('axisModelCommonMixin'));
 
     function getAxisType(axisName, option) {
         return option.type || (option.data ? 'category' : 'value');

@@ -2,13 +2,13 @@ define(function (require) {
 
     var featureManager = require('./featureManager');
     var zrUtil = require('zrender/core/util');
-    var graphic = require('../../util/graphic');
-    var Model = require('../../model/Model');
-    var DataDiffer = require('../../data/DataDiffer');
-    var listComponentHelper = require('../helper/listComponent');
+    var graphic = require('raphic');
+    var Model = require('Model');
+    var DataDiffer = require('ataDiffer');
+    var listComponentHelper = require('per/listComponent');
     var textContain = require('zrender/contain/text');
 
-    return require('../../echarts').extendComponentView({
+    return require('s').extendComponentView({
 
         type: 'toolbox',
 

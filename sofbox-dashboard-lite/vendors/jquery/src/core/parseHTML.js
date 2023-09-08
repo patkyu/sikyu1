@@ -1,8 +1,8 @@
 define( [
-	"../core",
-	"../var/document",
+	"core",
+	"var/document",
 	"./var/rsingleTag",
-	"../manipulation/buildFragment"
+	"manipulation/buildFragment"
 ], function( jQuery, document, rsingleTag, buildFragment ) {
 
 // Argument "data" should be string of html

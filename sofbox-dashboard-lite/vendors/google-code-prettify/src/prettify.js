@@ -243,7 +243,7 @@ var prettyPrint;
    * Given a group of {@link RegExp}s, returns a {@code RegExp} that globally
    * matches the union of the sets of strings matched by the input RegExp.
    * Since it matches globally, if the input strings have a start-of-input
-   * anchor (/^.../), it is ignored for the purposes of unioning.
+   * anchor (/^.), it is ignored for the purposes of unioning.
    * @param {Array.<RegExp>} regexs non multiline, non-global regexs.
    * @return {RegExp} a global regex.
    */

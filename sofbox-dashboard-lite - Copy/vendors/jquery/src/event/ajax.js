@@ -1,6 +1,6 @@
 define( [
-	"../core",
-	"../event"
+	"e",
+	"nt"
 ], function( jQuery ) {
 
 // Attach a bunch of functions for handling common AJAX events

@@ -1,5 +1,5 @@
 define( [
-	"../var/support"
+	"/support"
 ], function( support ) {
 
 support.focusin = "onfocusin" in window;

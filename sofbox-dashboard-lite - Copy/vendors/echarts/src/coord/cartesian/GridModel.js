@@ -5,7 +5,7 @@ define(function(require) {
     'use strict';
 
     require('./AxisModel');
-    var ComponentModel = require('../../model/Component');
+    var ComponentModel = require('Component');
 
     return ComponentModel.extend({
 

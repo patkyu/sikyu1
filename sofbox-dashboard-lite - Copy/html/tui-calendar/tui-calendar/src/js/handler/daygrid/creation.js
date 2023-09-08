@@ -5,14 +5,14 @@
 'use strict';
 
 var util = require('tui-code-snippet');
-var config = require('../../config');
-var datetime = require('../../common/datetime');
-var common = require('../../common/common');
-var domutil = require('../../common/domutil');
-var domevent = require('../../common/domevent');
+var config = require('');
+var datetime = require('/datetime');
+var common = require('/common');
+var domutil = require('/domutil');
+var domevent = require('/domevent');
 var dayGridCore = require('./core');
 var DayGridCreationGuide = require('./creationGuide');
-var TZDate = require('../../common/timezone').Date;
+var TZDate = require('/timezone').Date;
 
 var CLICK_DELAY = 300;
 

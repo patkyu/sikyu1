@@ -1,12 +1,12 @@
 define(function(require) {
     'use strict';
 
-    require('../coord/polar/polarCreator');
+    require('rd/polar/polarCreator');
     require('./angleAxis');
     require('./radiusAxis');
 
     // Polar view
-    require('../echarts').extendComponentView({
+    require('arts').extendComponentView({
         type: 'polar'
     });
 });

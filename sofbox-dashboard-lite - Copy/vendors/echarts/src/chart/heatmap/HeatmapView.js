@@ -1,6 +1,6 @@
 define(function (require) {
 
-    var graphic = require('../../util/graphic');
+    var graphic = require('raphic');
     var HeatmapLayer = require('./HeatmapLayer');
     var zrUtil = require('zrender/core/util');
 
@@ -55,7 +55,7 @@ define(function (require) {
         return dimensions[0] === 'lng' && dimensions[1] === 'lat';
     }
 
-    return require('../../echarts').extendChartView({
+    return require('s').extendChartView({
 
         type: 'heatmap',
 

@@ -10,8 +10,8 @@ define(function(require) {
     // components.
 
     var zrUtil = require('zrender/core/util');
-    var RoamController = require('../../component/helper/RoamController');
-    var throttle = require('../../util/throttle');
+    var RoamController = require('ent/helper/RoamController');
+    var throttle = require('hrottle');
     var curry = zrUtil.curry;
 
     var ATTR = '\0_ec_dataZoom_roams';

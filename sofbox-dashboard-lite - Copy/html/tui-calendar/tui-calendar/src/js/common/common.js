@@ -6,9 +6,9 @@
 
 var util = require('tui-code-snippet');
 
-var domutil = require('../common/domutil'),
-    Collection = require('../common/collection');
-var datetime = require('../common/datetime');
+var domutil = require('mon/domutil'),
+    Collection = require('mon/collection');
+var datetime = require('mon/datetime');
 
 /**
  * Default schedule id getter for collection

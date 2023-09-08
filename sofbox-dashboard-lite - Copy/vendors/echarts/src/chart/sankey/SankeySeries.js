@@ -2,8 +2,8 @@ define(function (require) {
 
     'use strict';
 
-    var SeriesModel = require('../../model/Series');
-    var createGraphFromNodeEdge = require('../helper/createGraphFromNodeEdge');
+    var SeriesModel = require('Series');
+    var createGraphFromNodeEdge = require('per/createGraphFromNodeEdge');
 
     var SankeySeries = SeriesModel.extend({
 

@@ -1,11 +1,11 @@
 define(function (require) {
 
-    var poly = require('../line/poly');
-    var graphic = require('../../util/graphic');
+    var poly = require('e/poly');
+    var graphic = require('raphic');
     var zrUtil = require('zrender/core/util');
-    var DataDiffer = require('../../data/DataDiffer');
+    var DataDiffer = require('ataDiffer');
 
-    return require('../../echarts').extendChartView({
+    return require('s').extendChartView({
 
         type: 'themeRiver',
 

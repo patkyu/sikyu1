@@ -5,9 +5,9 @@
 'use strict';
 
 var util = require('tui-code-snippet');
-var config = require('../../config'),
-    datetime = require('../../common/datetime'),
-    domutil = require('../../common/domutil');
+var config = require(''),
+    datetime = require('/datetime'),
+    domutil = require('/domutil');
 
 /**
  * @constructor

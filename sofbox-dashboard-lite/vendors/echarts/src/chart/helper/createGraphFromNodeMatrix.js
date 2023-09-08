@@ -1,10 +1,10 @@
 define(function (require) {
 
-    var List = require('../../data/List');
-    var Graph = require('../../data/Graph');
-    var linkList = require('../../data/helper/linkList');
-    var completeDimensions = require('../../data/helper/completeDimensions');
-    var CoordinateSystem = require('../../CoordinateSystem');
+    var List = require('data/List');
+    var Graph = require('data/Graph');
+    var linkList = require('data/helper/linkList');
+    var completeDimensions = require('data/helper/completeDimensions');
+    var CoordinateSystem = require('CoordinateSystem');
     var zrUtil = require('zrender/core/util');
     var createListFromArray = require('./createListFromArray');
 

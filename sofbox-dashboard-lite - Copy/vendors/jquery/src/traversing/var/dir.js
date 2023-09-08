@@ -1,5 +1,5 @@
 define( [
-	"../../core"
+	"
 ], function( jQuery ) {
 
 return function( elem, dir, until ) {

@@ -1,7 +1,7 @@
 define(function (require) {
 
     var zrUtil = require('zrender/core/util');
-    var graphic = require('../../util/graphic');
+    var graphic = require('util/graphic');
     var AxisBuilder = require('./AxisBuilder');
     var ifIgnoreOnTick = AxisBuilder.ifIgnoreOnTick;
     var getInterval = AxisBuilder.getInterval;
@@ -13,7 +13,7 @@ define(function (require) {
         'splitLine', 'splitArea'
     ];
 
-    var AxisView = require('../../echarts').extendComponentView({
+    var AxisView = require('echarts').extendComponentView({
 
         type: 'axis',
 

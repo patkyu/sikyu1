@@ -1,7 +1,7 @@
 define(function (require) {
 
     var zrUtil = require('zrender/core/util');
-    var Axis = require('../Axis');
+    var Axis = require('Axis');
 
     /**
      * @constructor module:echarts/coord/parallel/ParallelAxis

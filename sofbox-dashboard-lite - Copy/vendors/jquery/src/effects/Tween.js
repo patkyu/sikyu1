@@ -1,6 +1,6 @@
 define( [
-	"../core",
-	"../css"
+	"e",
+	""
 ], function( jQuery ) {
 
 function Tween( elem, options, prop, end, easing ) {

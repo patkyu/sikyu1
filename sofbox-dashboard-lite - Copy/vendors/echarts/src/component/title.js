@@ -2,9 +2,9 @@ define(function(require) {
 
     'use strict';
 
-    var echarts = require('../echarts');
-    var graphic = require('../util/graphic');
-    var layout = require('../util/layout');
+    var echarts = require('arts');
+    var graphic = require('l/graphic');
+    var layout = require('l/layout');
 
     // Model
     echarts.extendComponentModel({

@@ -1,8 +1,8 @@
 define([
   'jquery',
   './base',
-  '../utils',
-  '../keys'
+  'ls',
+  's'
 ], function ($, BaseSelection, Utils, KEYS) {
   function SingleSelection () {
     SingleSelection.__super__.constructor.apply(this, arguments);

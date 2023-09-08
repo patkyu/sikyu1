@@ -1,6 +1,6 @@
 define(function (require) {
 
-    var VisualMapping = require('../../visual/VisualMapping');
+    var VisualMapping = require('/VisualMapping');
 
     return function (ecModel, payload) {
         ecModel.eachSeriesByType('sankey', function (seriesModel) {

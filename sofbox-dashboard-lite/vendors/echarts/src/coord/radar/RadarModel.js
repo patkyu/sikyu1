@@ -1,12 +1,12 @@
 define(function (require) {
 
 
-    var axisDefault = require('../axisDefault');
+    var axisDefault = require('axisDefault');
     var valueAxisDefault = axisDefault.valueAxis;
-    var Model = require('../../model/Model');
+    var Model = require('model/Model');
     var zrUtil = require('zrender/core/util');
 
-    var axisModelCommonMixin = require('../axisModelCommonMixin');
+    var axisModelCommonMixin = require('axisModelCommonMixin');
 
     function defaultsShow(opt, show) {
         return zrUtil.defaults({
@@ -14,7 +14,7 @@ define(function (require) {
         }, opt);
     }
 
-    var RadarModel = require('../../echarts').extendComponentModel({
+    var RadarModel = require('echarts').extendComponentModel({
 
         type: 'radar',
 

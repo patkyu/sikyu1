@@ -2,11 +2,11 @@ define(function (require) {
 
     var zrUtil = require('zrender/core/util');
     var AxisBuilder = require('./AxisBuilder');
-    var SelectController = require('../helper/SelectController');
+    var SelectController = require('helper/SelectController');
 
     var elementList = ['axisLine', 'axisLabel', 'axisTick', 'axisName'];
 
-    var AxisView = require('../../echarts').extendComponentView({
+    var AxisView = require('echarts').extendComponentView({
 
         type: 'parallelAxis',
 

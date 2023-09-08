@@ -2,7 +2,7 @@ define(function(require) {
 
     var VisualMapModel = require('./VisualMapModel');
     var zrUtil = require('zrender/core/util');
-    var VisualMapping = require('../../visual/VisualMapping');
+    var VisualMapping = require('/VisualMapping');
 
     var PiecewiseModel = VisualMapModel.extend({
 

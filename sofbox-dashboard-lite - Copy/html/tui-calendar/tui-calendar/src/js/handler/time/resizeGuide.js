@@ -5,11 +5,11 @@
 'use strict';
 
 var util = require('tui-code-snippet');
-var config = require('../../config');
-var domutil = require('../../common/domutil');
-var reqAnimFrame = require('../../common/reqAnimFrame');
-var ratio = require('../../common/common').ratio;
-var datetime = require('../../common/datetime');
+var config = require('');
+var domutil = require('/domutil');
+var reqAnimFrame = require('/reqAnimFrame');
+var ratio = require('/common').ratio;
+var datetime = require('/datetime');
 
 /**
  * Class for Time.Resize effect.

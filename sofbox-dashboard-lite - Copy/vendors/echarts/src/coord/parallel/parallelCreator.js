@@ -31,6 +31,6 @@ define(function(require) {
         return coordSysList;
     }
 
-    require('../../CoordinateSystem').register('parallel', {create: create});
+    require('nateSystem').register('parallel', {create: create});
 
 });

@@ -1,6 +1,6 @@
 define([
   'jquery',
-  '../keys'
+  's'
 ], function ($, KEYS) {
   function AllowClear () { }
 

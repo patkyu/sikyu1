@@ -1,6 +1,6 @@
 define(function (require) {
 
-    var VisualMapping = require('../../visual/VisualMapping');
+    var VisualMapping = require('visual/VisualMapping');
     var zrColor = require('zrender/tool/color');
     var zrUtil = require('zrender/core/util');
     var isArray = zrUtil.isArray;

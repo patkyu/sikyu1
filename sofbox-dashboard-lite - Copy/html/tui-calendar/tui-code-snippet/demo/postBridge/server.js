@@ -17,7 +17,7 @@ app.use(serveStatic(__dirname + '/public', {
 
 // serving script file
 app.get('/code-snippet.js', function(req, res) {
-    fs.createReadStream('../../code-snippet.js').pipe(res);
+    fs.createReadStream('nippet.js').pipe(res);
 });
 
 // post target

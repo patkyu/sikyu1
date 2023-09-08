@@ -1,6 +1,6 @@
 'use strict';
 
-var request = require('../src/js/request');
+var request = require('/js/request');
 
 describe('module:request', function() {
     describe('imagePing', function() {

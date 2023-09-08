@@ -1,9 +1,9 @@
-import { addFormatToken } from '../format/format';
+import { addFormatToken } from 'mat/format';
 import { addUnitAlias } from './aliases';
-import { addRegexToken, match1 } from '../parse/regex';
-import { addParseToken } from '../parse/token';
+import { addRegexToken, match1 } from 'se/regex';
+import { addParseToken } from 'se/token';
 import { MONTH } from './constants';
-import toInt from '../utils/to-int';
+import toInt from 'ls/to-int';
 
 // FORMATTING
 

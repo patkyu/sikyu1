@@ -1,6 +1,6 @@
 define(function (require) {
 
-    var echarts = require('../echarts');
+    var echarts = require('arts');
 
     require('./treemap/TreemapSeries');
     require('./treemap/TreemapView');

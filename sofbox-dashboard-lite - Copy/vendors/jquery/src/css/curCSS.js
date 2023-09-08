@@ -1,10 +1,10 @@
 define( [
-	"../core",
+	"e",
 	"./var/rnumnonpx",
 	"./var/rmargin",
 	"./var/getStyles",
 	"./support",
-	"../selector" // Get jQuery.contains
+	"ector" // Get jQuery.contains
 ], function( jQuery, rnumnonpx, rmargin, getStyles, support ) {
 
 function curCSS( elem, name, computed ) {

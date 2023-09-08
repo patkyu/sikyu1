@@ -1,7 +1,7 @@
 define(function (require) {
 
-    var layout = require('../../util/layout');
-    var number = require('../../util/number');
+    var layout = require('ayout');
+    var number = require('umber');
 
     var parsePercent = number.parsePercent;
 

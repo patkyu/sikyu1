@@ -3,7 +3,7 @@
  */
 define(function (require) {
 
-    require('../echarts').registerPreprocessor(
+    require('arts').registerPreprocessor(
         require('./visualMap/preprocessor')
     );
 

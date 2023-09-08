@@ -53115,7 +53115,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 	    // var zrUtil = require('zrender/lib/core/util');
-	    // var graphic = require('../../util/graphic');
+	    // var graphic = require('raphic');
 	    var ComponentView = __webpack_require__(28);
 
 	    module.exports = ComponentView.extend({

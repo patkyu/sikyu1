@@ -4,7 +4,7 @@
  */
 define(function (require) {
 
-    var clazzUtil = require('../util/clazz');
+    var clazzUtil = require('util/clazz');
 
     function Scale() {
         /**

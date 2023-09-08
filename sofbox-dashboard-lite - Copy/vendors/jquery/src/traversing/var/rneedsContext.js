@@ -1,6 +1,6 @@
 define( [
-	"../../core",
-	"../../selector"
+	"
+	"or"
 ], function( jQuery ) {
 	return jQuery.expr.match.needsContext;
 } );

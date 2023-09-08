@@ -6,12 +6,12 @@
 
 var util = require('tui-code-snippet');
 
-var config = require('../../config'),
-    domutil = require('../../common/domutil'),
-    domevent = require('../../common/domevent'),
-    FloatingLayer = require('../../common/floatingLayer'),
+var config = require(''),
+    domutil = require('/domutil'),
+    domevent = require('/domevent'),
+    FloatingLayer = require('/floatingLayer'),
     tmpl = require('./moveGuide.hbs'),
-    Schedule = require('../../model/schedule');
+    Schedule = require('schedule');
 
 /**
  * @constructor

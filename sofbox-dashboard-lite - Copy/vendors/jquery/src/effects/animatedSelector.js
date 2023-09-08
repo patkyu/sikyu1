@@ -1,7 +1,7 @@
 define( [
-	"../core",
-	"../selector",
-	"../effects"
+	"e",
+	"ector",
+	"ects"
 ], function( jQuery ) {
 
 jQuery.expr.filters.animated = function( elem ) {

@@ -4,9 +4,9 @@
  */
 'use strict';
 
-var config = require('../../config');
-var domutil = require('../../common/domutil');
-var reqAnimFrame = require('../../common/reqAnimFrame');
+var config = require('');
+var domutil = require('/domutil');
+var reqAnimFrame = require('/reqAnimFrame');
 
 /**
  * Class for DayGrid.Creation dragging effect.

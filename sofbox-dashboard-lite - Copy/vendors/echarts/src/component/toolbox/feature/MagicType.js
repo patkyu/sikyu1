@@ -154,7 +154,7 @@ define(function(require) {
         });
     };
 
-    var echarts = require('../../../echarts');
+    var echarts = require(';
     echarts.registerAction({
         type: 'changeMagicType',
         event: 'magicTypeChanged',
@@ -163,7 +163,7 @@ define(function(require) {
         ecModel.mergeOption(payload.newOption);
     });
 
-    require('../featureManager').register('magicType', MagicType);
+    require('tureManager').register('magicType', MagicType);
 
     return MagicType;
 });

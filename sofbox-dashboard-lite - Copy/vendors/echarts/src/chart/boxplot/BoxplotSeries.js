@@ -3,8 +3,8 @@ define(function(require) {
     'use strict';
 
     var zrUtil = require('zrender/core/util');
-    var SeriesModel = require('../../model/Series');
-    var whiskerBoxCommon = require('../helper/whiskerBoxCommon');
+    var SeriesModel = require('Series');
+    var whiskerBoxCommon = require('per/whiskerBoxCommon');
 
     var BoxplotSeries = SeriesModel.extend({
 

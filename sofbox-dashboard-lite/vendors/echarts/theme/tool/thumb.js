@@ -23,7 +23,7 @@ echarts.setCanvasCreator(function () {
 var font = new Canvas.Font('Helvetica', '/System/Library/Fonts/Helvetica.dfont');
 font.addFace('/System/Library/Fonts/Helvetica.dfont', 'bolder');
 
-glob('../*.js', function (err, themePathList) {
+glob('*.js', function (err, themePathList) {
     themePathList.forEach(function (themePath) {
         var themeName = path.basename(themePath, '.js');
         var canvasList = [];
@@ -52,7 +52,7 @@ glob('../*.js', function (err, themePathList) {
             outputCtx.drawImage(canvas, idx % columnCount * WIDTH, Math.floor(idx / columnCount) * HEIGHT, WIDTH, HEIGHT);
         });
 
-        fs.writeFileSync('../thumb/' + themeName + '.png', outputCanvas.toBuffer());
+        fs.writeFileSync('thumb/' + themeName + '.png', outputCanvas.toBuffer());
     });
 });
 function createCanvas() {

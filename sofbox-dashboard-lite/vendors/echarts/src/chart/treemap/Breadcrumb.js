@@ -1,7 +1,7 @@
  define(function(require) {
 
-    var graphic = require('../../util/graphic');
-    var layout = require('../../util/layout');
+    var graphic = require('util/graphic');
+    var layout = require('util/layout');
     var zrUtil = require('zrender/core/util');
 
     var TEXT_PADDING = 8;

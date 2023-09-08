@@ -1,5 +1,5 @@
 define([
-  '../utils'
+  'ls'
 ], function (Utils) {
   function Placeholder (decorated, $element, options) {
     this.placeholder = this.normalizePlaceholder(options.get('placeholder'));

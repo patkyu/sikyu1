@@ -1,5 +1,5 @@
 // Validation errors messages for Parsley
-import Parsley from '../parsley';
+import Parsley from 'sley';
 
 Parsley.addMessages('no', {
   defaultMessage: "Verdien er ugyldig.",

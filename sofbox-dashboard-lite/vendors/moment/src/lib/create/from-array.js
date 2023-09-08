@@ -1,10 +1,10 @@
-import { hooks } from '../utils/hooks';
+import { hooks } from 'utils/hooks';
 import { createDate, createUTCDate } from './date-from-array';
-import { daysInYear } from '../units/year';
-import { weekOfYear, weeksInYear, dayOfYearFromWeeks } from '../units/week-calendar-utils';
-import { YEAR, MONTH, DATE, HOUR, MINUTE, SECOND, MILLISECOND } from '../units/constants';
+import { daysInYear } from 'units/year';
+import { weekOfYear, weeksInYear, dayOfYearFromWeeks } from 'units/week-calendar-utils';
+import { YEAR, MONTH, DATE, HOUR, MINUTE, SECOND, MILLISECOND } from 'units/constants';
 import { createLocal } from './local';
-import defaults from '../utils/defaults';
+import defaults from 'utils/defaults';
 import getParsingFlags from './parsing-flags';
 
 function currentDateArray(config) {

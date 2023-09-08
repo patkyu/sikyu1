@@ -1,12 +1,12 @@
 define(function (require) {
 
     var zrUtil = require('zrender/core/util');
-    var echarts = require('../echarts');
+    var echarts = require('echarts');
 
     require('./pie/PieSeries');
     require('./pie/PieView');
 
-    require('../action/createDataSelectAction')('pie', [{
+    require('action/createDataSelectAction')('pie', [{
         type: 'pieToggleSelect',
         event: 'pieselectchanged',
         method: 'toggleSelected'
@@ -21,7 +21,7 @@ define(function (require) {
     }]);
 
     echarts.registerVisualCoding(
-        'chart',  zrUtil.curry(require('../visual/dataColor'), 'pie')
+        'chart',  zrUtil.curry(require('visual/dataColor'), 'pie')
     );
 
     echarts.registerLayout(zrUtil.curry(
@@ -29,6 +29,6 @@ define(function (require) {
     ));
 
     echarts.registerProcessor(
-        'filter', zrUtil.curry(require('../processor/dataFilter'), 'pie')
+        'filter', zrUtil.curry(require('processor/dataFilter'), 'pie')
     );
 });

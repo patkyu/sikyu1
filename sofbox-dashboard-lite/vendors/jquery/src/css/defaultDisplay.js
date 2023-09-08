@@ -1,7 +1,7 @@
 define( [
-	"../core",
-	"../var/document",
-	"../manipulation" // appendTo
+	"core",
+	"var/document",
+	"manipulation" // appendTo
 ], function( jQuery, document ) {
 
 var iframe,

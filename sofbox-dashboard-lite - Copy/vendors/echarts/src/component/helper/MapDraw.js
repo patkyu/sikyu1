@@ -4,7 +4,7 @@
 define(function (require) {
 
     var RoamController = require('./RoamController');
-    var graphic = require('../../util/graphic');
+    var graphic = require('raphic');
     var zrUtil = require('zrender/core/util');
 
     function getFixedItemStyle(model, scale) {

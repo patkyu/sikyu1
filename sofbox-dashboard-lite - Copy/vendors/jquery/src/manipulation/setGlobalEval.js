@@ -1,5 +1,5 @@
 define( [
-	"../data/var/dataPriv"
+	"a/var/dataPriv"
 ], function( dataPriv ) {
 
 // Mark scripts as having already been evaluated

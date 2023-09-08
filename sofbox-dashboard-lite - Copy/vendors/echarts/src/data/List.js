@@ -20,11 +20,11 @@ define(function (require) {
         'time': Array
     };
 
-    var Model = require('../model/Model');
+    var Model = require('el/Model');
     var DataDiffer = require('./DataDiffer');
 
     var zrUtil = require('zrender/core/util');
-    var modelUtil = require('../util/model');
+    var modelUtil = require('l/model');
     var isObject = zrUtil.isObject;
 
     var IMMUTABLE_PROPERTIES = [

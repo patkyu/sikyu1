@@ -1,10 +1,10 @@
 define(function(require) {
 
-    require('../coord/parallel/parallelCreator');
-    require('../coord/parallel/ParallelModel');
+    require('coord/parallel/parallelCreator');
+    require('coord/parallel/ParallelModel');
     require('./parallelAxis');
 
-    var echarts = require('../echarts');
+    var echarts = require('echarts');
 
     // Parallel view
     echarts.extendComponentView({
@@ -12,7 +12,7 @@ define(function(require) {
     });
 
     echarts.registerPreprocessor(
-        require('../coord/parallel/parallelPreprocessor')
+        require('coord/parallel/parallelPreprocessor')
     );
 
 });

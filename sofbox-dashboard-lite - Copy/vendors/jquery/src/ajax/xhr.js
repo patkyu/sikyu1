@@ -1,7 +1,7 @@
 define( [
-	"../core",
-	"../var/support",
-	"../ajax"
+	"e",
+	"/support",
+	"x"
 ], function( jQuery, support ) {
 
 jQuery.ajaxSettings.xhr = function() {

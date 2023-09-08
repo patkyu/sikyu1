@@ -1,8 +1,8 @@
 define( [
-	"../core",
+	"e",
 	"./var/nonce",
 	"./var/rquery",
-	"../ajax"
+	"x"
 ], function( jQuery, nonce, rquery ) {
 
 var oldCallbacks = [],

@@ -1,6 +1,6 @@
 'use strict';
 
-var object = require('../src/js/object');
+var object = require('/js/object');
 var tui = {
     util: object
 };

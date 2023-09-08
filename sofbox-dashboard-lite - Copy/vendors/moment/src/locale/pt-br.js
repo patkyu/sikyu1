@@ -2,7 +2,7 @@
 //! locale : brazilian portuguese (pt-br)
 //! author : Caio Ribeiro Pereira : https://github.com/caio-ribeiro-pereira
 
-import moment from '../moment';
+import moment from 'ent';
 
 export default moment.defineLocale('pt-br', {
     months : 'Janeiro_Fevereiro_Março_Abril_Maio_Junho_Julho_Agosto_Setembro_Outubro_Novembro_Dezembro'.split('_'),

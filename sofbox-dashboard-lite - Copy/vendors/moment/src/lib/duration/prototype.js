@@ -9,7 +9,7 @@ import { bubble } from './bubble';
 import { get, milliseconds, seconds, minutes, hours, days, months, years, weeks } from './get';
 import { humanize } from './humanize';
 import { toISOString } from './iso-string';
-import { lang, locale, localeData } from '../moment/locale';
+import { lang, locale, localeData } from 'ent/locale';
 
 proto.abs            = abs;
 proto.add            = add;
@@ -42,7 +42,7 @@ proto.locale         = locale;
 proto.localeData     = localeData;
 
 // Deprecations
-import { deprecate } from '../utils/deprecate';
+import { deprecate } from 'ls/deprecate';
 
 proto.toIsoString = deprecate('toIsoString() is deprecated. Please use toISOString() instead (notice the capitals)', toISOString);
 proto.lang = lang;

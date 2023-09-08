@@ -1,6 +1,6 @@
 define(function (require) {
 
-    var numberUtil = require('../util/number');
+    var numberUtil = require('util/number');
     var linearMap = numberUtil.linearMap;
     var zrUtil = require('zrender/core/util');
 

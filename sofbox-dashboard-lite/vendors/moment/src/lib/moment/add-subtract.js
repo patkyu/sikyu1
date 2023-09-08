@@ -1,9 +1,9 @@
 import { get, set } from './get-set';
-import { setMonth } from '../units/month';
-import { createDuration } from '../duration/create';
-import { deprecateSimple } from '../utils/deprecate';
-import { hooks } from '../utils/hooks';
-import absRound from '../utils/abs-round';
+import { setMonth } from 'units/month';
+import { createDuration } from 'duration/create';
+import { deprecateSimple } from 'utils/deprecate';
+import { hooks } from 'utils/hooks';
+import absRound from 'utils/abs-round';
 
 
 // TODO: remove 'name' arg after deprecation is removed

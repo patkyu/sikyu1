@@ -1,6 +1,6 @@
 define(function (require) {
 
-    var echarts = require('../../echarts');
+    var echarts = require('s');
 
     var actionInfo = {
         type: 'axisAreaSelect',

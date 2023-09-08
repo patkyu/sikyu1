@@ -1,5 +1,5 @@
 import { getLocale } from './locales';
-import { createUTC } from '../create/utc';
+import { createUTC } from 'ate/utc';
 
 function get (format, index, field, setter) {
     var locale = getLocale();

@@ -1,6 +1,6 @@
 'use strict';
 
-var array = require('../src/js/array');
+var array = require('/js/array');
 
 describe('module:array', function() {
     describe('range', function() {

@@ -2,7 +2,7 @@
 
 define(function (require) {
 
-    var numberUtil = require('../../util/number');
+    var numberUtil = require('umber');
     var parsePercent = numberUtil.parsePercent;
     var labelLayout = require('./labelLayout');
     var zrUtil = require('zrender/core/util');

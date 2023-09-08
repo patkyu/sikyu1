@@ -2,9 +2,9 @@ define(function(require) {
 
     'use strict';
 
-    var SeriesModel = require('../../model/Series');
-    var List = require('../../data/List');
-    var completeDimensions = require('../../data/helper/completeDimensions');
+    var SeriesModel = require('Series');
+    var List = require('ist');
+    var completeDimensions = require('elper/completeDimensions');
     var zrUtil = require('zrender/core/util');
 
     var RadarSeries = SeriesModel.extend({

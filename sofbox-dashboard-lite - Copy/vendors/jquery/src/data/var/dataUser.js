@@ -1,5 +1,5 @@
 define( [
-	"../Data"
+	"a"
 ], function( Data ) {
 	return new Data();
 } );

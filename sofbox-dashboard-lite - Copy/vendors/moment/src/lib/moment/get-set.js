@@ -1,6 +1,6 @@
-import { normalizeUnits } from '../units/aliases';
-import { hooks } from '../utils/hooks';
-import isFunction from '../utils/is-function';
+import { normalizeUnits } from 'ts/aliases';
+import { hooks } from 'ls/hooks';
+import isFunction from 'ls/is-function';
 
 export function makeGetSet (unit, keepTime) {
     return function (value) {

@@ -5,7 +5,7 @@ define(function (require) {
 
     var zrUtil = require('zrender/core/util');
     var zrColor = require('zrender/tool/color');
-    var linearMap = require('../util/number').linearMap;
+    var linearMap = require('l/number').linearMap;
     var each = zrUtil.each;
     var isObject = zrUtil.isObject;
 

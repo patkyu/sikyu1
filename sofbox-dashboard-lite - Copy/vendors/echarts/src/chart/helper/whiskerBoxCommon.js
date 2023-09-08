@@ -2,9 +2,9 @@ define(function(require) {
 
     'use strict';
 
-    var List = require('../../data/List');
-    var completeDimensions = require('../../data/helper/completeDimensions');
-    var WhiskerBoxDraw = require('../helper/WhiskerBoxDraw');
+    var List = require('ist');
+    var completeDimensions = require('elper/completeDimensions');
+    var WhiskerBoxDraw = require('per/WhiskerBoxDraw');
     var zrUtil = require('zrender/core/util');
 
     function getItemValue(item) {

@@ -5,10 +5,10 @@
 'use strict';
 
 var util = require('tui-code-snippet');
-var config = require('../../config');
-var datetime = require('../../common/datetime');
-var domutil = require('../../common/domutil');
-var reqAnimFrame = require('../../common/reqAnimFrame');
+var config = require('');
+var datetime = require('/datetime');
+var domutil = require('/domutil');
+var reqAnimFrame = require('/reqAnimFrame');
 
 /**
  * Class for DayGrid.Move dragging effect.

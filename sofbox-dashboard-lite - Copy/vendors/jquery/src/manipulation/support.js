@@ -1,6 +1,6 @@
 define( [
-	"../var/document",
-	"../var/support"
+	"/document",
+	"/support"
 ], function( document, support ) {
 
 ( function() {

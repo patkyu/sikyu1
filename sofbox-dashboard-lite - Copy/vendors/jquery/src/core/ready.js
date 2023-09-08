@@ -1,8 +1,8 @@
 define( [
-	"../core",
-	"../var/document",
-	"../core/init",
-	"../deferred"
+	"e",
+	"/document",
+	"e/init",
+	"erred"
 ], function( jQuery, document ) {
 
 // The deferred used on DOM ready

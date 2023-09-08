@@ -1,6 +1,6 @@
 define(function (require) {
 
-    var ComponentView = require('../../view/Component');
+    var ComponentView = require('view/Component');
 
     return ComponentView.extend({
 

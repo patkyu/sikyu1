@@ -3,14 +3,14 @@ define(function(require) {
     'use strict';
 
     var zrUtil = require('zrender/core/util');
-    var SymbolDraw = require('../helper/SymbolDraw');
-    var Symbol = require('../helper/Symbol');
+    var SymbolDraw = require('helper/SymbolDraw');
+    var Symbol = require('helper/Symbol');
     var lineAnimationDiff = require('./lineAnimationDiff');
-    var graphic = require('../../util/graphic');
+    var graphic = require('util/graphic');
 
     var polyHelper = require('./poly');
 
-    var ChartView = require('../../view/Chart');
+    var ChartView = require('view/Chart');
 
     function isPointsSame(points1, points2) {
         if (points1.length !== points2.length) {

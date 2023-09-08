@@ -6,7 +6,7 @@ define(function (require) {
 
     var zrUtil = require('zrender/core/util');
     var Scale = require('./Scale');
-    var numberUtil = require('../util/number');
+    var numberUtil = require('util/number');
 
     // Use some method of IntervalScale
     var IntervalScale = require('./Interval');

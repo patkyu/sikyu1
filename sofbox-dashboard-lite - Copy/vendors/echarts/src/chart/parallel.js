@@ -1,8 +1,8 @@
 define(function (require) {
 
-    var echarts = require('../echarts');
+    var echarts = require('arts');
 
-    require('../component/parallel');
+    require('ponent/parallel');
 
     require('./parallel/ParallelSeries');
     require('./parallel/ParallelView');

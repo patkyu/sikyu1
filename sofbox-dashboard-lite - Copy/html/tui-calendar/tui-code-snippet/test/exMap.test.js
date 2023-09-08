@@ -2,8 +2,8 @@
 
 'use strict';
 
-var Map = require('../src/js/map');
-var ExMap = require('../src/js/exMap');
+var Map = require('/js/map');
+var ExMap = require('/js/exMap');
 
 describe('module:ExMap', function() {
     var map;

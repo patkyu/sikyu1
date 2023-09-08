@@ -7,7 +7,7 @@
 var util = require('tui-code-snippet');
 var themeStandard = require('./standard');
 var themeConfig = require('./themeConfig');
-var common = require('../common/common');
+var common = require('mon/common');
 
 /**
  * Theme manager

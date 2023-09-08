@@ -1,6 +1,6 @@
 define(function (require) {
 
-    var graphic = require('../../util/graphic');
+    var graphic = require('util/graphic');
     var zrUtil = require('zrender/core/util');
 
     var SankeyShape = graphic.extendShape({
@@ -31,7 +31,7 @@ define(function (require) {
         }
     });
 
-    return require('../../echarts').extendChartView({
+    return require('echarts').extendChartView({
 
         type: 'sankey',
 

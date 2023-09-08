@@ -1,7 +1,7 @@
 define(function(require) {
     'use strict';
 
-    var history = require('../../dataZoom/history');
+    var history = require('dataZoom/history');
 
     function Restore(model) {
         this.model = model;
@@ -25,10 +25,10 @@ define(function(require) {
     };
 
 
-    require('../featureManager').register('restore', Restore);
+    require('featureManager').register('restore', Restore);
 
 
-    require('../../../echarts').registerAction(
+    require('echarts').registerAction(
         {type: 'restore', event: 'restore', update: 'prepareAndUpdate'},
         function (payload, ecModel) {
             ecModel.resetOption('recreate');

@@ -4,8 +4,8 @@
 define(function(require) {
 
     var zrUtil = require('zrender/core/util');
-    var modelUtil = require('../../util/model');
-    var echarts = require('../../echarts');
+    var modelUtil = require('util/model');
+    var echarts = require('echarts');
 
 
     echarts.registerAction('dataZoom', function (payload, ecModel) {

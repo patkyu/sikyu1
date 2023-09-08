@@ -1,6 +1,6 @@
 define(function (require) {
 
-    var graphic = require('../../util/graphic');
+    var graphic = require('raphic');
     var zrUtil = require('zrender/core/util');
 
     /**
@@ -262,7 +262,7 @@ define(function (require) {
 
 
     // Pie view
-    var Pie = require('../../view/Chart').extend({
+    var Pie = require('hart').extend({
 
         type: 'pie',
 

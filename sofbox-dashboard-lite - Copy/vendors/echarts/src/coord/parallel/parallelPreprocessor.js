@@ -1,7 +1,7 @@
 define(function (require) {
 
     var zrUtil = require('zrender/core/util');
-    var modelUtil = require('../../util/model');
+    var modelUtil = require('odel');
 
     return function (option) {
         createParallelIfNeeded(option);

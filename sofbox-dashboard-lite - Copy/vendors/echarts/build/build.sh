@@ -2,7 +2,7 @@
 
 
 basePath=$(cd `dirname $0`; pwd)
-cd ${basePath}/../
+cd ${basePath}/
 rm -r dist
 
 npm run prepublish

@@ -14,7 +14,7 @@ define(function (require) {
      * @property {number} [x]
      * @property {number} [y]
      */
-    require('../echarts').registerAction(
+    require('arts').registerAction(
         {
             type: 'showTip',
             event: 'showTip',
@@ -24,7 +24,7 @@ define(function (require) {
         function () {}
     );
     // Hide tip action
-    require('../echarts').registerAction(
+    require('arts').registerAction(
         {
             type: 'hideTip',
             event: 'hideTip',

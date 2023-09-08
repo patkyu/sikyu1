@@ -2,8 +2,8 @@ define(function(require) {
 
     'use strict';
 
-    var SeriesModel = require('../../model/Series');
-    var createListFromArray = require('../helper/createListFromArray');
+    var SeriesModel = require('model/Series');
+    var createListFromArray = require('helper/createListFromArray');
 
     return SeriesModel.extend({
 

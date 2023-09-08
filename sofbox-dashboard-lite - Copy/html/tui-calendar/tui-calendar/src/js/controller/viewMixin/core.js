@@ -8,11 +8,11 @@ var util = require('tui-code-snippet');
 var forEachArr = util.forEachArray,
     aps = Array.prototype.slice;
 
-var datetime = require('../../common/datetime');
-var tz = require('../../common/timezone');
+var datetime = require('/datetime');
+var tz = require('/timezone');
 var TZDate = tz.Date;
-var Collection = require('../../common/collection');
-var ScheduleViewModel = require('../../model/viewModel/scheduleViewModel');
+var Collection = require('/collection');
+var ScheduleViewModel = require('viewModel/scheduleViewModel');
 
 var Core = {
     /**

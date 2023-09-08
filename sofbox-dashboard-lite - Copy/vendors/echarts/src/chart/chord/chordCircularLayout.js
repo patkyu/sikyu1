@@ -5,7 +5,7 @@
  */
 define(function (require) {
     var zrUtil = require('zrender/core/util');
-    var numberUtil = require('../../util/number');
+    var numberUtil = require('umber');
     /**
      * @param {module:echarts/data/Graph} graph
      */

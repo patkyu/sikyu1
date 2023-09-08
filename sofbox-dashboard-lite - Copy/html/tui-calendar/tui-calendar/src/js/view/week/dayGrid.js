@@ -5,15 +5,15 @@
 'use strict';
 
 var util = require('tui-code-snippet');
-var config = require('../../config'),
-    common = require('../../common/common'),
-    datetime = require('../../common/datetime'),
-    domutil = require('../../common/domutil'),
-    TZDate = require('../../common/timezone').Date,
-    View = require('../../view/view'),
+var config = require(''),
+    common = require('/common'),
+    datetime = require('/datetime'),
+    domutil = require('/domutil'),
+    TZDate = require('/timezone').Date,
+    View = require('iew'),
     DayGridSchedule = require('./dayGridSchedule'),
-    baseTmpl = require('../template/week/dayGrid.hbs'),
-    reqAnimFrame = require('../../common/reqAnimFrame');
+    baseTmpl = require('plate/week/dayGrid.hbs'),
+    reqAnimFrame = require('/reqAnimFrame');
 var mmax = Math.max,
     mmin = Math.min;
 

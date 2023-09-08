@@ -1,9 +1,9 @@
 // Initialize a jQuery object
 define( [
-	"../core",
-	"../var/document",
+	"core",
+	"var/document",
 	"./var/rsingleTag",
-	"../traversing/findFilter"
+	"traversing/findFilter"
 ], function( jQuery, document, rsingleTag ) {
 
 // A central reference to the root jQuery(document)

@@ -5,8 +5,8 @@
 
 define(function (require) {
 
-    var numberUtil = require('../util/number');
-    var formatUtil = require('../util/format');
+    var numberUtil = require('util/number');
+    var formatUtil = require('util/format');
     var Scale = require('./Scale');
 
     var mathFloor = Math.floor;

@@ -7,10 +7,10 @@
 
 var util = require('tui-code-snippet');
 
-var Collection = require('../../common/collection');
-var array = require('../../common/array');
-var datetime = require('../../common/datetime');
-var TZDate = require('../../common/timezone').Date;
+var Collection = require('/collection');
+var array = require('/array');
+var datetime = require('/datetime');
+var TZDate = require('/timezone').Date;
 
 var SCHEDULE_MIN_DURATION = datetime.MILLISECONDS_SCHEDULE_MIN_DURATION;
 

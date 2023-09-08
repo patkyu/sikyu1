@@ -2,11 +2,11 @@ define(function(require) {
 
     'use strict';
 
-    var List = require('../../data/List');
-    var modelUtil = require('../../util/model');
-    var completeDimensions = require('../../data/helper/completeDimensions');
+    var List = require('data/List');
+    var modelUtil = require('util/model');
+    var completeDimensions = require('data/helper/completeDimensions');
 
-    var FunnelSeries = require('../../echarts').extendSeriesModel({
+    var FunnelSeries = require('echarts').extendSeriesModel({
 
         type: 'series.funnel',
 

@@ -8,7 +8,7 @@
 define(function (require) {
 
     var zrUtil = require('zrender/core/util');
-    var modelUtil = require('../util/model');
+    var modelUtil = require('l/model');
     var Model = require('./Model');
     var each = zrUtil.each;
     var filter = zrUtil.filter;

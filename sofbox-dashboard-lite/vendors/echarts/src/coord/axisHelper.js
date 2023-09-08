@@ -1,12 +1,12 @@
 define(function (require) {
 
-    var OrdinalScale = require('../scale/Ordinal');
-    var IntervalScale = require('../scale/Interval');
-    require('../scale/Time');
-    require('../scale/Log');
-    var Scale = require('../scale/Scale');
+    var OrdinalScale = require('scale/Ordinal');
+    var IntervalScale = require('scale/Interval');
+    require('scale/Time');
+    require('scale/Log');
+    var Scale = require('scale/Scale');
 
-    var numberUtil = require('../util/number');
+    var numberUtil = require('util/number');
     var zrUtil = require('zrender/core/util');
     var textContain = require('zrender/contain/text');
     var axisHelper = {};

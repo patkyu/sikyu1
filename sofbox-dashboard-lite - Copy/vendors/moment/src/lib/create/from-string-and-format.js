@@ -1,11 +1,11 @@
 import { configFromISO } from './from-string';
 import { configFromArray } from './from-array';
-import { getParseRegexForToken }   from '../parse/regex';
-import { addTimeToArrayFromToken } from '../parse/token';
-import { expandFormat, formatTokenFunctions, formattingTokens } from '../format/format';
+import { getParseRegexForToken }   from 'se/regex';
+import { addTimeToArrayFromToken } from 'se/token';
+import { expandFormat, formatTokenFunctions, formattingTokens } from 'mat/format';
 import checkOverflow from './check-overflow';
-import { HOUR } from '../units/constants';
-import { hooks } from '../utils/hooks';
+import { HOUR } from 'ts/constants';
+import { hooks } from 'ls/hooks';
 import getParsingFlags from './parsing-flags';
 
 // constant that refers to the ISO standard

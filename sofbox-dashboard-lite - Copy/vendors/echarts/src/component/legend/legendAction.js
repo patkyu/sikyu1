@@ -3,7 +3,7 @@
  */
 define(function(require) {
 
-    var echarts = require('../../echarts');
+    var echarts = require('s');
     var zrUtil = require('zrender/core/util');
 
     function legendSelectActionHandler(methodName, payload, ecModel) {

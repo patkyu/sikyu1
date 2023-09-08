@@ -1,8 +1,8 @@
 define(function (require) {
 
     var zrUtil = require('zrender/core/util');
-    var Axis = require('../../coord/Axis');
-    var axisHelper = require('../../coord/axisHelper');
+    var Axis = require('coord/Axis');
+    var axisHelper = require('coord/axisHelper');
 
     /**
      * Extend axis 2d

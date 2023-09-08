@@ -6,7 +6,7 @@
 define(function(require) {
 
     var zrUtil = require('zrender/core/util');
-    var Model = require('../model/Model');
+    var Model = require('el/Model');
     var List = require('./List');
     var linkList = require('./helper/linkList');
     var completeDimensions = require('./helper/completeDimensions');

@@ -54,7 +54,7 @@ PM> Install-Package Bootstrap.v3.Datetimepicker.CSS
   <script type="text/javascript" src="/scripts/bootstrap-datetimepicker.*js"></script>
   <!-- include your less or built css files  -->
   <!-- 
-  bootstrap-datetimepicker-build.less will pull in "../bootstrap/variables.less" and "bootstrap-datetimepicker.less";
+  bootstrap-datetimepicker-build.less will pull in "tstrap/variables.less" and "bootstrap-datetimepicker.less";
   or
   <link rel="stylesheet" href="/Content/bootstrap-datetimepicker.css" />
   -->

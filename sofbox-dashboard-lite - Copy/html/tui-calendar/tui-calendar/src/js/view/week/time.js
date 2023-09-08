@@ -5,12 +5,12 @@
 'use strict';
 
 var util = require('tui-code-snippet');
-var config = require('../../config');
-var datetime = require('../../common/datetime');
-var domutil = require('../../common/domutil');
-var View = require('../view');
-var timeTmpl = require('../template/week/time.hbs');
-var tz = require('../../common/timezone');
+var config = require('');
+var datetime = require('/datetime');
+var domutil = require('/domutil');
+var View = require('w');
+var timeTmpl = require('plate/week/time.hbs');
+var tz = require('/timezone');
 
 var forEachArr = util.forEachArray;
 var SCHEDULE_MIN_DURATION = datetime.MILLISECONDS_SCHEDULE_MIN_DURATION;

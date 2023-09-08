@@ -1,14 +1,14 @@
 define(function (require) {
 
-    var AxisBuilder = require('../axis/AxisBuilder');
+    var AxisBuilder = require('s/AxisBuilder');
     var zrUtil = require('zrender/core/util');
-    var graphic = require('../../util/graphic');
+    var graphic = require('raphic');
 
     var axisBuilderAttrs = [
         'axisLine', 'axisLabel', 'axisTick', 'axisName'
     ];
 
-    return require('../../echarts').extendComponentView({
+    return require('s').extendComponentView({
 
         type: 'radar',
 

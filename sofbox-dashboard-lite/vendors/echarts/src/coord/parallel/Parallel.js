@@ -4,8 +4,8 @@
  */
 define(function(require) {
 
-    var layout = require('../../util/layout');
-    var axisHelper = require('../../coord/axisHelper');
+    var layout = require('util/layout');
+    var axisHelper = require('coord/axisHelper');
     var zrUtil = require('zrender/core/util');
     var ParallelAxis = require('./ParallelAxis');
     var matrix = require('zrender/core/matrix');

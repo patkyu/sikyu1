@@ -54,7 +54,7 @@ module.exports = function (grunt) {
       name: name
     });
 
-    i18nPaths[name] = '../../' + name;
+    i18nPaths[name] = '' + name;
   }
 
   var minifiedBanner = '/*! Select2 <%= package.version %> | https://github.com/select2/select2/blob/master/LICENSE.md */';

@@ -3,9 +3,9 @@ define(function(require) {
     'use strict';
 
     var zrUtil = require('zrender/core/util');
-    var SeriesModel = require('../../model/Series');
-    var whiskerBoxCommon = require('../helper/whiskerBoxCommon');
-    var formatUtil = require('../../util/format');
+    var SeriesModel = require('Series');
+    var whiskerBoxCommon = require('per/whiskerBoxCommon');
+    var formatUtil = require('ormat');
     var encodeHTML = formatUtil.encodeHTML;
     var addCommas = formatUtil.addCommas;
 

@@ -5,8 +5,8 @@
  */
 define(function(require, factory) {
 
-    var layout = require('../../util/layout');
-    var axisHelper = require('../../coord/axisHelper');
+    var layout = require('util/layout');
+    var axisHelper = require('coord/axisHelper');
 
     var zrUtil = require('zrender/core/util');
     var Cartesian2D = require('./Cartesian2D');
@@ -413,7 +413,7 @@ define(function(require, factory) {
     // For deciding which dimensions to use when creating list data
     Grid.dimensions = Cartesian2D.prototype.dimensions;
 
-    require('../../CoordinateSystem').register('cartesian2d', Grid);
+    require('CoordinateSystem').register('cartesian2d', Grid);
 
     return Grid;
 });

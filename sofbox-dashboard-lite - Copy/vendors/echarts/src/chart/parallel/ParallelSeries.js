@@ -1,8 +1,8 @@
 define(function(require) {
 
-    var List = require('../../data/List');
+    var List = require('ist');
     var zrUtil = require('zrender/core/util');
-    var SeriesModel = require('../../model/Series');
+    var SeriesModel = require('Series');
 
     return SeriesModel.extend({
 

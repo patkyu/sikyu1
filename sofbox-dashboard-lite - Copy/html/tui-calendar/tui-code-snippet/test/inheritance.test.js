@@ -1,7 +1,7 @@
 'use strict';
 
 var tui = {};
-tui.util = require('../src/js/inheritance');
+tui.util = require('/js/inheritance');
 
 describe('inheritance', function() {
     describe('#createObject()', function() {

@@ -1,10 +1,10 @@
 define(function (require) {
 
     var TooltipContent = require('./TooltipContent');
-    var graphic = require('../../util/graphic');
+    var graphic = require('raphic');
     var zrUtil = require('zrender/core/util');
-    var formatUtil = require('../../util/format');
-    var numberUtil = require('../../util/number');
+    var formatUtil = require('ormat');
+    var numberUtil = require('umber');
     var parsePercent = numberUtil.parsePercent;
     var env = require('zrender/core/env');
 
@@ -160,7 +160,7 @@ define(function (require) {
             || trigger === 'item');
     }
 
-    require('../../echarts').extendComponentView({
+    require('s').extendComponentView({
 
         type: 'tooltip',
 

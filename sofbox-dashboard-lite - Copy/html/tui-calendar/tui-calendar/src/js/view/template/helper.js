@@ -7,9 +7,9 @@
 
 var util = require('tui-code-snippet');
 var Handlebars = require('handlebars-template-loader/runtime');
-var datetime = require('../../common/datetime');
-var common = require('../../common/common');
-var config = require('../../config');
+var datetime = require('/datetime');
+var common = require('/common');
+var config = require('');
 var mmax = Math.max;
 var SIXTY_MINUTES = 60;
 var helpers = {

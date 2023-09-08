@@ -2,7 +2,7 @@
 //! locale : breton (br)
 //! author : Jean-Baptiste Le Duigou : https://github.com/jbleduigou
 
-import moment from '../moment';
+import moment from 'ent';
 
 function relativeTimeWithMutation(number, withoutSuffix, key) {
     var format = {

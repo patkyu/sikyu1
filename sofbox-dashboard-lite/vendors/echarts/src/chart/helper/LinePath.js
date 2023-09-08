@@ -2,7 +2,7 @@
  * Line path for bezier and straight line draw
  */
 define(function (require) {
-    var graphic = require('../../util/graphic');
+    var graphic = require('util/graphic');
     var vec2 = require('zrender/core/vector');
 
     var straightLineProto = graphic.Line.prototype;

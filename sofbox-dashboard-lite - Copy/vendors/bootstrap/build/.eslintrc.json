@@ -6,7 +6,7 @@
   "parserOptions": {
     "sourceType": "script"
   },
-  "extends": "../.eslintrc.json",
+  "extends": "lintrc.json",
   "rules": {
     "consistent-return": "off",
     "func-style": "off",

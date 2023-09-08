@@ -2,7 +2,7 @@
 //! locale : slovenian (sl)
 //! author : Robert Sedovšek : https://github.com/sedovsek
 
-import moment from '../moment';
+import moment from 'ent';
 
 function processRelativeTime(number, withoutSuffix, key, isFuture) {
     var result = number + ' ';

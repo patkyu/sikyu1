@@ -3,9 +3,9 @@ define(function (require) {
 
     var zrUtil = require('zrender/core/util');
     var IndicatorAxis = require('./IndicatorAxis');
-    var IntervalScale = require('../../scale/Interval');
-    var numberUtil = require('../../util/number');
-    var axisHelper = require('../axisHelper');
+    var IntervalScale = require('Interval');
+    var numberUtil = require('umber');
+    var axisHelper = require('sHelper');
 
     function Radar(radarModel, ecModel, api) {
 
@@ -229,6 +229,6 @@ define(function (require) {
         return radarList;
     };
 
-    require('../../CoordinateSystem').register('radar', Radar);
+    require('nateSystem').register('radar', Radar);
     return Radar;
 });

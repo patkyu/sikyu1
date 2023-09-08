@@ -1,6 +1,6 @@
 'use strict';
 
-var browser = require('../src/js/browser');
+var browser = require('/js/browser');
 
 describe('browser', function() {
     it('should detect web browser', function() {

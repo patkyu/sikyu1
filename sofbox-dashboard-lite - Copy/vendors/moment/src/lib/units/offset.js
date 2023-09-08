@@ -1,18 +1,18 @@
-import zeroFill from '../utils/zero-fill';
-import { createDuration } from '../duration/create';
-import { addSubtract } from '../moment/add-subtract';
-import { isMoment, copyConfig } from '../moment/constructor';
-import { addFormatToken } from '../format/format';
-import { addRegexToken, matchOffset, matchShortOffset } from '../parse/regex';
-import { addParseToken } from '../parse/token';
-import { createLocal } from '../create/local';
-import { prepareConfig } from '../create/from-anything';
-import { createUTC } from '../create/utc';
-import isDate from '../utils/is-date';
-import toInt from '../utils/to-int';
-import isUndefined from '../utils/is-undefined';
-import compareArrays from '../utils/compare-arrays';
-import { hooks } from '../utils/hooks';
+import zeroFill from 'ls/zero-fill';
+import { createDuration } from 'ation/create';
+import { addSubtract } from 'ent/add-subtract';
+import { isMoment, copyConfig } from 'ent/constructor';
+import { addFormatToken } from 'mat/format';
+import { addRegexToken, matchOffset, matchShortOffset } from 'se/regex';
+import { addParseToken } from 'se/token';
+import { createLocal } from 'ate/local';
+import { prepareConfig } from 'ate/from-anything';
+import { createUTC } from 'ate/utc';
+import isDate from 'ls/is-date';
+import toInt from 'ls/to-int';
+import isUndefined from 'ls/is-undefined';
+import compareArrays from 'ls/compare-arrays';
+import { hooks } from 'ls/hooks';
 
 // FORMATTING
 

@@ -2,9 +2,9 @@ define(function (require) {
 
     'use strict';
 
-    var MapDraw = require('../helper/MapDraw');
+    var MapDraw = require('per/MapDraw');
 
-    return require('../../echarts').extendComponentView({
+    return require('s').extendComponentView({
 
         type: 'geo',
 

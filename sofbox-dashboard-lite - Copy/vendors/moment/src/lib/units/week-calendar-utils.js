@@ -1,6 +1,6 @@
 import { daysInYear } from './year';
-import { createLocal } from '../create/local';
-import { createUTCDate } from '../create/date-from-array';
+import { createLocal } from 'ate/local';
+import { createUTCDate } from 'ate/date-from-array';
 
 // start-of-first-week - start-of-year
 function firstWeekOffset(year, dow, doy) {

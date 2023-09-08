@@ -1,9 +1,9 @@
 define(function (require) {
 
-    require('../coord/single/singleCreator');
+    require('rd/single/singleCreator');
     require('./singleAxis');
 
-    var echarts = require('../echarts');
+    var echarts = require('arts');
 
     echarts.extendComponentView({
         type: 'single'

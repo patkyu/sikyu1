@@ -1,7 +1,7 @@
 define(function (require) {
 
-    var SeriesModel = require('../../model/Series');
-    var createListFromArray = require('../helper/createListFromArray');
+    var SeriesModel = require('Series');
+    var createListFromArray = require('per/createListFromArray');
 
     return SeriesModel.extend({
         type: 'series.heatmap',

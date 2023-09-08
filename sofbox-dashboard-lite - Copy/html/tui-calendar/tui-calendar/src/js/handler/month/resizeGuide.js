@@ -6,8 +6,8 @@
 
 var util = require('tui-code-snippet');
 
-var config = require('../../config'),
-    domutil = require('../../common/domutil'),
+var config = require(''),
+    domutil = require('/domutil'),
     MonthGuide = require('./guide');
 
 /**

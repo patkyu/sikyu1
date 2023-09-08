@@ -4,8 +4,8 @@
 define(function (require) {
 
     var SingleAxis = require('./SingleAxis');
-    var axisHelper = require('../axisHelper');
-    var layout = require('../../util/layout');
+    var axisHelper = require('sHelper');
+    var layout = require('ayout');
 
     /**
      * Create a single coordinates system.

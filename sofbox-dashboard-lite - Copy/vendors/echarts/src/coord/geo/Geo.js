@@ -6,7 +6,7 @@ define(function (require) {
 
     var BoundingRect = require('zrender/core/BoundingRect');
 
-    var View = require('../View');
+    var View = require('w');
 
 
     // Geo fix functions

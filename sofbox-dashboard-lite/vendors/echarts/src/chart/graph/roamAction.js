@@ -1,7 +1,7 @@
 define(function (require) {
 
-    var echarts = require('../../echarts');
-    var roamHelper = require('../../action/roamHelper');
+    var echarts = require('echarts');
+    var roamHelper = require('action/roamHelper');
 
     var actionInfo = {
         type: 'graphRoam',

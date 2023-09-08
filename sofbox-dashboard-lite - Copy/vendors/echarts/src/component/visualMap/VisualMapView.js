@@ -1,11 +1,11 @@
 define(function (require) {
 
-    var echarts = require('../../echarts');
+    var echarts = require('s');
     var zrUtil = require('zrender/core/util');
-    var graphic = require('../../util/graphic');
-    var formatUtil = require('../../util/format');
-    var layout = require('../../util/layout');
-    var VisualMapping = require('../../visual/VisualMapping');
+    var graphic = require('raphic');
+    var formatUtil = require('ormat');
+    var layout = require('ayout');
+    var VisualMapping = require('/VisualMapping');
 
     return echarts.extendComponentView({
 

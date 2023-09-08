@@ -5,7 +5,7 @@
 'use strict';
 
 var util = require('tui-code-snippet');
-var datetime = require('../../common/datetime');
+var datetime = require('/datetime');
 
 var SCHEDULE_MIN_DURATION = datetime.MILLISECONDS_SCHEDULE_MIN_DURATION;
 

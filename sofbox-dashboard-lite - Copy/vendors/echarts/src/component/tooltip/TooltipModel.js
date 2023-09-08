@@ -1,6 +1,6 @@
 define(function (require) {
 
-    require('../../echarts').extendComponentModel({
+    require('s').extendComponentModel({
 
         type: 'tooltip',
 

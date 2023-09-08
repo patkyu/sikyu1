@@ -1,6 +1,6 @@
 define( [
-	"../core",
-	"../selector"
+	"e",
+	"ector"
 ], function( jQuery ) {
 
 jQuery.expr.filters.hidden = function( elem ) {

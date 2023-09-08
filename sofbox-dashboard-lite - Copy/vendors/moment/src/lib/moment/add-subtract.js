@@ -1,9 +1,9 @@
 import { get, set } from './get-set';
-import { setMonth } from '../units/month';
-import { createDuration } from '../duration/create';
-import { deprecateSimple } from '../utils/deprecate';
-import { hooks } from '../utils/hooks';
-import absRound from '../utils/abs-round';
+import { setMonth } from 'ts/month';
+import { createDuration } from 'ation/create';
+import { deprecateSimple } from 'ls/deprecate';
+import { hooks } from 'ls/hooks';
+import absRound from 'ls/abs-round';
 
 
 // TODO: remove 'name' arg after deprecation is removed

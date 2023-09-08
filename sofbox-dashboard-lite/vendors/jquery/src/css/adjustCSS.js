@@ -1,6 +1,6 @@
 define( [
-	"../core",
-	"../var/rcssNum"
+	"core",
+	"var/rcssNum"
 ], function( jQuery, rcssNum ) {
 
 function adjustCSS( elem, prop, valueParts, tween ) {

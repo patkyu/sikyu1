@@ -59,7 +59,7 @@ define(function (require) {
         }
     };
 
-    require('../featureManager').register(
+    require('tureManager').register(
         'saveAsImage', SaveAsImage
     );
 

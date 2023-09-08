@@ -6,7 +6,7 @@ define(function(require) {
     'use strict';
 
     var zrUtil = require('zrender/core/util');
-    var axisHelper = require('../axisHelper');
+    var axisHelper = require('axisHelper');
 
     return function (axis) {
         var axisModel = axis.model;

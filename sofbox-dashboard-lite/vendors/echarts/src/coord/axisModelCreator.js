@@ -2,8 +2,8 @@ define(function (require) {
 
     var axisDefault = require('./axisDefault');
     var zrUtil = require('zrender/core/util');
-    var ComponentModel = require('../model/Component');
-    var layout = require('../util/layout');
+    var ComponentModel = require('model/Component');
+    var layout = require('util/layout');
 
     // FIXME axisType is fixed ?
     var AXIS_TYPES = ['value', 'category', 'time', 'log'];

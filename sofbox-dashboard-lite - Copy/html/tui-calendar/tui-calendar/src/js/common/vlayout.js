@@ -5,13 +5,13 @@
 'use strict';
 
 var util = require('tui-code-snippet');
-var config = require('../config'),
+var config = require('fig'),
     common = require('./common'),
     domutil = require('./domutil'),
     domevent = require('./domevent'),
-    View = require('../view/view'),
+    View = require('w/view'),
     VPanel = require('./vpanel'),
-    Drag = require('../handler/drag');
+    Drag = require('dler/drag');
 
 var mAbs = Math.abs;
 

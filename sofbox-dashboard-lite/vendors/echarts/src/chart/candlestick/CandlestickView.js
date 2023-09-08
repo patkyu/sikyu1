@@ -3,9 +3,9 @@ define(function(require) {
     'use strict';
 
     var zrUtil = require('zrender/core/util');
-    var ChartView = require('../../view/Chart');
-    var graphic = require('../../util/graphic');
-    var whiskerBoxCommon = require('../helper/whiskerBoxCommon');
+    var ChartView = require('view/Chart');
+    var graphic = require('util/graphic');
+    var whiskerBoxCommon = require('helper/whiskerBoxCommon');
 
     var CandlestickView = ChartView.extend({
 

@@ -3,8 +3,8 @@
  */
 define(function (require) {
 
-    var echarts = require('../../echarts');
-    var VisualMapping = require('../../visual/VisualMapping');
+    var echarts = require('echarts');
+    var VisualMapping = require('visual/VisualMapping');
     var zrUtil = require('zrender/core/util');
 
     echarts.registerVisualCoding('component', function (ecModel) {

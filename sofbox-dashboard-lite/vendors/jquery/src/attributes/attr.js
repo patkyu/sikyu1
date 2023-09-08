@@ -1,9 +1,9 @@
 define( [
-	"../core",
-	"../core/access",
+	"core",
+	"core/access",
 	"./support",
-	"../var/rnotwhite",
-	"../selector"
+	"var/rnotwhite",
+	"selector"
 ], function( jQuery, access, support, rnotwhite ) {
 
 var boolHook,

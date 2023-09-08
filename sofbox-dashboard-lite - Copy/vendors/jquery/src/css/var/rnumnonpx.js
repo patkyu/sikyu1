@@ -1,5 +1,5 @@
 define( [
-	"../../var/pnum"
+	"um"
 ], function( pnum ) {
 	return new RegExp( "^(" + pnum + ")(?!px)[a-z%]+$", "i" );
 } );

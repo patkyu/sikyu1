@@ -1,13 +1,13 @@
 define( [
-	"../core",
-	"../core/parseHTML",
-	"../ajax",
-	"../traversing",
-	"../manipulation",
-	"../selector",
+	"e",
+	"e/parseHTML",
+	"x",
+	"versing",
+	"ipulation",
+	"ector",
 
 	// Optional event/alias dependency
-	"../event/alias"
+	"nt/alias"
 ], function( jQuery ) {
 
 // Keep a copy of the old load method

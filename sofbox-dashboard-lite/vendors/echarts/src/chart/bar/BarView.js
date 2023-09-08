@@ -3,9 +3,9 @@ define(function (require) {
     'use strict';
 
     var zrUtil = require('zrender/core/util');
-    var graphic = require('../../util/graphic');
+    var graphic = require('util/graphic');
 
-    zrUtil.extend(require('../../model/Model').prototype, require('./barItemStyle'));
+    zrUtil.extend(require('model/Model').prototype, require('./barItemStyle'));
 
     function fixLayoutWithLineWidth(layout, lineWidth) {
         var signX = layout.width > 0 ? 1 : -1;
@@ -18,7 +18,7 @@ define(function (require) {
         layout.height -= signY * lineWidth;
     }
 
-    return require('../../echarts').extendChartView({
+    return require('echarts').extendChartView({
 
         type: 'bar',
 

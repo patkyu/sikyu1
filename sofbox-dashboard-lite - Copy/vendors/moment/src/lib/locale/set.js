@@ -1,7 +1,7 @@
-import isFunction from '../utils/is-function';
-import extend from '../utils/extend';
-import isObject from '../utils/is-object';
-import hasOwnProp from '../utils/has-own-prop';
+import isFunction from 'ls/is-function';
+import extend from 'ls/extend';
+import isObject from 'ls/is-object';
+import hasOwnProp from 'ls/has-own-prop';
 
 export function set (config) {
     var prop, i;

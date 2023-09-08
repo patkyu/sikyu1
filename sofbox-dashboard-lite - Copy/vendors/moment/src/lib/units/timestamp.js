@@ -1,7 +1,7 @@
-import { addFormatToken } from '../format/format';
-import { addRegexToken, matchTimestamp, matchSigned } from '../parse/regex';
-import { addParseToken } from '../parse/token';
-import toInt from '../utils/to-int';
+import { addFormatToken } from 'mat/format';
+import { addRegexToken, matchTimestamp, matchSigned } from 'se/regex';
+import { addParseToken } from 'se/token';
+import toInt from 'ls/to-int';
 
 // FORMATTING
 

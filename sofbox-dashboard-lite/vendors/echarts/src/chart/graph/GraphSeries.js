@@ -2,14 +2,14 @@ define(function (require) {
 
     'use strict';
 
-    var List = require('../../data/List');
+    var List = require('data/List');
     var zrUtil = require('zrender/core/util');
-    var modelUtil = require('../../util/model');
-    var Model = require('../../model/Model');
+    var modelUtil = require('util/model');
+    var Model = require('model/Model');
 
-    var createGraphFromNodeEdge = require('../helper/createGraphFromNodeEdge');
+    var createGraphFromNodeEdge = require('helper/createGraphFromNodeEdge');
 
-    var GraphSeries = require('../../echarts').extendSeriesModel({
+    var GraphSeries = require('echarts').extendSeriesModel({
 
         type: 'series.graph',
 

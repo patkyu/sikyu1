@@ -1,10 +1,10 @@
-import { addFormatToken } from '../format/format';
+import { addFormatToken } from 'mat/format';
 import { addUnitAlias } from './aliases';
-import { addRegexToken, match3, match1to3 } from '../parse/regex';
+import { addRegexToken, match3, match1to3 } from 'se/regex';
 import { daysInYear } from './year';
-import { createUTCDate } from '../create/date-from-array';
-import { addParseToken } from '../parse/token';
-import toInt from '../utils/to-int';
+import { createUTCDate } from 'ate/date-from-array';
+import { addParseToken } from 'se/token';
+import toInt from 'ls/to-int';
 
 // FORMATTING
 

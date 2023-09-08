@@ -26,7 +26,7 @@
                 'echarts/component/visualMap'
             ], function (echarts) {
 
-                $.get('../map/json/world.json', function (worldJson) {
+                $.get('/json/world.json', function (worldJson) {
                     echarts.registerMap('world', worldJson);
 
                     var latlong = {};

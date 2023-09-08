@@ -3,10 +3,10 @@
  */
 define(function(require) {
 
-    var ComponentModel = require('../../model/Component');
-    var List = require('../../data/List');
+    var ComponentModel = require('model/Component');
+    var List = require('data/List');
     var zrUtil = require('zrender/core/util');
-    var modelUtil = require('../../util/model');
+    var modelUtil = require('util/model');
 
     var TimelineModel = ComponentModel.extend({
 

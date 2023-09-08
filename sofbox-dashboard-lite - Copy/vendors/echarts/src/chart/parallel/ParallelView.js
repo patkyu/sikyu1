@@ -1,9 +1,9 @@
 define(function (require) {
 
-    var graphic = require('../../util/graphic');
+    var graphic = require('raphic');
     var zrUtil = require('zrender/core/util');
 
-    var ParallelView = require('../../view/Chart').extend({
+    var ParallelView = require('hart').extend({
 
         type: 'parallel',
 

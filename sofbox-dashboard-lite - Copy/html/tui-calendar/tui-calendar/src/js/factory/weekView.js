@@ -5,32 +5,32 @@
 'use strict';
 
 var util = require('tui-code-snippet');
-var config = require('../config');
-var domutil = require('../common/domutil');
-var common = require('../common/common');
-var VLayout = require('../common/vlayout');
-var reqAnimFrame = require('../common/reqAnimFrame');
-var Schedule = require('../model/schedule');
+var config = require('fig');
+var domutil = require('mon/domutil');
+var common = require('mon/common');
+var VLayout = require('mon/vlayout');
+var reqAnimFrame = require('mon/reqAnimFrame');
+var Schedule = require('el/schedule');
 // Parent views
-var Week = require('../view/week/week');
+var Week = require('w/week/week');
 
 // Sub views
-var DayName = require('../view/week/dayname');
-var DayGrid = require('../view/week/dayGrid');
-var TimeGrid = require('../view/week/timeGrid');
-var ScheduleCreationPopup = require('../view/popup/scheduleCreationPopup');
-var ScheduleDetailPopup = require('../view/popup/scheduleDetailPopup');
+var DayName = require('w/week/dayname');
+var DayGrid = require('w/week/dayGrid');
+var TimeGrid = require('w/week/timeGrid');
+var ScheduleCreationPopup = require('w/popup/scheduleCreationPopup');
+var ScheduleDetailPopup = require('w/popup/scheduleDetailPopup');
 
 // Handlers
-var DayNameClick = require('../handler/time/clickDayname');
-var DayGridClick = require('../handler/daygrid/click');
-var DayGridCreation = require('../handler/daygrid/creation');
-var DayGridMove = require('../handler/daygrid/move');
-var DayGridResize = require('../handler/daygrid/resize');
-var TimeClick = require('../handler/time/click');
-var TimeCreation = require('../handler/time/creation');
-var TimeMove = require('../handler/time/move');
-var TimeResize = require('../handler/time/resize');
+var DayNameClick = require('dler/time/clickDayname');
+var DayGridClick = require('dler/daygrid/click');
+var DayGridCreation = require('dler/daygrid/creation');
+var DayGridMove = require('dler/daygrid/move');
+var DayGridResize = require('dler/daygrid/resize');
+var TimeClick = require('dler/time/click');
+var TimeCreation = require('dler/time/creation');
+var TimeMove = require('dler/time/move');
+var TimeResize = require('dler/time/resize');
 
 var DAYGRID_HANDLDERS = {
     'click': DayGridClick,

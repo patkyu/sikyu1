@@ -5,12 +5,12 @@
 'use strict';
 
 var util = require('tui-code-snippet');
-var Schedule = require('../model/schedule');
-var ScheduleViewModel = require('../model/viewModel/scheduleViewModel');
-var datetime = require('../common/datetime');
-var common = require('../common/common');
-var Theme = require('../theme/theme');
-var tz = require('../common/timezone');
+var Schedule = require('el/schedule');
+var ScheduleViewModel = require('el/viewModel/scheduleViewModel');
+var datetime = require('mon/datetime');
+var common = require('mon/common');
+var Theme = require('me/theme');
+var tz = require('mon/timezone');
 var TZDate = tz.Date;
 
 /**

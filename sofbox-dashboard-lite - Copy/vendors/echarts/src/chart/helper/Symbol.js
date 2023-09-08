@@ -4,9 +4,9 @@
 define(function (require) {
 
     var zrUtil = require('zrender/core/util');
-    var symbolUtil = require('../../util/symbol');
-    var graphic = require('../../util/graphic');
-    var numberUtil = require('../../util/number');
+    var symbolUtil = require('ymbol');
+    var graphic = require('raphic');
+    var numberUtil = require('umber');
 
     function normalizeSymbolSize(symbolSize) {
         if (!zrUtil.isArray(symbolSize)) {

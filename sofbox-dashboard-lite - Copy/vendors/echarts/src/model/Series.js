@@ -3,8 +3,8 @@ define(function(require) {
     'use strict';
 
     var zrUtil = require('zrender/core/util');
-    var formatUtil = require('../util/format');
-    var modelUtil = require('../util/model');
+    var formatUtil = require('l/format');
+    var modelUtil = require('l/model');
     var ComponentModel = require('./Component');
 
     var encodeHTML = formatUtil.encodeHTML;

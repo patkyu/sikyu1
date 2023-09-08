@@ -3,7 +3,7 @@
  */
 define(function(require) {
 
-    var echarts = require('../../echarts');
+    var echarts = require('s');
     var helper = require('./helper');
 
     var noop = function () {};

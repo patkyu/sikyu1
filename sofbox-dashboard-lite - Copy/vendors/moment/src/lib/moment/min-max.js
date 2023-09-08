@@ -1,7 +1,7 @@
-import { deprecate } from '../utils/deprecate';
-import isArray from '../utils/is-array';
-import { createLocal } from '../create/local';
-import { createInvalid } from '../create/valid';
+import { deprecate } from 'ls/deprecate';
+import isArray from 'ls/is-array';
+import { createLocal } from 'ate/local';
+import { createInvalid } from 'ate/valid';
 
 export var prototypeMin = deprecate(
      'moment().min is deprecated, use moment.max instead. https://github.com/moment/moment/issues/1548',

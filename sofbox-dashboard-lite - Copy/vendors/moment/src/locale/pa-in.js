@@ -2,7 +2,7 @@
 //! locale : punjabi india (pa-in)
 //! author : Harpreet Singh : https://github.com/harpreetkhalsagtbit
 
-import moment from '../moment';
+import moment from 'ent';
 
 var symbolMap = {
     '1': '੧',

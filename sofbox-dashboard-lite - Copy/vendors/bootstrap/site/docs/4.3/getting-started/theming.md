@@ -49,7 +49,7 @@ In your `custom.scss`, you'll import Bootstrap's source Sass files. You have two
 // Custom.scss
 // Option A: Include all of Bootstrap
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import "e_modules/bootstrap/scss/bootstrap";
 {% endhighlight %}
 
 {% highlight scss %}
@@ -57,16 +57,16 @@ In your `custom.scss`, you'll import Bootstrap's source Sass files. You have two
 // Option B: Include parts of Bootstrap
 
 // Required
-@import "../node_modules/bootstrap/scss/functions";
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/mixins";
+@import "e_modules/bootstrap/scss/functions";
+@import "e_modules/bootstrap/scss/variables";
+@import "e_modules/bootstrap/scss/mixins";
 
 // Optional
-@import "../node_modules/bootstrap/scss/reboot";
-@import "../node_modules/bootstrap/scss/type";
-@import "../node_modules/bootstrap/scss/images";
-@import "../node_modules/bootstrap/scss/code";
-@import "../node_modules/bootstrap/scss/grid";
+@import "e_modules/bootstrap/scss/reboot";
+@import "e_modules/bootstrap/scss/type";
+@import "e_modules/bootstrap/scss/images";
+@import "e_modules/bootstrap/scss/code";
+@import "e_modules/bootstrap/scss/grid";
 {% endhighlight %}
 
 With that setup in place, you can begin to modify any of the Sass variables and maps in your `custom.scss`. You can also start to add parts of Bootstrap under the `// Optional` section as needed. We suggest using the full import stack from our `bootstrap.scss` file as your starting point.
@@ -87,7 +87,7 @@ $body-bg: #000;
 $body-color: #111;
 
 // Bootstrap and its default variables
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import "e_modules/bootstrap/scss/bootstrap";
 {% endhighlight %}
 
 Repeat as necessary for any variable in Bootstrap, including the global options below.
@@ -125,16 +125,16 @@ To remove colors from `$theme-colors`, or any other map, use `map-remove`. Be aw
 
 {% highlight scss %}
 // Required
-@import "../node_modules/bootstrap/scss/functions";
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/mixins";
+@import "e_modules/bootstrap/scss/functions";
+@import "e_modules/bootstrap/scss/variables";
+@import "e_modules/bootstrap/scss/mixins";
 
 $theme-colors: map-remove($theme-colors, "info", "light", "dark");
 
 // Optional
-@import "../node_modules/bootstrap/scss/root";
-@import "../node_modules/bootstrap/scss/reboot";
-@import "../node_modules/bootstrap/scss/type";
+@import "e_modules/bootstrap/scss/root";
+@import "e_modules/bootstrap/scss/reboot";
+@import "e_modules/bootstrap/scss/type";
 ...
 {% endhighlight %}
 

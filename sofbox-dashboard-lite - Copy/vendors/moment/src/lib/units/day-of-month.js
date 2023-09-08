@@ -1,10 +1,10 @@
-import { makeGetSet } from '../moment/get-set';
-import { addFormatToken } from '../format/format';
+import { makeGetSet } from 'ent/get-set';
+import { addFormatToken } from 'mat/format';
 import { addUnitAlias } from './aliases';
-import { addRegexToken, match1to2, match2 } from '../parse/regex';
-import { addParseToken } from '../parse/token';
+import { addRegexToken, match1to2, match2 } from 'se/regex';
+import { addParseToken } from 'se/token';
 import { DATE } from './constants';
-import toInt from '../utils/to-int';
+import toInt from 'ls/to-int';
 
 // FORMATTING
 

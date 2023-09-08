@@ -1,4 +1,4 @@
-import absFloor from '../utils/abs-floor';
+import absFloor from 'ls/abs-floor';
 var abs = Math.abs;
 
 export function toISOString() {

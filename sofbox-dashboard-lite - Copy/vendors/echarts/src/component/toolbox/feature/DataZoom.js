@@ -2,18 +2,18 @@ define(function(require) {
     'use strict';
 
     var zrUtil = require('zrender/core/util');
-    var numberUtil = require('../../../util/number');
-    var SelectController = require('../../helper/SelectController');
+    var numberUtil = require('er');
+    var SelectController = require('/SelectController');
     var BoundingRect = require('zrender/core/BoundingRect');
     var Group = require('zrender/container/Group');
-    var history = require('../../dataZoom/history');
-    var interactionMutex = require('../../helper/interactionMutex');
+    var history = require('om/history');
+    var interactionMutex = require('/interactionMutex');
 
     var each = zrUtil.each;
     var asc = numberUtil.asc;
 
     // Use dataZoomSelect
-    require('../../dataZoomSelect');
+    require('omSelect');
 
     // Spectial component id start with \0ec\0, see echarts/model/Global.js~hasInnerId
     var DATA_ZOOM_ID_BASE = '\0_ec_\0toolbox-dataZoom_';
@@ -272,11 +272,11 @@ define(function(require) {
     }
 
 
-    require('../featureManager').register('dataZoom', DataZoom);
+    require('tureManager').register('dataZoom', DataZoom);
 
 
     // Create special dataZoom option for select
-    require('../../../echarts').registerPreprocessor(function (option) {
+    require('.registerPreprocessor(function (option) {
         if (!option) {
             return;
         }

@@ -1,6 +1,6 @@
 define(function (require) {
 
-    var echarts = require('../echarts');
+    var echarts = require('echarts');
     var zrUtil = require('zrender/core/util');
 
 
@@ -13,6 +13,6 @@ define(function (require) {
     echarts.registerVisualCoding('chart', require('./themeRiver/themeRiverVisual'));
 
     echarts.registerProcessor(
-        'filter', zrUtil.curry(require('../processor/dataFilter'), 'themeRiver')
+        'filter', zrUtil.curry(require('processor/dataFilter'), 'themeRiver')
     );    
 });

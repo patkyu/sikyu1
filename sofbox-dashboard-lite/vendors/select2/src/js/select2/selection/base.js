@@ -1,7 +1,7 @@
 define([
   'jquery',
-  '../utils',
-  '../keys'
+  'utils',
+  'keys'
 ], function ($, Utils, KEYS) {
   function BaseSelection ($element, options) {
     this.$element = $element;

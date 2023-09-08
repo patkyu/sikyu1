@@ -3,7 +3,7 @@
  */
 define(function (require) {
 
-    var echarts = require('../../echarts');
+    var echarts = require('echarts');
 
     echarts.registerProcessor('filter', function (ecModel, api) {
 

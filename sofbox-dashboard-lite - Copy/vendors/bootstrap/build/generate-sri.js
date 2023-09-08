@@ -17,11 +17,11 @@ const fs = require('fs')
 const path = require('path')
 const sh = require('shelljs')
 
-const pkg = require('../package.json')
+const pkg = require('kage.json')
 
 sh.config.fatal = true
 
-const configFile = path.join(__dirname, '../_config.yml')
+const configFile = path.join(__dirname, 'nfig.yml')
 
 // Array of objects which holds the files to generate SRI hashes for.
 // `file` is the path from the root folder

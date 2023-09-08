@@ -8,7 +8,7 @@ define(function (require) {
 
     var Eventful = require('zrender/mixin/Eventful');
     var zrUtil = require('zrender/core/util');
-    var graphic = require('../../util/graphic');
+    var graphic = require('util/graphic');
     var bind = zrUtil.bind;
     var each = zrUtil.each;
     var mathMin = Math.min;

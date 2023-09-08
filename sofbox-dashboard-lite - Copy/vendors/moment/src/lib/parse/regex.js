@@ -23,8 +23,8 @@ export var matchTimestamp = /[+-]?\d+(\.\d{1,3})?/; // 123456789 123456789.123
 export var matchWord = /[0-9]*['a-z\u00A0-\u05FF\u0700-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+|[\u0600-\u06FF\/]+(\s*?[\u0600-\u06FF]+){1,2}/i;
 
 
-import hasOwnProp from '../utils/has-own-prop';
-import isFunction from '../utils/is-function';
+import hasOwnProp from 'ls/has-own-prop';
+import isFunction from 'ls/is-function';
 
 var regexes = {};
 

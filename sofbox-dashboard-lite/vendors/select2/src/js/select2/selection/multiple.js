@@ -1,7 +1,7 @@
 define([
   'jquery',
   './base',
-  '../utils'
+  'utils'
 ], function ($, BaseSelection, Utils) {
   function MultipleSelection ($element, options) {
     MultipleSelection.__super__.constructor.apply(this, arguments);

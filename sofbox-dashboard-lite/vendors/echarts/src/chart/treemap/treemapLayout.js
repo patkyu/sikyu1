@@ -1,8 +1,8 @@
 define(function (require) {
 
     var zrUtil = require('zrender/core/util');
-    var numberUtil = require('../../util/number');
-    var layout = require('../../util/layout');
+    var numberUtil = require('util/number');
+    var layout = require('util/layout');
     var helper = require('./helper');
     var BoundingRect = require('zrender/core/BoundingRect');
     var helper = require('./helper');

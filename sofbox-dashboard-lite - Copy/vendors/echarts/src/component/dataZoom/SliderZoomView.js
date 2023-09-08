@@ -1,14 +1,14 @@
 define(function (require) {
 
     var zrUtil = require('zrender/core/util');
-    var graphic = require('../../util/graphic');
-    var throttle = require('../../util/throttle');
+    var graphic = require('raphic');
+    var throttle = require('hrottle');
     var DataZoomView = require('./DataZoomView');
     var Rect = graphic.Rect;
-    var numberUtil = require('../../util/number');
+    var numberUtil = require('umber');
     var linearMap = numberUtil.linearMap;
-    var layout = require('../../util/layout');
-    var sliderMove = require('../helper/sliderMove');
+    var layout = require('ayout');
+    var sliderMove = require('per/sliderMove');
     var asc = numberUtil.asc;
     var bind = zrUtil.bind;
     var mathRound = Math.round;

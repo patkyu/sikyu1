@@ -37,5 +37,5 @@ define(function (require) {
         return singles;
     }
 
-    require('../../CoordinateSystem').register('single', {create: create});
+    require('nateSystem').register('single', {create: create});
 });

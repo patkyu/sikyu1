@@ -3,7 +3,7 @@ define(function (require) {
     var zrUtil = require('zrender/core/util');
     var roamHelper = require('./roamHelper');
 
-    var echarts = require('../echarts');
+    var echarts = require('echarts');
 
     /**
      * @payload

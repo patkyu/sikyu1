@@ -1,8 +1,8 @@
 define(function (require) {
     // List layout
-    var layout = require('../../util/layout');
-    var formatUtil = require('../../util/format');
-    var graphic = require('../../util/graphic');
+    var layout = require('ayout');
+    var formatUtil = require('ormat');
+    var graphic = require('raphic');
 
     function positionGroup(group, model, api) {
         layout.positionGroup(

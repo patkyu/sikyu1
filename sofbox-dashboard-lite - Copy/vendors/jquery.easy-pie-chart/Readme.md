@@ -77,7 +77,7 @@ If you don't want to use jQuery, implement the Vanilla JS version without any de
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.min.js"></script>
-<script src="../dist/angular.easypiechart.min.js"></script>
+<script src="t/angular.easypiechart.min.js"></script>
 <script>
     var app = angular.module('app', ['easypiechart']);
     app.controller('chartCtrl', ['$scope', function ($scope) {
